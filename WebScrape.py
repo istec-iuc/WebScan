@@ -4,83 +4,104 @@ from bs4 import BeautifulSoup
 import os
 import urllib.parse
 import aiohttp
+import re
+
+# GeÃ§ersiz karakterleri temizlemeyen fonksiyon
+def sanitize_filename(filename):
+    return re.sub(r'[<>:"/\\|?*]', '_', filename)  # GeÃ§ersiz karakterleri alt Ã§izgiyle deÄŸiÅŸtirir
+
+# URL'den benzersiz bir dosya ismi oluÅŸturma fonksiyonu
+def generate_filename(url):
+    parsed_url = urllib.parse.urlparse(url)
+    path = parsed_url.path if parsed_url.path != '/' else 'index'
+    filename = sanitize_filename(path.strip('/'))
+    return filename + '.html' if not filename.endswith('.html') else filename
 
 async def fetch_page(url, save_dir):
     browser = await launch()
     page = await browser.newPage()
-    await page.goto(url, {'waitUntil': 'networkidle2'})
-    await page.waitFor(500)  # Sayfanýn yüklenmesi için 0,5sn delay
 
-    # Sayfa içeriðini çeker
+    await page.goto(url, {'waitUntil': 'networkidle2'}) #!BUG! Too many redirect
+
+    # Sayfa iÃ§eriÄŸini Ã§eker
     html = await page.content()
     soup = BeautifulSoup(html, "html.parser")
 
+    # URL'den dosya adÄ±nÄ± oluÅŸtur
+    file_name = generate_filename(url)
+    file_path = os.path.join(save_dir, file_name)
+
     # Sayfa HTML'ini dosyaya kaydeder
-    file_path = os.path.join(save_dir, 'index.html')
     with open(file_path, 'w', encoding='utf-8') as file:
         file.write(html)
 
-    # CSS ve JavaScript dosyalarýný bul ve kaydet
+    # CSS ve JavaScript dosyalarÄ±nÄ± bulur ve kaydeder
     for tag_name in ['link', 'script']:
         for tag in soup.find_all(tag_name):
-            if tag_name == 'link' and tag.get('rel') == 'stylesheet': # Link etiketleri için rel özelliði stylesheet olanlar seçilir yani CSS dosyalarý
-                href = tag.get('href') #href CSS dosyasýnýn URL'i
+            if tag_name == 'link' and tag.get('rel') == ['stylesheet']:  # CSS dosyalarÄ±
+                href = tag.get('href')
                 if href:
-                    full_url = urllib.parse.urljoin(url, href) # URL ve hrefi birleþtirerek tam url oluþturduk
+                    full_url = urllib.parse.urljoin(url, href)
                     await save_resource(full_url, save_dir)
-            elif tag_name == 'script' and tag.get('src'): # script etiketine sahip olan ve src özelliði bulunan etiketleri kontrol ettik yani JS dosyalarýný
+            elif tag_name == 'script' and tag.get('src'):  # JS dosyalarÄ±
                 src = tag.get('src')
-                if src: # if src not null
-                    full_url = urllib.parse.urljoin(url, src) # js dosyalarýnýn full url'i
+                if src:
+                    full_url = urllib.parse.urljoin(url, src)
                     await save_resource(full_url, save_dir)
+
+    # TÃ¼m img dosyalarÄ±nÄ± bul ve kaydet
+    for img_tag in soup.find_all('img'):
+        src = img_tag.get('src')
+        if src:
+            full_url = urllib.parse.urljoin(url, src)
+            await save_resource(full_url, save_dir)
 
     await browser.close()
-
 
 async def fetch_all_links(url, save_dir):
     browser = await launch()
     page = await browser.newPage()
     await page.goto(url, {'waitUntil': 'networkidle2'})
-    await page.waitFor(500)
 
-    # Sayfa içeriðini çeker
+    # Sayfa iÃ§eriÄŸini Ã§eker
     html = await page.content()
     soup = BeautifulSoup(html, "html.parser")
 
-    # Sayfa HTML'ini dosyaya kaydeder
-    file_path = os.path.join(save_dir, 'index.html')
-    with open(file_path, 'w', encoding='utf-8') as file:
-        file.write(html)
-
-    # Tüm linkleri bulur ve her birini ziyaret eeder
+    # TÃ¼m linkleri bulur ve her birini ziyaret eder
     links = set()
-    for a_tag in soup.find_all('a', href=True):
+    for a_tag in soup.find_all('a', href=True):  # a=anchor (urls)
         link = urllib.parse.urljoin(url, a_tag['href'])
-        if link not in links:
+        if link not in links and urllib.parse.urlparse(link).netloc == urllib.parse.urlparse(url).netloc:  # Netloc = urldomain + port
             links.add(link)
             await fetch_page(link, save_dir)
 
     await browser.close()
 
-
-
-
 async def save_resource(url, save_dir):
+    # Dosya adÄ±nÄ± temizler
+    file_name = sanitize_filename(os.path.basename(urllib.parse.urlsplit(url).path))
 
+    if not file_name:  # EÄŸer dosya ismi yoksa index.html yap
+        file_name = 'index.html'
 
+    file_path = os.path.join(save_dir, file_name)
+
+    # KaynaÄŸÄ± indirip kaydet
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
-            file_name = os.path.basename(url)
-            file_path = os.path.join(save_dir, file_name)
-            with open(file_path, 'wb') as file: #hata var bak!
-                file.write(await response.read())
-                s
-# Kayýt dizini
-save_dir = 'C:/Users/erngu/Desktop/Code/WebAppSecSnDAnalyzeTool/SS'
-os.makedirs(save_dir, exist_ok=True)
+            if response.status == 200:
+                with open(file_path, 'wb') as file:
+                    file.write(await response.read())
 
-#asyncio.get_event_loop().run_until_complete(fetch_all_links("https://books.toscrape.com/", save_dir)) #çalýþmýyor??
+# Ana iÅŸlev (asenkron gÃ¶revleri baÅŸlatÄ±r)
+async def main():
+    url = 'https://books.toscrape.com/'  #Hedef URL
+    save_dir = 'C:/Users/erngu/Desktop/Code/WebAppSecSnDAnalyzeTool/SS'  # Kaydedilecek dosya
 
-asyncio.get_event_loop().run_until_complete(fetch_page("https://crawler-test.com/", save_dir))
-#asyncio.get_event_loop().run_until_complete(fetch_page("https://httpbin.org/", save_dir)) #burada cssleri çekmiyor??
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
+
+    await fetch_all_links(url, save_dir)
+
+asyncio.get_event_loop().run_until_complete(main())
 
