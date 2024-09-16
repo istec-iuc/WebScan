@@ -95,7 +95,7 @@ async def save_resource(url, save_dir):
 
 # Ana işlev (asenkron görevleri başlatır)
 async def main():
-    url = 'https://books.toscrape.com/'  #Hedef URL
+    url = 'http://www.scrapethissite.com/pages/'  #Hedef URL
     save_dir = 'C:/Users/erngu/Desktop/Code/WebAppSecSnDAnalyzeTool/SS'  # Kaydedilecek dosya
 
     if not os.path.exists(save_dir):
