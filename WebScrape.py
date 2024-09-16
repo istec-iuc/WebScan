@@ -1,25 +1,37 @@
 import asyncio
-from fileinput import filename
-from turtle import goto
-from pyppeteer import browser, launch, page
+from pyppeteer import launch
 from bs4 import BeautifulSoup
 import os
 import urllib.parse
 import aiohttp
 import re
 
-from WebScrape import save_resource
-
-# Geçersiz karakterleri temizlemeyen fonksiyon
+# Geçersiz karakterleri temizleyen fonksiyon
 def sanitize_filename(filename):
-    return re.sub(r'[<>:"/\\|?*]', '_', filename) # Geçersiz karakterleri alt çizgiyle değiştirir
+    return re.sub(r'[<>:"/\\|?*]', '_', filename)  # Geçersiz karakterleri alt çizgiyle değiştirir
 
 # URL'den benzersiz bir dosya ismi oluşturma fonksiyonu
-def generate_filename(url):
+def generate_filename(url, save_dir):
     parsed_url = urllib.parse.urlparse(url)
-    path = parsed_url.path if parsed_url.path != "/" else "index" #!!!BUG!!! Her alt sayfa için tekrar index adında dosya oluşturup onun içine yazıyor
+    path = parsed_url.path if parsed_url.path != "/" else "index"
     filename = sanitize_filename(path.strip("/"))
-    return filename + ".html" if not filename.endswith(".html") else filename
+    # Eğer dosya ismi boşsa, url'nin parametrelerinden dosya ismi türet
+    if not filename:
+        filename = sanitize_filename(parsed_url.netloc + "_" + parsed_url.query)
+    
+    if not filename.endswith(".html"):
+        filename += ".html"
+    
+    # Aynı isimde dosya varsa sonuna +1 ekle
+    original_filename = filename
+    counter = 1
+    
+    while os.path.exists(os.path.join(save_dir, filename)):
+        filename = f"{original_filename.rstrip('.html')}-{counter}.html"
+        counter += 1
+        
+    return filename
+    
 
 async def fetch_page(page, url, save_dir):
     # Sayfaya git
@@ -29,8 +41,11 @@ async def fetch_page(page, url, save_dir):
     html = await page.content()
     soup = BeautifulSoup(html, "html.parser")
     
+    # Her sayfanın dosyaları için ayrı klasör oluştur
+    
+
     # URL'den dosya adını oluşturur
-    file_name = generate_filename(url)
+    file_name = generate_filename(url, save_dir)
     file_path = os.path.join(save_dir, file_name)
     
     # Sayfa HTML'ini dosyaya kaydeder
@@ -40,12 +55,12 @@ async def fetch_page(page, url, save_dir):
     # CSS ve JS dosyalarını bulur ve kaydeder
     for tag_name in ["link", "script"]:
         for tag in soup.find_all(tag_name):
-            if tag_name == "link" and tag.get("rel") == ["stylesheet"]: # CSS dosyaları
-                gref = tag.get("href")
+            if tag_name == "link" and tag.get("rel") == ["stylesheet"]:  # CSS dosyaları
+                href = tag.get("href")  
                 if href:
                     full_url = urllib.parse.urljoin(url, href)
                     await save_resource(full_url, save_dir)
-            elif tag_name == "script" and tag.get("src"): # JS dosyaları
+            elif tag_name == "script" and tag.get("src"):  # JS dosyaları
                 src = tag.get("src")
                 if src:
                     full_url = urllib.parse.urljoin(url, src)
@@ -57,12 +72,12 @@ async def fetch_page(page, url, save_dir):
         if src:
             full_url = urllib.parse.urljoin(url, src)
             await save_resource(full_url, save_dir)
-            
+
 async def fetch_all_links(url, save_dir):
     browser = await launch()
-    page = await browser.newPage
+    page = await browser.newPage()  
     
-    await goto(url, {"waitUntil": "networkidle2"}) # Ana sayfanın url'ini açıyoruz
+    await page.goto(url, {"waitUntil": "networkidle2"})  
     
     # Sayfa içeriğini çeker
     html = await page.content()
@@ -73,19 +88,19 @@ async def fetch_all_links(url, save_dir):
     
     # Tüm linkleri bulur ve her birini ziyaret eder
     links = set()
-    for a_tag in soup.find_all("a", href=True): # a=anchor (url)
+    for a_tag in soup.find_all("a", href=True):  # a=anchor (url)
         link = urllib.parse.urljoin(url, a_tag["href"])
-        if link not in links and urllib.parse.urlparse(link).netloc == urllib.parse.urlparse(url).netloc: # Netloc = urldomain + port
-            link.add(link)
-            await fetch_page(page, link, save_dir) # Alt sayfaları kaydeder
+        if link not in links and urllib.parse.urlparse(link).netloc == urllib.parse.urlparse(url).netloc:  # Netloc = urldomain + port
+            links.add(link)  
+            await fetch_page(page, link, save_dir)  # Alt sayfaları kaydeder
             
-    await browser.close() # Tarayıcıyı kapat
-    
+    await browser.close()  # Tarayıcıyı kapat
+
 async def save_resource(url, save_dir):
     # Dosya adını temizler
     file_name = sanitize_filename(os.path.basename(urllib.parse.urlsplit(url).path))
     
-    if not file_name: # Eğer dosya ismi yoksa index.html yapar !!!BUG!!!
+    if not file_name:  # Eğer dosya ismi yoksa, URL'den türetilmiş bir dosya ismi yap
         file_name = "index.html"
         
     file_path = os.path.join(save_dir, file_name)
