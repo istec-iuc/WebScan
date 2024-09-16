@@ -54,7 +54,7 @@ async def fetch_page(page, url, base_save_dir):
     # Dosya adını oluştur
     #parsed_url = urllib.parse.urlparse(url)
     #file_name = parsed_url.path.strip('/')   
-    file_name = 'index.html' if path == '' else 'index.html' if path.endswith('/') else generate_filename(url, dir_path) #!!!BUG!!! Her dosyayı index.html olarak yazmaya çalışıyor olabilir index.html dosyalarının hepsi bozuk
+    file_name = 'index.html' if path == '' else 'index.html' if path.endswith('/') else generate_filename(url, dir_path) #!!! burayı gözden geçir kötü bir if fonksiyonu !!!
     file_path = os.path.join(dir_path, file_name)
     
     # Sayfa HTML'ini dosyaya kaydeder
