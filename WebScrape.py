@@ -10,13 +10,13 @@ import re
 def sanitize_filename(filename):
     return re.sub(r'[<>:"/\\|?*]', '_', filename)  # Geçersiz karakterleri alt çizgiyle değiştirir
 
-# URL'den benzersiz HTML bir dosya ismi oluşturma fonksiyonu
+# URL"den benzersiz HTML bir dosya ismi oluşturma fonksiyonu
 def generate_filename(url, save_dir):
     parsed_url = urllib.parse.urlparse(url)
-    path = parsed_url.path.strip('/')  # Path'teki ön ve son '/' işaretlerini temizle
+    path = parsed_url.path.strip("/")  # Path"teki ön ve son "/" işaretlerini temizle
     filename = sanitize_filename(path)  # Geçersiz karakterleri temizle
 
-    # Eğer dosya ismi boşsa, URL'nin netloc ve query kısımlarını kullanarak dosya ismi oluştur
+    # Eğer dosya ismi boşsa, URL"nin netloc ve query kısımlarını kullanarak dosya ismi oluştur
     if not filename:
         filename = sanitize_filename(parsed_url.netloc + "_" + parsed_url.query)
 
@@ -30,7 +30,7 @@ def generate_filename(url, save_dir):
 
     # Aynı isimde dosya varsa, adın sonuna numara ekle
     while os.path.exists(os.path.join(save_dir, filename)):
-        filename = f"{original_filename[:-5]}-{counter}.html"
+        filename = f"{original_filename}-{counter}"
         counter += 1
 
     return filename
@@ -44,9 +44,9 @@ async def fetch_page(page, url, base_save_dir):
     html = await page.content()
     soup = BeautifulSoup(html, "html.parser")
     
-    # URL'den dosya adını ve dizin yolunu oluştur
+    # URL"den dosya adını ve dizin yolunu oluştur
     parsed_url = urllib.parse.urlparse(url)
-    path = parsed_url.path.strip('/')
+    path = parsed_url.path.strip("/")
     dir_path = os.path.join(base_save_dir, path)
     
     # Ana dizini oluştur
@@ -54,10 +54,10 @@ async def fetch_page(page, url, base_save_dir):
         os.makedirs(dir_path)
     
     # Dosya adını oluştur
-    file_name = generate_filename(url, dir_path) if path else 'index.html' 
+    file_name = generate_filename(url, dir_path) if path else "index.html" 
     file_path = os.path.join(dir_path, file_name)
     
-    # Sayfa HTML'ini dosyaya kaydeder
+    # Sayfa HTML"ini dosyaya kaydeder
     with open(file_path, "w", encoding="utf-8") as file:
         file.write(html)
 
@@ -83,6 +83,7 @@ async def fetch_page(page, url, base_save_dir):
             full_url = urllib.parse.urljoin(url, src)
             await save_resource(full_url, dir_path)
 
+# Her alt sayfayı ziyaret eden fonksiyon
 async def fetch_all_links(url, save_dir):
     browser = await launch()
     page = await browser.newPage() 
@@ -106,21 +107,35 @@ async def fetch_all_links(url, save_dir):
             
     await browser.close()  # Tarayıcıyı kapat
 
-async def save_resource(url, save_dir): #!!!Burası da hatalı CSS JS ve IMG dosyalarının adı yoksa "asd" yapıyor!!!
-    # Dosya adını temizler
-    file_name = sanitize_filename(os.path.basename(urllib.parse.urlsplit(url).path))
+# Kayıt dizini ve dosya isimlerini oluşturan ve kaydeden fonksiyon
+async def save_resource(url, save_dir):
+    # URL"yi ayrıştır
+    parsed_url = urllib.parse.urlsplit(url)
+    path = parsed_url.path.strip("/")
+    query = parsed_url.query
     
-    if not file_name:  
-        file_name = "asd"
-        
-    file_path = os.path.join(save_dir, file_name)
+    # Dosya adını oluştur ve geçersiz karakterleri temizle
+    file_name = sanitize_filename(os.path.basename(path))
+    
+    # Eğer dosya adı yoksa, URL"nin query kısmını dosya adı olarak kullan
+    if not file_name:
+        query_string = sanitize_filename(query)
+        file_name += f"_{query_string}"
+    
+    
+    # Tam dosya yolunu oluştur
+    full_path = os.path.join(save_dir, file_name)
+    
+    # Dosyanın bulunduğu dizini oluştur
+    os.makedirs(os.path.dirname(full_path), exist_ok=True)
     
     # Kaynağı indirip kaydet
     async with aiohttp.ClientSession() as session:
         async with session.get(url) as response:
             if response.status == 200:
-                with open(file_path, 'wb') as file:
+                with open(full_path, "wb") as file:
                     file.write(await response.read())
+
 
 # Ana işlev (asenkron görevleri başlatır)
 async def main():
