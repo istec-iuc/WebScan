@@ -13,23 +13,26 @@ def sanitize_filename(filename):
 # URL'den benzersiz HTML bir dosya ismi oluşturma fonksiyonu
 def generate_filename(url, save_dir):
     parsed_url = urllib.parse.urlparse(url)
-    path = parsed_url.path if parsed_url.path == "/" else "index"
-    filename = sanitize_filename(path.strip("/"))
-    # Eğer dosya ismi boşsa, url'nin parametrelerinden dosya ismi türet
+    path = parsed_url.path.strip('/')  # Path'teki ön ve son '/' işaretlerini temizle
+    filename = sanitize_filename(path)  # Geçersiz karakterleri temizle
+
+    # Eğer dosya ismi boşsa, URL'nin netloc ve query kısımlarını kullanarak dosya ismi oluştur
     if not filename:
         filename = sanitize_filename(parsed_url.netloc + "_" + parsed_url.query)
-    
+
+    # HTML uzantısını kontrol et
     if not filename.endswith(".html"):
         filename += ".html"
-    
-    # Aynı isimde dosya varsa sonuna +1 ekle
+
+    # Dosya adı çakışmasını önlemek için sonuna numara ekle
     original_filename = filename
     counter = 1
-    
+
+    # Aynı isimde dosya varsa, adın sonuna numara ekle
     while os.path.exists(os.path.join(save_dir, filename)):
-        filename = f"{original_filename.rstrip('.html')}-{counter}.html"
+        filename = f"{original_filename[:-5]}-{counter}.html"
         counter += 1
-        
+
     return filename
     
 
@@ -50,17 +53,13 @@ async def fetch_page(page, url, base_save_dir):
     if not os.path.exists(dir_path):
         os.makedirs(dir_path)
     
-    #!!! Buraya if ekle html mi diye kontrol ettir ve çalıştır !!!
     # Dosya adını oluştur
-    #parsed_url = urllib.parse.urlparse(url)
-    #file_name = parsed_url.path.strip('/')   
-    file_name = 'index.html' if path == '' else 'index.html' if path.endswith('/') else generate_filename(url, dir_path) #!!! burayı gözden geçir kötü bir if fonksiyonu !!!
+    file_name = generate_filename(url, dir_path) if path else 'index.html' 
     file_path = os.path.join(dir_path, file_name)
     
     # Sayfa HTML'ini dosyaya kaydeder
     with open(file_path, "w", encoding="utf-8") as file:
         file.write(html)
-    #!!! Buraya if ekle html mi diye kontrol ettir ve çalıştır !!!
 
 
     # CSS ve JS dosyalarını bulur ve kaydeder
@@ -107,7 +106,7 @@ async def fetch_all_links(url, save_dir):
             
     await browser.close()  # Tarayıcıyı kapat
 
-async def save_resource(url, save_dir): #!!!Burası da hatalı CSS JS ve IMG dosyalarının adı yoksa "index.html" yapıyor!!!
+async def save_resource(url, save_dir): #!!!Burası da hatalı CSS JS ve IMG dosyalarının adı yoksa "asd" yapıyor!!!
     # Dosya adını temizler
     file_name = sanitize_filename(os.path.basename(urllib.parse.urlsplit(url).path))
     
@@ -134,3 +133,5 @@ async def main():
     await fetch_all_links(url, save_dir)
 
 asyncio.get_event_loop().run_until_complete(main())
+
+
