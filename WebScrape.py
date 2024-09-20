@@ -155,6 +155,7 @@ def generate_filename(path, parsed_url, dir_path):
 
     return path
 
+
 # Ana işlev (asenkron görevleri başlatır)
 async def main():
     url = "http://www.scrapethissite.com/pages/" # Hedef URL
