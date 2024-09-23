@@ -1,4 +1,5 @@
 import asyncio
+from asyncio.windows_events import NULL
 from operator import index
 from pyppeteer import launch
 from bs4 import BeautifulSoup
@@ -7,6 +8,8 @@ import urllib.parse
 import aiohttp
 import re
 from pathlib import Path
+
+from semgrep_analyze import SemgrepAnalyzer
 
 # Her alt sayfayı ziyaret eden fonksiyon
 async def fetch_all_links(url, save_dir):
@@ -160,10 +163,19 @@ def generate_filename(path, parsed_url, dir_path):
 async def main():
     url = "http://www.scrapethissite.com/pages/" # Hedef URL
     save_dir = "C:/Users/erngu/Desktop/Code/WebAppSecSnDAnalyzeTool/SS" # Kaydedilecek dosya
+    
+    # ---Semgrep---
+    directory="/mnt/c/Users/erngu/Desktop/Code/WebAppSecSnDAnalyzeTool/SS" # Scanlenecek dosya 
+    #semgrep_config=""
+    output_file="/mnt/c/Users/erngu/Desktop/scan_results.json" # Scan sonucu
+
+    analyzer = SemgrepAnalyzer(directory, output_file)
+    analyzer.analyze()
+    # ---Semgrep---
 
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
 
-    await fetch_all_links(url, save_dir)
+    #await fetch_all_links(url, save_dir)
     
 asyncio.get_event_loop().run_until_complete(main())
