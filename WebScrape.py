@@ -9,7 +9,6 @@ import aiohttp
 import re
 from pathlib import Path
 import json
-
 from semgrep_analyze import SemgrepAnalyzer
 
 # Her alt sayfayı ziyaret eden fonksiyon
@@ -76,8 +75,6 @@ async def fetch_page(page, url, save_dir):
         file.write(html)
         print(f"Dosya yazildi: {file_path}")
     
-
-
 
 # Bütün source dosyalarını kaydeden fonksiyon
 async def download_all_resources(soup, url, dir_path):
@@ -159,9 +156,11 @@ def generate_filename(path, parsed_url, dir_path):
 
     return path
 
+# JSON dosyasını okunaklı hale getiren fonksiyon
 def pretty_json(scan_file):
     with open(scan_file, 'r') as json_file:
         data = json.load(json_file)  # JSON içeriğini yükle
+        
 
         # JSON dosyasını düzenli bir formatta geri yaz
     with open(scan_file, 'w') as json_file:
@@ -182,11 +181,11 @@ async def main():
     analyzer.analyze()
     # ---Semgrep---
 
-    pretty_json(scan_file)
+    #pretty_json(scan_file) # JSON dosyasını daha okunaklı hale getirir
 
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
 
-    #await fetch_all_links(url, save_dir)
+    #await fetch_all_links(url, save_dir) # URL'deki bütün kaynak dosyaları indirir
     
 asyncio.get_event_loop().run_until_complete(main())

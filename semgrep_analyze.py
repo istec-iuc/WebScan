@@ -13,7 +13,7 @@ class SemgrepAnalyzer:
         semgrep_command = (
             f"/home/quarius/.local/bin/semgrep scan {self.directory} " # Semgreps location in wsl and directory for scan
             f"--output {self.output_file} " # Output file's directory
-            f"--json --include '*.css' --include '*.html' --include '*.js'" # Data types to scan
+            f"--text --include '*.css' --include '*.html' --include '*.js'" # Data types to scan/ --text, json, SARIF... this formats can be used too.
         )
         
         # Wsl shell subprocess for semgrep scan
@@ -31,23 +31,10 @@ class SemgrepAnalyzer:
             else:
                 print(f"Analysis complete. Output:\n{result.stdout}")
                 
-                # self.format_json_file()
   
         except subprocess.CalledProcessError as e:
             print(f"Error has occurred while command runs: {e}")
-
-    # def format_json_file(self):
-    #     try:
-    #         with open(self.output_file, 'r', encoding='utf-8') as file:
-    #             data = json.load(file)
-            
-    #         with open(self.output_file, 'w', encoding='utf-8') as file:
-    #             json.dump(data, file, indent=4)
-                
-    #         print(f"JSON output formatted successfully in {self.output_file}")
-
-    #     except Exception as e:
-    #         print(f"Error occurred during formatting JSON file: {e}")                
+      
 
                 
 
