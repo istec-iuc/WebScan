@@ -1,19 +1,6 @@
 import os
 import subprocess
-
-#[D:asyncio] Using proactor: %s
-#Exception in thread Thread-7:
-#Traceback (most recent call last):
-#  File "C:\Users\erngu\AppData\Local\Programs\Python\Python39\lib\threading.py", line 980, in _bootstrap_inner
-#    self.run()
-#  File "C:\Users\erngu\AppData\Local\Programs\Python\Python39\lib\threading.py", line 917, in run
-#    self._target(*self._args, **self._kwargs)
-#  File "C:\Users\erngu\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 1479, in _readerthread
-#    buffer.append(fh.read())
-#  File "C:\Users\erngu\AppData\Local\Programs\Python\Python39\lib\encodings\cp1254.py", line 23, in decode
-#    return codecs.charmap_decode(input,self.errors,decoding_table)[0]
-#UnicodeDecodeError: 'charmap' codec can't decode byte 0x90 in position 76: character maps to <undefined>
-
+import json
 
 # scan_results.json format this file!!
 
@@ -44,6 +31,24 @@ class SemgrepAnalyzer:
             else:
                 print(f"Analysis complete. Output:\n{result.stdout}")
                 
+                # self.format_json_file()
+  
         except subprocess.CalledProcessError as e:
             print(f"Error has occurred while command runs: {e}")
+
+    # def format_json_file(self):
+    #     try:
+    #         with open(self.output_file, 'r', encoding='utf-8') as file:
+    #             data = json.load(file)
+            
+    #         with open(self.output_file, 'w', encoding='utf-8') as file:
+    #             json.dump(data, file, indent=4)
+                
+    #         print(f"JSON output formatted successfully in {self.output_file}")
+
+    #     except Exception as e:
+    #         print(f"Error occurred during formatting JSON file: {e}")                
+
+                
+
 

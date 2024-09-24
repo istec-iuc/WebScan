@@ -8,6 +8,7 @@ import urllib.parse
 import aiohttp
 import re
 from pathlib import Path
+import json
 
 from semgrep_analyze import SemgrepAnalyzer
 
@@ -158,6 +159,13 @@ def generate_filename(path, parsed_url, dir_path):
 
     return path
 
+def pretty_json(scan_file):
+    with open(scan_file, 'r') as json_file:
+        data = json.load(json_file)  # JSON içeriğini yükle
+
+        # JSON dosyasını düzenli bir formatta geri yaz
+    with open(scan_file, 'w') as json_file:
+        json.dump(data, json_file, indent=4)  # Düzgün format ile kaydet
 
 # Ana işlev (asenkron görevleri başlatır)
 async def main():
@@ -168,10 +176,13 @@ async def main():
     directory="/mnt/c/Users/erngu/Desktop/Code/WebAppSecSnDAnalyzeTool/SS" # Scanlenecek dosya 
     #semgrep_config=""
     output_file="/mnt/c/Users/erngu/Desktop/scan_results.json" # Scan sonucu
+    scan_file="C:/Users/erngu/Desktop/scan_results.json"
 
     analyzer = SemgrepAnalyzer(directory, output_file)
     analyzer.analyze()
     # ---Semgrep---
+
+    pretty_json(scan_file)
 
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
