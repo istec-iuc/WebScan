@@ -10,6 +10,7 @@ import re
 from pathlib import Path
 import json
 from semgrep_analyze import SemgrepAnalyzer
+from nmap_scanner import NmapScan
 
 # Her alt sayfayı ziyaret eden fonksiyon
 async def fetch_all_links(url, save_dir):
@@ -169,22 +170,30 @@ def pretty_json(scan_file):
 # Ana işlev (asenkron görevleri başlatır)
 async def main():
     url = "http://www.scrapethissite.com/pages/" # Hedef URL
-    save_dir = "C:/Users/erngu/Desktop/Code/WebAppSecSnDAnalyzeTool/SS" # Kaydedilecek dosya
+    save_dir = "C:/Users/erngu/Desktop/Code/WebAppSecSnDAnalyzeTool/SS" # Source dosyaları bu klasöre kaydedilir
     
-    # ---Semgrep---
-    directory="/mnt/c/Users/erngu/Desktop/Code/WebAppSecSnDAnalyzeTool/SS" # Scanlenecek dosya 
-    #semgrep_config=""
-    output_file="/mnt/c/Users/erngu/Desktop/scan_results.json" # Scan sonucu
-    scan_file="C:/Users/erngu/Desktop/scan_results.json"
-
-    analyzer = SemgrepAnalyzer(directory, output_file)
-    analyzer.analyze()
-    # ---Semgrep---
-
-    #pretty_json(scan_file) # JSON dosyasını daha okunaklı hale getirir
-
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
+
+
+    # ---Semgrep---
+    # directory="/mnt/c/Users/erngu/Desktop/Code/WebAppSecSnDAnalyzeTool/SS" # Semgreple scanlenecek dosya 
+    #semgrep_config="" # Semgrep ayarları için kullanılacak dosya (Boş bırakırsan default configi kullanır)
+    # output_file="/mnt/c/Users/erngu/Desktop/scan_results.json" # Semgrep scan sonucu
+    #scan_file="C:/Users/erngu/Desktop/scan_results.json" # pretty_json fonksiyonu için dosya konumu
+
+    # analyzer = SemgrepAnalyzer(directory, output_file)
+    # analyzer.analyze()
+    #pretty_json(scan_file) # JSON dosyasını daha okunaklı hale getirir
+    # ---Semgrep---
+
+    # ---Nmap---
+    output_file = "C:/Users/erngu/Desktop/nmap_results.xml"  
+    nmap_target = "scanme.nmap.org"
+    nmap_analyzer = NmapScan(save_dir, output_file, nmap_target)
+    nmap_analyzer.basic_scan()
+    # ---Nmap---
+
 
     #await fetch_all_links(url, save_dir) # URL'deki bütün kaynak dosyaları indirir
     
