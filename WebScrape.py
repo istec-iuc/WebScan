@@ -11,6 +11,7 @@ from pathlib import Path
 import json
 from semgrep_analyze import SemgrepAnalyzer
 from nmap_scanner import NmapScan
+from zap_scanner import ZapScan
 
 # Her alt sayfayı ziyaret eden fonksiyon
 async def fetch_all_links(url, save_dir):
@@ -188,11 +189,19 @@ async def main():
     # ---Semgrep---
 
     # ---Nmap---
-    output_file = "C:/Users/erngu/Desktop/nmap_results.xml"  
-    nmap_target = "scanme.nmap.org"
-    nmap_analyzer = NmapScan(save_dir, output_file, nmap_target)
-    nmap_analyzer.basic_scan()
+    # output_file = "C:/Users/erngu/Desktop/nmap_results.xml"  
+    # nmap_target = "scanme.nmap.org"
+    # nmap_analyzer = NmapScan(save_dir, output_file, nmap_target)
+    # nmap_analyzer.aggressive_scan()
     # ---Nmap---
+
+    # ---ZAP---
+    zap_dir = "C:\Program Files\ZAP\Zed Attack Proxy"
+    zap_target = "http://testphp.vulnweb.com/"
+    zap_output = "C:/Users/erngu/Desktop/zap_results.json"
+    zap_analyze = ZapScan(zap_target, zap_output, zap_dir)
+    zap_analyze.full_scan()
+    # ---ZAP---
 
 
     #await fetch_all_links(url, save_dir) # URL'deki bütün kaynak dosyaları indirir

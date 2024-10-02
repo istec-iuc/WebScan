@@ -21,17 +21,17 @@ class SemgrepAnalyzer:
             result = subprocess.run(
                 f"wsl {semgrep_command}",
                 shell=True,
-                capture_output=True,
+                capture_output=True, # For debugging purposes
                 text=True,
                 encoding="utf-8"
             )
-            
+            # Error detection
             if result.returncode != 0:
                 print(f"Error: {result.stderr}")
             else:
                 print(f"Analysis complete. Output:\n{result.stdout}")
                 
-  
+        # Returns error
         except subprocess.CalledProcessError as e:
             print(f"Error has occurred while command runs: {e}")
       
