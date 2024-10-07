@@ -173,7 +173,7 @@ def pretty_json(scan_file):
 async def main():
     # ---Fetch---
     # url = "http://www.scrapethissite.com/pages/" # Hedef URL
-    # save_dir = "C:/Users/erngu/Desktop/Code/WebAppSecSnDAnalyzeTool/SS" # Source dosyaları bu klasöre kaydedilir
+    # save_dir = "C:/Users/erngu/source/repos/WebScan/ScrapedFiles" # Source dosyaları bu klasöre kaydedilir
     
     # if not os.path.exists(save_dir):
     #     os.makedirs(save_dir)
@@ -182,10 +182,10 @@ async def main():
     # ---Fetch---
 
     # ---Semgrep---
-    # directory="/mnt/c/Users/erngu/Desktop/Code/WebAppSecSnDAnalyzeTool/SS" # Semgreple scanlenecek dosya 
-    #semgrep_config="" # Semgrep ayarları için kullanılacak dosya (Boş bırakırsan default configi kullanır)
-    # output_file="/mnt/c/Users/erngu/Desktop/scan_results.json" # Semgrep scan sonucu
-    #scan_file="C:/Users/erngu/Desktop/scan_results.json" # pretty_json fonksiyonu için dosya konumu
+    # directory="/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles" # Semgreple scanlenecek dosya 
+    # semgrep_config="" # Semgrep ayarları için kullanılacak dosya (Boş bırakırsan default configi kullanır)
+    # output_file="/mnt/c/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json" # Semgrep scan sonucu
+    # scan_file="C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json" # pretty_json fonksiyonu için dosya konumu
 
     # analyzer = SemgrepAnalyzer(directory, output_file)
     # analyzer.analyze()
@@ -193,26 +193,26 @@ async def main():
     # ---Semgrep---
 
     # ---Nmap---
-    # output_file = "C:/Users/erngu/Desktop/nmap_results.xml"  
+    # output_file = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"  
     # nmap_target = "scanme.nmap.org"
     # nmap_analyzer = NmapScan(save_dir, output_file, nmap_target)
     # nmap_analyzer.aggressive_scan()
     # ---Nmap---
 
     # ---ZAP---
-    # zap_dir = "C:\Program Files\ZAP\Zed Attack Proxy"
+    # zap_dir = "C:/Program Files/ZAP/Zed Attack Proxy"
     # zap_target = "http://testphp.vulnweb.com/"
-    # zap_output = "C:/Users/erngu/Desktop/zap_results.json"
+    # zap_output = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_results.json"
     # zap_analyze = ZapScan(zap_target, zap_output, zap_dir)
     # zap_analyze.full_scan()
     # ---ZAP---
 
     # ---SQLMAP---
-    sql_target = "http://testphp.vulnweb.com/artists.php?artist=1" 
-    sql_output_file = "C:/Users/erngu/Desktop/sql_results.xml"
-    sql_dir = "C:/Users/erngu/AppData/Local/Programs/sqlmap/"
-    SQLmap = SQLScan(sql_target, sql_output_file, sql_dir)
-    SQLmap.quick_sqlmap()
+    # sql_target = "http://testphp.vulnweb.com/artists.php?artist=1" 
+    # sql_output_file = "C:/Users/erngu/source/repos/WebScan/SqlOutput/sql_results.xml"
+    # sql_dir = "C:/Users/erngu/AppData/Local/Programs/sqlmap/"
+    # SQLmap = SQLScan(sql_target, sql_output_file, sql_dir)
+    # SQLmap.quick_sqlmap()
     # ---SQLMAP---
 
     #await fetch_all_links(url, save_dir) # URL'deki bütün kaynak dosyaları indirir

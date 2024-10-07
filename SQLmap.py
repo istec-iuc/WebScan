@@ -26,7 +26,6 @@ class SQLScan:
         command = (
             f"python {os.path.join(self.sqlmap_dir, 'sqlmap.py')} -u {self.target} -v 1 --batch "
             f"--dbs --tables --columns --dump --level=5 --risk=3 --output-dir={os.path.dirname(self.output_file)}"
-        print(f"Full SQLMAP completed!")
         )
     
 

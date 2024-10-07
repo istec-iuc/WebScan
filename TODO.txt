@@ -1,7 +1,7 @@
 TODO!!!
 
 Arrange all the files directories inside the project such as:
-output_savedirs
+
 python location
 semgrep location
 sqlmap location
