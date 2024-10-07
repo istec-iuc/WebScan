@@ -172,13 +172,13 @@ def pretty_json(scan_file):
 # Ana işlev (asenkron görevleri başlatır)
 async def main():
     # ---Fetch---
-    # url = "http://www.scrapethissite.com/pages/" # Hedef URL
-    # save_dir = "C:/Users/erngu/source/repos/WebScan/ScrapedFiles" # Source dosyaları bu klasöre kaydedilir
+    url = "http://www.scrapethissite.com/pages/" # Hedef URL
+    save_dir = "C:/Users/erngu/source/repos/WebScan/ScrapedFiles" # Source dosyaları bu klasöre kaydedilir
     
-    # if not os.path.exists(save_dir):
-    #     os.makedirs(save_dir)
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
 
-    # await fetch_all_links(url, save_dir)
+    await fetch_all_links(url, save_dir)
     # ---Fetch---
 
     # ---Semgrep---
