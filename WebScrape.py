@@ -203,6 +203,9 @@ async def main():
     zap_analyze.full_scan()
     # ---ZAP---
 
+    # ---SQLMAP---
+    
+    # ---SQLMAP---
 
     #await fetch_all_links(url, save_dir) # URL'deki bütün kaynak dosyaları indirir
     
