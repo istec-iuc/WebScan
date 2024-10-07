@@ -1,0 +1,21 @@
+TODO!!!
+
+Arrange all the files directories inside the project such as:
+output_savedirs
+python location
+semgrep location
+sqlmap location
+ZAP location
+nmap location
+
+Add a walktrough:
+pip installs
+libraries
+wsl
+
+Custom_Scans for:
+nmap
+sqlmap
+zap
+
+Create web app for the program.

@@ -12,6 +12,7 @@ import json
 from semgrep_analyze import SemgrepAnalyzer
 from nmap_scanner import NmapScan
 from zap_scanner import ZapScan
+from SQLmap import SQLScan
 
 # Her alt sayfayı ziyaret eden fonksiyon
 async def fetch_all_links(url, save_dir):
@@ -170,12 +171,15 @@ def pretty_json(scan_file):
 
 # Ana işlev (asenkron görevleri başlatır)
 async def main():
-    url = "http://www.scrapethissite.com/pages/" # Hedef URL
-    save_dir = "C:/Users/erngu/Desktop/Code/WebAppSecSnDAnalyzeTool/SS" # Source dosyaları bu klasöre kaydedilir
+    # ---Fetch---
+    # url = "http://www.scrapethissite.com/pages/" # Hedef URL
+    # save_dir = "C:/Users/erngu/Desktop/Code/WebAppSecSnDAnalyzeTool/SS" # Source dosyaları bu klasöre kaydedilir
     
-    if not os.path.exists(save_dir):
-        os.makedirs(save_dir)
+    # if not os.path.exists(save_dir):
+    #     os.makedirs(save_dir)
 
+    # await fetch_all_links(url, save_dir)
+    # ---Fetch---
 
     # ---Semgrep---
     # directory="/mnt/c/Users/erngu/Desktop/Code/WebAppSecSnDAnalyzeTool/SS" # Semgreple scanlenecek dosya 
@@ -196,15 +200,19 @@ async def main():
     # ---Nmap---
 
     # ---ZAP---
-    zap_dir = "C:\Program Files\ZAP\Zed Attack Proxy"
-    zap_target = "http://testphp.vulnweb.com/"
-    zap_output = "C:/Users/erngu/Desktop/zap_results.json"
-    zap_analyze = ZapScan(zap_target, zap_output, zap_dir)
-    zap_analyze.full_scan()
+    # zap_dir = "C:\Program Files\ZAP\Zed Attack Proxy"
+    # zap_target = "http://testphp.vulnweb.com/"
+    # zap_output = "C:/Users/erngu/Desktop/zap_results.json"
+    # zap_analyze = ZapScan(zap_target, zap_output, zap_dir)
+    # zap_analyze.full_scan()
     # ---ZAP---
 
     # ---SQLMAP---
-    
+    sql_target = "http://testphp.vulnweb.com/artists.php?artist=1" 
+    sql_output_file = "C:/Users/erngu/Desktop/sql_results.xml"
+    sql_dir = "C:/Users/erngu/AppData/Local/Programs/sqlmap/"
+    SQLmap = SQLScan(sql_target, sql_output_file, sql_dir)
+    SQLmap.quick_sqlmap()
     # ---SQLMAP---
 
     #await fetch_all_links(url, save_dir) # URL'deki bütün kaynak dosyaları indirir
