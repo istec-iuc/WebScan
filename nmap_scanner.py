@@ -5,9 +5,8 @@ import nmap
 
 # Don't use nmap without permission 
 class NmapScan:
-    def __init__(self, directory, output_file, target):
+    def __init__(self, output_file, target):
         self.target = target
-        self.directory = directory
         self.output_file = output_file
     
     # Basic nmap scan(Host discovery, port scan range: 1-1000, service detection, host status)

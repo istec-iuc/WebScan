@@ -12,7 +12,7 @@ class SQLScan:
         print(f"Quick SQLMAP started!")
         command = (
             f"python {os.path.join(self.sqlmap_dir, 'sqlmap.py')} -u {self.target} "
-            f"-v 1 --batch --output-dir={os.path.dirname(self.output_file)}"
+            f"-v 1 --batch --dump --output-dir={self.output_file}"
         )
         
         if additional_options:
@@ -25,7 +25,7 @@ class SQLScan:
         print(f"Full SQLMAP started!")
         command = (
             f"python {os.path.join(self.sqlmap_dir, 'sqlmap.py')} -u {self.target} -v 1 --batch "
-            f"--dbs --tables --columns --dump --level=5 --risk=3 --output-dir={os.path.dirname(self.output_file)}"
+            f"--dbs --tables --columns --dump --level=5 --risk=3 --output-dir={self.output_file}"
         )
     
 

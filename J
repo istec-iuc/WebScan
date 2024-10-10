@@ -1,0 +1,13 @@
+# Nmap 7.95 scan initiated Thu Oct 10 23:05:19 2024 as: nmap -oJ scanme.nmap.org C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.json
+Unable to split netmask from target expression: "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.json"
+Nmap scan report for scanme.nmap.org (45.33.32.156)
+Host is up (0.19s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT      STATE    SERVICE
+22/tcp    open     ssh
+25/tcp    filtered smtp
+80/tcp    filtered http
+9929/tcp  open     nping-echo
+31337/tcp open     Elite
+
+# Nmap done at Thu Oct 10 23:05:23 2024 -- 1 IP address (1 host up) scanned in 4.13 seconds

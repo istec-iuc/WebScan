@@ -9,6 +9,7 @@ import aiohttp
 import re
 from pathlib import Path
 import json
+import xmltodict
 from semgrep_analyze import SemgrepAnalyzer
 from nmap_scanner import NmapScan
 from zap_scanner import ZapScan
@@ -161,42 +162,58 @@ def generate_filename(path, parsed_url, dir_path):
 
 # JSON dosyasını okunaklı hale getiren fonksiyon
 def pretty_json(scan_file):
-    with open(scan_file, 'r') as json_file:
+    with open(scan_file, "r") as json_file:
         data = json.load(json_file)  # JSON içeriğini yükle
         
 
         # JSON dosyasını düzenli bir formatta geri yaz
-    with open(scan_file, 'w') as json_file:
+    with open(scan_file, "w") as json_file:
         json.dump(data, json_file, indent=4)  # Düzgün format ile kaydet
+        
+def xml_to_json(xmlfile, jsonfile):
+    with open(xmlfile, "r") as file:
+        xml_content = file.read()
+        
+    # Converts XML to dictionary
+    dict_data = xmltodict.parse(xml_content)
+    
+    # Converts dictionary to JSON
+    json_data = json.dumps(dict_data, indent=4)
+
+    # Saves JSON data to a file
+    with open(jsonfile, "w") as json_file:
+        json_file.write(json_data)
 
 # Ana işlev (asenkron görevleri başlatır)
 async def main():
     # ---Fetch---
-    url = "http://www.scrapethissite.com/pages/" # Hedef URL
-    save_dir = "C:/Users/erngu/source/repos/WebScan/ScrapedFiles" # Source dosyaları bu klasöre kaydedilir
+    # url = "http://www.scrapethissite.com/pages/" # Hedef URL
+    # save_dir = "C:/Users/erngu/source/repos/WebScan/ScrapedFiles" # Source dosyaları bu klasöre kaydedilir
     
-    if not os.path.exists(save_dir):
-        os.makedirs(save_dir)
+    # if not os.path.exists(save_dir):
+    #     os.makedirs(save_dir)
 
-    await fetch_all_links(url, save_dir)
+    # await fetch_all_links(url, save_dir)
     # ---Fetch---
 
     # ---Semgrep---
     # directory="/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles" # Semgreple scanlenecek dosya 
     # semgrep_config="" # Semgrep ayarları için kullanılacak dosya (Boş bırakırsan default configi kullanır)
     # output_file="/mnt/c/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json" # Semgrep scan sonucu
-    # scan_file="C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json" # pretty_json fonksiyonu için dosya konumu
-
     # analyzer = SemgrepAnalyzer(directory, output_file)
     # analyzer.analyze()
-    #pretty_json(scan_file) # JSON dosyasını daha okunaklı hale getirir
+    # scan_file="C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json" # pretty_json fonksiyonu için dosya konumu
+    # pretty_json(scan_file) # JSON dosyasını daha okunaklı hale getirir
     # ---Semgrep---
 
     # ---Nmap---
     # output_file = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"  
     # nmap_target = "scanme.nmap.org"
-    # nmap_analyzer = NmapScan(save_dir, output_file, nmap_target)
-    # nmap_analyzer.aggressive_scan()
+    # nmap_analyzer = NmapScan(output_file, nmap_target)
+    # nmap_analyzer.basic_scan()
+    # xml_file = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"
+    # json_output = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.json"
+    # xml_to_json(xml_file, json_output)
     # ---Nmap---
 
     # ---ZAP---
@@ -208,11 +225,14 @@ async def main():
     # ---ZAP---
 
     # ---SQLMAP---
-    # sql_target = "http://testphp.vulnweb.com/artists.php?artist=1" 
-    # sql_output_file = "C:/Users/erngu/source/repos/WebScan/SqlOutput/sql_results.xml"
-    # sql_dir = "C:/Users/erngu/AppData/Local/Programs/sqlmap/"
-    # SQLmap = SQLScan(sql_target, sql_output_file, sql_dir)
-    # SQLmap.quick_sqlmap()
+    sql_target = "http://testphp.vulnweb.com/artists.php?artist=1" 
+    sql_output_dir = "C:/Users/erngu/source/repos/WebScan/SqlOutput"
+    sql_dir = "C:/Users/erngu/AppData/Local/Programs/sqlmap/"
+    SQLmap = SQLScan(sql_target, sql_output_dir, sql_dir)
+    SQLmap.quick_sqlmap()
+    # sql_xml = "C:/Users/erngu/source/repos/WebScan/SqlOutput/sql_results.xml"
+    # sql_json = "C:/Users/erngu/source/repos/WebScan/SqlOutput/sql_results.json"
+    # xml_to_json(sql_xml, sql_json)
     # ---SQLMAP---
 
     #await fetch_all_links(url, save_dir) # URL'deki bütün kaynak dosyaları indirir
