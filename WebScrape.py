@@ -14,6 +14,7 @@ from semgrep_analyze import SemgrepAnalyzer
 from nmap_scanner import NmapScan
 from zap_scanner import ZapScan
 from SQLmap import SQLScan
+from json_parser import jsonParser
 
 # Her alt sayfayı ziyaret eden fonksiyon
 async def fetch_all_links(url, save_dir):
@@ -225,15 +226,27 @@ async def main():
     # ---ZAP---
 
     # ---SQLMAP---
-    sql_target = "http://testphp.vulnweb.com/artists.php?artist=1" 
-    sql_output_dir = "C:/Users/erngu/source/repos/WebScan/SqlOutput"
-    sql_dir = "C:/Users/erngu/AppData/Local/Programs/sqlmap/"
-    SQLmap = SQLScan(sql_target, sql_output_dir, sql_dir)
-    SQLmap.quick_sqlmap()
+    # sql_target = "http://testphp.vulnweb.com/artists.php?artist=1" 
+    # sql_output_dir = "C:/Users/erngu/source/repos/WebScan/SqlOutput"
+    # sql_dir = "C:/Users/erngu/AppData/Local/Programs/sqlmap/"
+    # SQLmap = SQLScan(sql_target, sql_output_dir, sql_dir)
+    # SQLmap.quick_sqlmap()
     # sql_xml = "C:/Users/erngu/source/repos/WebScan/SqlOutput/sql_results.xml"
     # sql_json = "C:/Users/erngu/source/repos/WebScan/SqlOutput/sql_results.json"
     # xml_to_json(sql_xml, sql_json)
     # ---SQLMAP---
+
+    # ---JSON Parser---
+    json_file_path = "C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json"
+
+    # Read the JSON file
+    with open(json_file_path, "r") as file:
+        json_data = json.load(file)
+        
+    parser = jsonParser(json_data)
+    parsed_results = parser.parse_security_results()
+    parser.print_report(parsed_results)
+    # ---JSON Parser---
 
     #await fetch_all_links(url, save_dir) # URL'deki bütün kaynak dosyaları indirir
     
