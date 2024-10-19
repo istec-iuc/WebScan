@@ -14,7 +14,7 @@ from semgrep_analyze import SemgrepAnalyzer
 from nmap_scanner import NmapScan
 from zap_scanner import ZapScan
 from SQLmap import SQLScan
-from json_parser import jsonParser
+from json_parser import ZAPReportParser
 
 # Her alt sayfayı ziyaret eden fonksiyon
 async def fetch_all_links(url, save_dir):
@@ -184,6 +184,21 @@ def xml_to_json(xmlfile, jsonfile):
     # Saves JSON data to a file
     with open(jsonfile, "w") as json_file:
         json_file.write(json_data)
+        
+def create_report(source_file, destination_file, Header):
+    try:
+        # Open the source file and read its content
+        with open(source_file, "r", encoding="utf-8", errors="replace") as src:
+            content = src.read()
+
+        # Open the destination file and write the content
+        with open(destination_file, "a", encoding="utf-8", errors="replace") as dest:
+            dest.write(f"{Header}")
+            dest.write(content + "/n/n")
+
+        print("Report successfully created!")
+    except Exception as e:
+        print(f"An error occurred: {e}")
 
 # Ana işlev (asenkron görevleri başlatır)
 async def main():
@@ -200,11 +215,16 @@ async def main():
     # ---Semgrep---
     # directory="/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles" # Semgreple scanlenecek dosya 
     # semgrep_config="" # Semgrep ayarları için kullanılacak dosya (Boş bırakırsan default configi kullanır)
-    # output_file="/mnt/c/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json" # Semgrep scan sonucu
+    # output_file="/mnt/c/Users/erngu/source/repos/WebScan/SemgrepOutput/results.txt" # Semgrep scan sonucu
     # analyzer = SemgrepAnalyzer(directory, output_file)
     # analyzer.analyze()
     # scan_file="C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json" # pretty_json fonksiyonu için dosya konumu
     # pretty_json(scan_file) # JSON dosyasını daha okunaklı hale getirir
+    # Semgrep report
+    source = "C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.txt"
+    destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
+    header = "---SEMGREP---" # Header for report
+    create_report(source, destination, header)
     # ---Semgrep---
 
     # ---Nmap---
@@ -222,7 +242,26 @@ async def main():
     # zap_target = "http://testphp.vulnweb.com/"
     # zap_output = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_results.json"
     # zap_analyze = ZapScan(zap_target, zap_output, zap_dir)
-    # zap_analyze.full_scan()
+    # zap_analyze.quick_scan()
+    
+    # Zap report file creation
+    json_file_path = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_results.json"
+
+    # Read the JSON file
+    with open(json_file_path, "r") as file:
+        json_data = json.load(file)
+     
+    output_file_path = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_report.txt" # Zap report file dir
+    parser = ZAPReportParser(json_data)
+    report = parser.parse_report()
+    parser.print_report(report) # Prints report to the cmd
+    parser.save_report_to_file(report, output_file_path) # Saves zap report as txt file
+
+    # Saving zap report to the main report file
+    source = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_report.txt"
+    destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
+    header = "\n---ZAP---\n"
+    create_report(source, destination, header)
     # ---ZAP---
 
     # ---SQLMAP---
@@ -237,17 +276,25 @@ async def main():
     # ---SQLMAP---
 
     # ---JSON Parser---
-    json_file_path = "C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json"
+    # Zap report file creation
+    # json_file_path = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_results.json"
 
-    # Read the JSON file
-    with open(json_file_path, "r") as file:
-        json_data = json.load(file)
-        
-    parser = jsonParser(json_data)
-    parsed_results = parser.parse_security_results()
-    parser.print_report(parsed_results)
+    # # Read the JSON file
+    # with open(json_file_path, "r") as file:
+    #     json_data = json.load(file)
+     
+    # output_file_path = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_report.txt" # Zap report file dir
+    # parser = ZAPReportParser(json_data)
+    # report = parser.parse_report()
+    # parser.print_report(report) # Prints report to the cmd
+    # parser.save_report_to_file(report, output_file_path) # Saves zap report as txt file
     # ---JSON Parser---
-
-    #await fetch_all_links(url, save_dir) # URL'deki bütün kaynak dosyaları indirir
+    
+    # ---Report---
+    # source = "C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.txt"
+    # destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
+    # header = "---SEMGREP---"
+    # create_report(source, destination, header)
+    # ---Report---
     
 asyncio.get_event_loop().run_until_complete(main())
