@@ -1,0 +1,147 @@
+/*
+ * UTILITY
+ */
+
+#site-nav, #footer {
+    display:none;
+}
+
+
+/*
+ * HERO
+ */
+
+#hero {
+    border-top: 10px solid #3e8dd0;
+    padding: 130px 0;
+}
+
+#preheader {
+    color: #3e8dd0;
+    margin-bottom: 0px;
+    font-size: 3.0em;
+    font-family: 'Courgette', cursive;
+}
+
+#header {
+    color: #3e8dd0;
+    margin: 2px 0px;
+    font-size: 4.5em;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+}
+
+#postheader {
+    color: #c0c0c0;
+    margin: 0px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 2.0em;
+}
+
+#subhero {
+    background: #c44b4b;
+    color: #fff;
+    padding: 40px 0;
+    font-family: 'Courgette', cursive;
+    font-size: 2.3em;
+}
+
+#video {
+    background: #3e8dd0;
+    color: #efefef;
+    padding: 20px;
+    font-family: 'Courgette', cursive;
+    font-size: 2.3em;
+}
+
+#testimonials {
+    margin: 40px 0;
+}
+
+.benefit-row {
+    margin-top: 80px;
+}
+.benefit-row:last-child{
+    margin-bottom: 80px;
+}
+
+li {
+    font-size: 1.3em;
+}
+
+.screenshot {
+    border: 5px solid #007FFF;
+}
+
+#guarantee {
+    padding: 40px;
+}
+
+#story h2 {
+    font-family: 'Courgette', cursive;
+}
+
+#fine-print h3 {
+    font-family: 'Courgette', cursive;
+}
+
+.buy-now a.gumroad-button {
+    margin: 60px 0;
+    font-size: 1.5em !important;
+
+    padding: 5px 50px !important;
+    color: white !important;
+    background-image: none !important;
+
+    background: #3498db !important;
+    background-image: -webkit-linear-gradient(top, #3498db, #2980b9) !important;
+    background-image: -moz-linear-gradient(top, #3498db, #2980b9) !important;
+    background-image: -ms-linear-gradient(top, #3498db, #2980b9) !important;
+    background-image: -o-linear-gradient(top, #3498db, #2980b9) !important;
+    background-image: linear-gradient(to bottom, #3498db, #2980b9) !important;
+}
+.buy-now .gumroad-button-logo {
+    display: none !important;
+}
+.buy-now .cta-subtext {
+    margin: -40px 0 40px;
+    display: block;
+}
+
+#footer-content {
+    padding: 20px;
+}
+
+/*
+ * Bounce Modal
+ */
+
+.modal h4 {
+    font-family: 'Courgette', cursive;
+}
+
+.modal p {
+  font-size: 1.5em;
+  font-family: 'Raleway', sans-serif;
+}
+
+.modal .lead {
+  text-transform: uppercase;
+  font-size: 5.0em;
+}
+
+.modal #modal-countdown {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.modal .modal-footer {
+  text-align: center;
+}
+
+.modal .buy-now a.gumroad-button {
+    margin: 20px 0;
+}
+.modal .buy-now .cta-subtext {
+    margin: -10px 0 10px;
+    display: block;
+}

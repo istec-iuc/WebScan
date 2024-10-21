@@ -1,9 +1,13 @@
 import asyncio
 from asyncio.windows_events import NULL
+from distutils import text_file
+from logging import raiseExceptions
 from operator import index
+from tarfile import NUL
 from pyppeteer import launch
 from bs4 import BeautifulSoup
 import os
+import subprocess
 import urllib.parse
 import aiohttp
 import re
@@ -185,46 +189,62 @@ def xml_to_json(xmlfile, jsonfile):
     with open(jsonfile, "w") as json_file:
         json_file.write(json_data)
         
-def create_report(source_file, destination_file, Header):
+def create_report(source_file, destination_file, Header, MainHeader=None, Description=None):
     try:
         # Open the source file and read its content
         with open(source_file, "r", encoding="utf-8", errors="replace") as src:
             content = src.read()
 
+        # Checks if the destination file is empty
+        is_empty = True
+        try:
+            with open(destination_file, "r", encoding="utf-8", errors="replace") as dest:
+                is_empty = dest.readable() and dest.read().strip() == ""
+        except FileNotFoundError:
+            is_empty = True  # File does not exist, so it's empty
+
         # Open the destination file and write the content
         with open(destination_file, "a", encoding="utf-8", errors="replace") as dest:
-            dest.write(f"{Header}")
-            dest.write(content + "/n/n")
+            if is_empty and MainHeader is not None and Description is not None:
+                dest.write(f"**{MainHeader}**\n\n")
+                dest.write(f"*{Description}\n\n")
+            dest.write(f"{Header}\n")
+            dest.write(content + "\n\n")
 
         print("Report successfully created!")
     except Exception as e:
         print(f"An error occurred: {e}")
 
+
+    
+
 # Ana işlev (asenkron görevleri başlatır)
 async def main():
     # ---Fetch---
-    # url = "http://www.scrapethissite.com/pages/" # Hedef URL
-    # save_dir = "C:/Users/erngu/source/repos/WebScan/ScrapedFiles" # Source dosyaları bu klasöre kaydedilir
+    url = "http://www.scrapethissite.com/pages/" # Hedef URL
+    save_dir = "C:/Users/erngu/source/repos/WebScan/ScrapedFiles" # Source dosyaları bu klasöre kaydedilir
     
-    # if not os.path.exists(save_dir):
-    #     os.makedirs(save_dir)
+    if not os.path.exists(save_dir):
+        os.makedirs(save_dir)
 
-    # await fetch_all_links(url, save_dir)
+    await fetch_all_links(url, save_dir)
     # ---Fetch---
 
     # ---Semgrep---
-    # directory="/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles" # Semgreple scanlenecek dosya 
-    # semgrep_config="" # Semgrep ayarları için kullanılacak dosya (Boş bırakırsan default configi kullanır)
-    # output_file="/mnt/c/Users/erngu/source/repos/WebScan/SemgrepOutput/results.txt" # Semgrep scan sonucu
-    # analyzer = SemgrepAnalyzer(directory, output_file)
-    # analyzer.analyze()
+    directory="/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles" # Semgreple scanlenecek dosya 
+    semgrep_config="" # Semgrep ayarları için kullanılacak dosya (Boş bırakırsan default configi kullanır)
+    output_file="/mnt/c/Users/erngu/source/repos/WebScan/SemgrepOutput/results.txt" # Semgrep scan sonucu
+    analyzer = SemgrepAnalyzer(directory, output_file)
+    analyzer.analyze()
     # scan_file="C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json" # pretty_json fonksiyonu için dosya konumu
     # pretty_json(scan_file) # JSON dosyasını daha okunaklı hale getirir
     # Semgrep report
+    MainHeader = "Static and Dynamic Analysis"
+    Desc = "This report provides a static and dynamic analysis of the target. It uses semgrep for static analysis. OWASP ZAP, NMAP and SQLMAP for dynamic analysis"
     source = "C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.txt"
     destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
     header = "---SEMGREP---" # Header for report
-    create_report(source, destination, header)
+    create_report(source, destination, header, MainHeader, Desc)
     # ---Semgrep---
 
     # ---Nmap---
@@ -235,14 +255,19 @@ async def main():
     # xml_file = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"
     # json_output = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.json"
     # xml_to_json(xml_file, json_output)
+    # Nmap Report Creation
+    source = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"
+    destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
+    header = "\n---Nmap---\n"
+    create_report(source, destination, header)
     # ---Nmap---
 
     # ---ZAP---
-    # zap_dir = "C:/Program Files/ZAP/Zed Attack Proxy"
-    # zap_target = "http://testphp.vulnweb.com/"
-    # zap_output = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_results.json"
-    # zap_analyze = ZapScan(zap_target, zap_output, zap_dir)
-    # zap_analyze.quick_scan()
+    zap_dir = "C:/Program Files/ZAP/Zed Attack Proxy"
+    zap_target = "http://testphp.vulnweb.com/"
+    zap_output = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_results.json"
+    zap_analyze = ZapScan(zap_target, zap_output, zap_dir)
+    zap_analyze.quick_scan()
     
     # Zap report file creation
     json_file_path = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_results.json"
@@ -251,6 +276,7 @@ async def main():
     with open(json_file_path, "r") as file:
         json_data = json.load(file)
      
+    # Formats the JSON file
     output_file_path = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_report.txt" # Zap report file dir
     parser = ZAPReportParser(json_data)
     report = parser.parse_report()
@@ -273,6 +299,11 @@ async def main():
     # sql_xml = "C:/Users/erngu/source/repos/WebScan/SqlOutput/sql_results.xml"
     # sql_json = "C:/Users/erngu/source/repos/WebScan/SqlOutput/sql_results.json"
     # xml_to_json(sql_xml, sql_json)
+    # Report Creation
+    source = "C:/Users/erngu/source/repos/WebScan/SqlOutput/testphp.vulnweb.com/log"
+    destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
+    header = "\n---SQLMAP---\n"
+    create_report(source, destination, header)
     # ---SQLMAP---
 
     # ---JSON Parser---
@@ -291,10 +322,7 @@ async def main():
     # ---JSON Parser---
     
     # ---Report---
-    # source = "C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.txt"
-    # destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
-    # header = "---SEMGREP---"
-    # create_report(source, destination, header)
+
     # ---Report---
     
 asyncio.get_event_loop().run_until_complete(main())
