@@ -207,7 +207,7 @@ def create_report(source_file, destination_file, Header, MainHeader=None, Descri
         with open(destination_file, "a", encoding="utf-8", errors="replace") as dest:
             if is_empty and MainHeader is not None and Description is not None:
                 dest.write(f"**{MainHeader}**\n\n")
-                dest.write(f"*{Description}\n\n")
+                dest.write(f"*{Description}*\n\n")
             dest.write(f"{Header}\n")
             dest.write(content + "\n\n")
 
@@ -239,7 +239,7 @@ async def main():
     # scan_file="C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json" # pretty_json fonksiyonu için dosya konumu
     # pretty_json(scan_file) # JSON dosyasını daha okunaklı hale getirir
     # Semgrep report
-    MainHeader = "Static and Dynamic Analysis"
+    MainHeader = "Static and Dynamic Analysis Report"
     Desc = "This report provides a static and dynamic analysis of the target. It uses semgrep for static analysis. OWASP ZAP, NMAP and SQLMAP for dynamic analysis"
     source = "C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.txt"
     destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"

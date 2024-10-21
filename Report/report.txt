@@ -1,6 +1,6 @@
-**Static and Dynamic Analysis**
+**Static and Dynamic Analysis Report**
 
-*This report provides a static and dynamic analysis of the target. It uses semgrep for static analysis. OWASP ZAP, NMAP and SQLMAP for dynamic analysis
+*This report provides a static and dynamic analysis of the target. It uses semgrep for static analysis. OWASP ZAP, NMAP and SQLMAP for dynamic analysis*
 
 ---SEMGREP---
                      
