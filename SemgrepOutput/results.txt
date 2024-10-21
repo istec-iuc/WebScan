@@ -230,7 +230,7 @@
             ⋮┆----------------------------------------
           197┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           198┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487827033&amp;cv=9&amp;fst=1729487827033&
+               agead/viewthroughconversion/950945448/?random=1729494238841&amp;cv=9&amp;fst=1729494238841&
                amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247838&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=6&amp;u_tz=180&amp;u
                _java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2
@@ -239,7 +239,7 @@
                adservices.com&amp;rfmt=3&amp;fmt=4"></script>                                             
             ⋮┆----------------------------------------
           198┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487827033&amp;cv=9&amp;fst=1729487827033&
+               agead/viewthroughconversion/950945448/?random=1729494238841&amp;cv=9&amp;fst=1729494238841&
                amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247838&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=6&amp;u_tz=180&amp;u
                _java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2
@@ -473,22 +473,22 @@
             ⋮┆----------------------------------------
           189┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           190┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487793851&amp;cv=9&amp;fst=1729487793851&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635470%2C375603261%2C466465926%2
-               C512247838&amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=3&amp;u_
-               tz=180&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=
-               http%3A%2F%2Fwww.scrapethissite.com%2F&amp;tiba=Scrape%20This%20Site%20%7C%20A%20public%20s
-               andbox%20for%20learning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt
-               =4"></script>                                                                              
+               agead/viewthroughconversion/950945448/?random=1729494193689&amp;cv=9&amp;fst=1729494193689&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247838&a
+               mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=3&amp;u_tz=180&amp;u
+               _java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2
+               Fwww.scrapethissite.com%2F&amp;tiba=Scrape%20This%20Site%20%7C%20A%20public%20sandbox%20for
+               %20learning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt=4"></script
+               >                                                                                          
             ⋮┆----------------------------------------
           190┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487793851&amp;cv=9&amp;fst=1729487793851&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635470%2C375603261%2C466465926%2
-               C512247838&amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=3&amp;u_
-               tz=180&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=
-               http%3A%2F%2Fwww.scrapethissite.com%2F&amp;tiba=Scrape%20This%20Site%20%7C%20A%20public%20s
-               andbox%20for%20learning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt
-               =4"></script>                                                                              
+               agead/viewthroughconversion/950945448/?random=1729494193689&amp;cv=9&amp;fst=1729494193689&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247838&a
+               mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=3&amp;u_tz=180&amp;u
+               _java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2
+               Fwww.scrapethissite.com%2F&amp;tiba=Scrape%20This%20Site%20%7C%20A%20public%20sandbox%20for
+               %20learning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt=4"></script
+               >                                                                                          
                                                                                   
     /mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/lessons/main/analytics.js
     ❯❱ javascript.lang.security.audit.detect-non-literal-regexp.detect-non-literal-regexp
@@ -700,7 +700,7 @@
                src="https://connect.facebook.net/en_US/fbevents.js"></script><script async=""             
                src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript"
                async=""                                                                                   
-               src="https://js.driftt.com/include/1729488000000/6nmy7z65gsxc.js"></script><script>        
+               src="https://js.driftt.com/include/1729494300000/6nmy7z65gsxc.js"></script><script>        
             ⋮┆----------------------------------------
            19┆ <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-
                09N5RQCFG4&amp;cx=c&amp;_slc=1"></script><script src="https://connect.facebook.net/signals/
@@ -717,7 +717,7 @@
                src="https://connect.facebook.net/en_US/fbevents.js"></script><script async=""             
                src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript"
                async=""                                                                                   
-               src="https://js.driftt.com/include/1729488000000/6nmy7z65gsxc.js"></script><script>        
+               src="https://js.driftt.com/include/1729494300000/6nmy7z65gsxc.js"></script><script>        
             ⋮┆----------------------------------------
            19┆ <script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-
                09N5RQCFG4&amp;cx=c&amp;_slc=1"></script><script src="https://connect.facebook.net/signals/
@@ -734,43 +734,43 @@
                src="https://connect.facebook.net/en_US/fbevents.js"></script><script async=""             
                src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript"
                async=""                                                                                   
-               src="https://js.driftt.com/include/1729488000000/6nmy7z65gsxc.js"></script><script>        
+               src="https://js.driftt.com/include/1729494300000/6nmy7z65gsxc.js"></script><script>        
             ⋮┆----------------------------------------
-          324┆ </style><script src="https://assets.gumroad.com/packs/js/overlay-f8f9015a9aabefa09736.js"  
+           45┆ <script src="https://assets.gumroad.com/packs/js/overlay-f8f9015a9aabefa09736.js"          
                charset="utf-8"></script><link rel="stylesheet"                                            
                href="https://assets.gumroad.com/packs/css/overlay-63c6c0f7.css"><script                   
                type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthrough
-               conversion/950945448/?random=1729487808909&amp;cv=9&amp;fst=1729487808909&amp;num=1&amp;gui
-               d=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247839&amp;u_h=600&amp;u_
+               conversion/950945448/?random=1729494208074&amp;cv=9&amp;fst=1729494208074&amp;num=1&amp;gui
+               d=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247838&amp;u_h=600&amp;u_
                w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=5&amp;u_tz=180&amp;u_java=false&amp;u
                _nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2Fwww.scrapethissi
                te.com%2Flessons%2Fsign-up%2F&amp;tiba=Sign%20Up%20%7C%20Scrape%20This%20Site%20%7C%20A%20p
                ublic%20sandbox%20for%20learning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=
-               3&amp;fmt=4"></script></head>                                                              
+               3&amp;fmt=4"></script><style type="text/css">.drift-conductor-item iframe,                 
             ⋮┆----------------------------------------
-          324┆ </style><script src="https://assets.gumroad.com/packs/js/overlay-f8f9015a9aabefa09736.js"  
+           45┆ <script src="https://assets.gumroad.com/packs/js/overlay-f8f9015a9aabefa09736.js"          
                charset="utf-8"></script><link rel="stylesheet"                                            
                href="https://assets.gumroad.com/packs/css/overlay-63c6c0f7.css"><script                   
                type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthrough
-               conversion/950945448/?random=1729487808909&amp;cv=9&amp;fst=1729487808909&amp;num=1&amp;gui
-               d=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247839&amp;u_h=600&amp;u_
+               conversion/950945448/?random=1729494208074&amp;cv=9&amp;fst=1729494208074&amp;num=1&amp;gui
+               d=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247838&amp;u_h=600&amp;u_
                w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=5&amp;u_tz=180&amp;u_java=false&amp;u
                _nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2Fwww.scrapethissi
                te.com%2Flessons%2Fsign-up%2F&amp;tiba=Sign%20Up%20%7C%20Scrape%20This%20Site%20%7C%20A%20p
                ublic%20sandbox%20for%20learning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=
-               3&amp;fmt=4"></script></head>                                                              
+               3&amp;fmt=4"></script><style type="text/css">.drift-conductor-item iframe,                 
             ⋮┆----------------------------------------
-          324┆ </style><script src="https://assets.gumroad.com/packs/js/overlay-f8f9015a9aabefa09736.js"  
+           45┆ <script src="https://assets.gumroad.com/packs/js/overlay-f8f9015a9aabefa09736.js"          
                charset="utf-8"></script><link rel="stylesheet"                                            
                href="https://assets.gumroad.com/packs/css/overlay-63c6c0f7.css"><script                   
                type="text/javascript" async="" src="https://googleads.g.doubleclick.net/pagead/viewthrough
-               conversion/950945448/?random=1729487808909&amp;cv=9&amp;fst=1729487808909&amp;num=1&amp;gui
-               d=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247839&amp;u_h=600&amp;u_
+               conversion/950945448/?random=1729494208074&amp;cv=9&amp;fst=1729494208074&amp;num=1&amp;gui
+               d=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247838&amp;u_h=600&amp;u_
                w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=5&amp;u_tz=180&amp;u_java=false&amp;u
                _nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2Fwww.scrapethissi
                te.com%2Flessons%2Fsign-up%2F&amp;tiba=Sign%20Up%20%7C%20Scrape%20This%20Site%20%7C%20A%20p
                ublic%20sandbox%20for%20learning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=
-               3&amp;fmt=4"></script></head>                                                              
+               3&amp;fmt=4"></script><style type="text/css">.drift-conductor-item iframe,                 
             ⋮┆----------------------------------------
           715┆ <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
             ⋮┆----------------------------------------
@@ -1113,8 +1113,8 @@
             ⋮┆----------------------------------------
           189┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           190┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487832287&amp;cv=9&amp;fst=1729487832287&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247839&a
+               agead/viewthroughconversion/950945448/?random=1729494243409&amp;cv=9&amp;fst=1729494243409&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247838&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=7&amp;u_tz=180&amp;u
                _java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2
                Fwww.scrapethissite.com%2Flogin%2F&amp;tiba=Login%20%7C%20Scrape%20This%20Site%20%7C%20A%20
@@ -1122,8 +1122,8 @@
                =3&amp;fmt=4"></script>                                                                    
             ⋮┆----------------------------------------
           190┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487832287&amp;cv=9&amp;fst=1729487832287&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247839&a
+               agead/viewthroughconversion/950945448/?random=1729494243409&amp;cv=9&amp;fst=1729494243409&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247838&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=7&amp;u_tz=180&amp;u
                _java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2
                Fwww.scrapethissite.com%2Flogin%2F&amp;tiba=Login%20%7C%20Scrape%20This%20Site%20%7C%20A%20
@@ -1184,8 +1184,8 @@
             ⋮┆----------------------------------------
           216┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           217┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487880940&amp;cv=9&amp;fst=1729487880940&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247839&a
+               agead/viewthroughconversion/950945448/?random=1729494291906&amp;cv=9&amp;fst=1729494291906&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465926%2C512247838&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=12&amp;u_tz=180&amp;
                u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%
                2Fwww.scrapethissite.com%2Fpages%2Fadvanced%2F&amp;tiba=Advanced%20Topics%3A%20Real%20World
@@ -1194,8 +1194,8 @@
                /script>                                                                                   
             ⋮┆----------------------------------------
           217┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487880940&amp;cv=9&amp;fst=1729487880940&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247839&a
+               agead/viewthroughconversion/950945448/?random=1729494291906&amp;cv=9&amp;fst=1729494291906&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465926%2C512247838&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=12&amp;u_tz=180&amp;
                u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%
                2Fwww.scrapethissite.com%2Fpages%2Fadvanced%2F&amp;tiba=Advanced%20Topics%3A%20Real%20World
@@ -1431,8 +1431,8 @@
             ⋮┆----------------------------------------
           313┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           314┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487866220&amp;cv=9&amp;fst=1729487866220&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635471%2C375603261%2C466465925%2
+               agead/viewthroughconversion/950945448/?random=1729494277175&amp;cv=9&amp;fst=1729494277175&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635471%2C375603260%2C466465926%2
                C512247839&amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=10&amp;u
                _tz=180&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url
                =http%3A%2F%2Fwww.scrapethissite.com%2Fpages%2Fajax-javascript%2F&amp;tiba=Oscar%20Winning%
@@ -1444,8 +1444,8 @@
                style="display:none" scrolling="no"></iframe>                                              
             ⋮┆----------------------------------------
           314┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487866220&amp;cv=9&amp;fst=1729487866220&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635471%2C375603261%2C466465925%2
+               agead/viewthroughconversion/950945448/?random=1729494277175&amp;cv=9&amp;fst=1729494277175&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=376635471%2C375603260%2C466465926%2
                C512247839&amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=10&amp;u
                _tz=180&amp;u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url
                =http%3A%2F%2Fwww.scrapethissite.com%2Fpages%2Fajax-javascript%2F&amp;tiba=Oscar%20Winning%
@@ -1872,8 +1872,8 @@
             ⋮┆----------------------------------------
           1398┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           1399┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/
-               pagead/viewthroughconversion/950945448/?random=1729487845940&amp;cv=9&amp;fst=1729487845940
-               &amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247838&
+               pagead/viewthroughconversion/950945448/?random=1729494256983&amp;cv=9&amp;fst=1729494256983
+               &amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247839&
                amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=9&amp;u_tz=180&amp;
                u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%
                2Fwww.scrapethissite.com%2Fpages%2Fforms%2F&amp;tiba=Hockey%20Teams%3A%20Forms%2C%20Searchi
@@ -1881,8 +1881,8 @@
                rning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt=4"></script>     
             ⋮┆----------------------------------------
           1399┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/
-               pagead/viewthroughconversion/950945448/?random=1729487845940&amp;cv=9&amp;fst=1729487845940
-               &amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247838&
+               pagead/viewthroughconversion/950945448/?random=1729494256983&amp;cv=9&amp;fst=1729494256983
+               &amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247839&
                amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=9&amp;u_tz=180&amp;
                u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%
                2Fwww.scrapethissite.com%2Fpages%2Fforms%2F&amp;tiba=Hockey%20Teams%3A%20Forms%2C%20Searchi
@@ -2117,8 +2117,8 @@
             ⋮┆----------------------------------------
           234┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           235┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487874238&amp;cv=9&amp;fst=1729487874238&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465926%2C512247839&a
+               agead/viewthroughconversion/950945448/?random=1729494285118&amp;cv=9&amp;fst=1729494285118&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247839&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=11&amp;u_tz=180&amp;
                u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%
                2Fwww.scrapethissite.com%2Fpages%2Fframes%2F&amp;tiba=Turtles%20All%20the%20Way%20Down%3A%2
@@ -2126,8 +2126,8 @@
                earning%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt=4"></script>   
             ⋮┆----------------------------------------
           235┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487874238&amp;cv=9&amp;fst=1729487874238&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465926%2C512247839&a
+               agead/viewthroughconversion/950945448/?random=1729494285118&amp;cv=9&amp;fst=1729494285118&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247839&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=11&amp;u_tz=180&amp;
                u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%
                2Fwww.scrapethissite.com%2Fpages%2Fframes%2F&amp;tiba=Turtles%20All%20the%20Way%20Down%3A%2
@@ -2360,8 +2360,8 @@
             ⋮┆----------------------------------------
           229┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           230┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487800017&amp;cv=9&amp;fst=1729487800017&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247839&a
+               agead/viewthroughconversion/950945448/?random=1729494200044&amp;cv=9&amp;fst=1729494200044&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247838&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=4&amp;u_tz=180&amp;u
                _java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2
                Fwww.scrapethissite.com%2Fpages%2F&amp;tiba=Learn%20Web%20Scraping%20%7C%20Scrape%20This%20
@@ -2369,8 +2369,8 @@
                ices.com&amp;rfmt=3&amp;fmt=4"></script>                                                   
             ⋮┆----------------------------------------
           230┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/p
-               agead/viewthroughconversion/950945448/?random=1729487800017&amp;cv=9&amp;fst=1729487800017&
-               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247839&a
+               agead/viewthroughconversion/950945448/?random=1729494200044&amp;cv=9&amp;fst=1729494200044&
+               amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465926%2C512247838&a
                mp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=4&amp;u_tz=180&amp;u
                _java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%2
                Fwww.scrapethissite.com%2Fpages%2F&amp;tiba=Learn%20Web%20Scraping%20%7C%20Scrape%20This%20
@@ -2621,8 +2621,8 @@
             ⋮┆----------------------------------------
           3966┆ <script type="text/javascript" src="//www.googleadservices.com/pagead/conversion.js">
           3967┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/
-               pagead/viewthroughconversion/950945448/?random=1729487838306&amp;cv=9&amp;fst=1729487838306
-               &amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247838&
+               pagead/viewthroughconversion/950945448/?random=1729494249426&amp;cv=9&amp;fst=1729494249426
+               &amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247839&
                amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=8&amp;u_tz=180&amp;
                u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%
                2Fwww.scrapethissite.com%2Fpages%2Fsimple%2F&amp;tiba=Countries%20of%20the%20World%3A%20A%2
@@ -2630,8 +2630,8 @@
                g%20web%20scraping&amp;hn=www.googleadservices.com&amp;rfmt=3&amp;fmt=4"></script>         
             ⋮┆----------------------------------------
           3967┆ </script><script type="text/javascript" async="" src="https://googleads.g.doubleclick.net/
-               pagead/viewthroughconversion/950945448/?random=1729487838306&amp;cv=9&amp;fst=1729487838306
-               &amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603260%2C466465925%2C512247838&
+               pagead/viewthroughconversion/950945448/?random=1729494249426&amp;cv=9&amp;fst=1729494249426
+               &amp;num=1&amp;guid=ON&amp;resp=GooglemKTybQhCsO&amp;eid=375603261%2C466465925%2C512247839&
                amp;u_h=600&amp;u_w=800&amp;u_ah=600&amp;u_aw=800&amp;u_cd=24&amp;u_his=8&amp;u_tz=180&amp;
                u_java=false&amp;u_nplug=0&amp;u_nmime=0&amp;sendb=1&amp;ig=1&amp;frm=0&amp;url=http%3A%2F%
                2Fwww.scrapethissite.com%2Fpages%2Fsimple%2F&amp;tiba=Countries%20of%20the%20World%3A%20A%2

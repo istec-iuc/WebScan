@@ -1,9 +1,4 @@
 import asyncio
-from asyncio.windows_events import NULL
-from distutils import text_file
-from logging import raiseExceptions
-from operator import index
-from tarfile import NUL
 from pyppeteer import launch
 from bs4 import BeautifulSoup
 import os
@@ -227,7 +222,7 @@ async def main():
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
 
-    await fetch_all_links(url, save_dir)
+    # await fetch_all_links(url, save_dir)
     # ---Fetch---
 
     # ---Semgrep---
@@ -248,13 +243,13 @@ async def main():
     # ---Semgrep---
 
     # ---Nmap---
-    # output_file = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"  
-    # nmap_target = "scanme.nmap.org"
-    # nmap_analyzer = NmapScan(output_file, nmap_target)
-    # nmap_analyzer.basic_scan()
-    # xml_file = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"
-    # json_output = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.json"
-    # xml_to_json(xml_file, json_output)
+    output_file = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"  
+    nmap_target = "scanme.nmap.org"
+    nmap_analyzer = NmapScan(output_file, nmap_target)
+    nmap_analyzer.basic_scan()
+    xml_file = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"
+    json_output = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.json"
+    xml_to_json(xml_file, json_output)
     # Nmap Report Creation
     source = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"
     destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
@@ -291,14 +286,14 @@ async def main():
     # ---ZAP---
 
     # ---SQLMAP---
-    # sql_target = "http://testphp.vulnweb.com/artists.php?artist=1" 
-    # sql_output_dir = "C:/Users/erngu/source/repos/WebScan/SqlOutput"
-    # sql_dir = "C:/Users/erngu/AppData/Local/Programs/sqlmap/"
-    # SQLmap = SQLScan(sql_target, sql_output_dir, sql_dir)
-    # SQLmap.quick_sqlmap()
-    # sql_xml = "C:/Users/erngu/source/repos/WebScan/SqlOutput/sql_results.xml"
-    # sql_json = "C:/Users/erngu/source/repos/WebScan/SqlOutput/sql_results.json"
-    # xml_to_json(sql_xml, sql_json)
+    sql_target = "http://testphp.vulnweb.com/artists.php?artist=1" 
+    sql_output_dir = "C:/Users/erngu/source/repos/WebScan/SqlOutput"
+    sql_dir = "C:/Users/erngu/AppData/Local/Programs/sqlmap/"
+    SQLmap = SQLScan(sql_target, sql_output_dir, sql_dir)
+    SQLmap.quick_sqlmap()
+    #sql_xml = "C:/Users/erngu/source/repos/WebScan/SqlOutput/sql_results.xml"  # Don't need this part 
+    #sql_json = "C:/Users/erngu/source/repos/WebScan/SqlOutput/sql_results.json" # Don't need this part
+    #xml_to_json(sql_xml, sql_json) # Don't need this part
     # Report Creation
     source = "C:/Users/erngu/source/repos/WebScan/SqlOutput/testphp.vulnweb.com/log"
     destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"

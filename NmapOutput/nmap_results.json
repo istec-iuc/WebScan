@@ -2,8 +2,8 @@
     "nmaprun": {
         "@scanner": "nmap",
         "@args": "nmap -oX C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml scanme.nmap.org",
-        "@start": "1729471741",
-        "@startstr": "Mon Oct 21 03:49:01 2024",
+        "@start": "1729499436",
+        "@startstr": "Mon Oct 21 11:30:36 2024",
         "@version": "7.95",
         "@xmloutputversion": "1.05",
         "scaninfo": {
@@ -36,8 +36,8 @@
             }
         },
         "host": {
-            "@starttime": "1729471741",
-            "@endtime": "1729471746",
+            "@starttime": "1729499437",
+            "@endtime": "1729499443",
             "status": {
                 "@state": "up",
                 "@reason": "echo-reply",
@@ -77,7 +77,7 @@
                         "state": {
                             "@state": "open",
                             "@reason": "syn-ack",
-                            "@reason_ttl": "32"
+                            "@reason_ttl": "33"
                         },
                         "service": {
                             "@name": "ssh",
@@ -105,7 +105,7 @@
                         "state": {
                             "@state": "open",
                             "@reason": "syn-ack",
-                            "@reason_ttl": "32"
+                            "@reason_ttl": "33"
                         },
                         "service": {
                             "@name": "http",
@@ -144,17 +144,17 @@
                 ]
             },
             "times": {
-                "@srtt": "189386",
-                "@rttvar": "1906",
-                "@to": "197010"
+                "@srtt": "188779",
+                "@rttvar": "375",
+                "@to": "190279"
             }
         },
         "runstats": {
             "finished": {
-                "@time": "1729471746",
-                "@timestr": "Mon Oct 21 03:49:06 2024",
-                "@summary": "Nmap done at Mon Oct 21 03:49:06 2024; 1 IP address (1 host up) scanned in 4.64 seconds",
-                "@elapsed": "4.64",
+                "@time": "1729499443",
+                "@timestr": "Mon Oct 21 11:30:43 2024",
+                "@summary": "Nmap done at Mon Oct 21 11:30:43 2024; 1 IP address (1 host up) scanned in 6.75 seconds",
+                "@elapsed": "6.75",
                 "@exit": "success"
             },
             "hosts": {

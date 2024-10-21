@@ -51,14 +51,24 @@ class ZAPReportParser:
             for site in report:
                 file.write(f"\nSite: {site['name']}\n")
                 for alert in site['alerts']:
-                    file.write(f"\n  Alert: {alert['name']}, Risk: {alert['riskdesc']}\n")
-                    file.write(f"  Description: {alert['desc']}\n")
+                    file.write(f"\nAlert: {alert['name']}, Risk: {alert['riskdesc']}, Confidence: {alert['confidence']}\n")
+                    file.write(f"Description: {alert['desc']}\n")
                     if alert['instances']:
-                        file.write(f"\nInstances:\n")
+                        file.write(f"Instances:\n")
                         for instance in alert["instances"]:
-                            file.write(f"\n  URI: {instance['uri']}\n")
-                            file.write(f"    Method: {instance['method']}\n")
-                            file.write(f"    Evidence: {instance['evidence']}\n")
-                            file.write(f"    Other Info: {instance['otherinfo']}\n")
+                            file.write(f"\n  URI: {instance['uri']}\n\n")
+                            if "method" in instance and instance["method"]:
+                                file.write(f"  Method: {instance['method']}\n")
+                            if "evidence" in instance and instance["evidence"]:
+                                file.write(f"  Evidence: {instance['evidence']}\n")
+                            if "otherinfo" in instance and instance["otherinfo"]:
+                                file.write(f"  Other Info: {instance['otherinfo']}\n")
+                            
 
-
+    def save_br_to_file(self, report, br_file_path):
+        with open(br_file_path, "w") as file:
+            for site in report:
+                file.write(f"\nSite: {site['name']}\n")
+                for alert in site['alerts']:
+                    file.write(f"\n  Alert: {alert['name']}, Risk: {alert['riskdesc']}, Confidence: {alert['confidence']}\n")
+                    file.write(f"  Description: {alert['desc']}\n")

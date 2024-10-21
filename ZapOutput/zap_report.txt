@@ -1,1830 +1,1762 @@
 
 Site: http://testphp.vulnweb.com
 
-  Alert: Absence of Anti-CSRF Tokens, Risk: Medium (Low)
-  Description: <p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>
-
+Alert: Absence of Anti-CSRF Tokens, Risk: Medium (Low), Confidence: 1
+Description: <p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: POST
-    Evidence: <form action="search.php?test=query" method="post">
-    Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  Method: POST
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: <form action="" method="post" name="faddentry">
-    Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "name" "submit" ].
+
+  Method: POST
+  Evidence: <form action="" method="post" name="faddentry">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "name" "submit" ].
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: <form action="search.php?test=query" method="post">
-    Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: "goButton" "searchFor" ].
+
+  Method: POST
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: "goButton" "searchFor" ].
 
   URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: <form action="search.php?test=query" method="post">
-    Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
 
-  Alert: Content Security Policy (CSP) Header Not Set, Risk: Medium (High)
-  Description: <p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>
+  Method: POST
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
 
+Alert: Content Security Policy (CSP) Header Not Set, Risk: Medium (High), Confidence: 3
+Description: <p>Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page — covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/AJAX/index.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/artists.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/artists.php?artist=1
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/artists.php?artist=2
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/artists.php?artist=3
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/categories.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/disclaimer.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/high
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/hpp/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/hpp/?pp=12
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/hpp/params.php?p=valid&pp=12
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/index.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=1
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=2
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=3
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=1
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=2
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=3
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=4
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/login.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-1/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-2/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-3/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-1.html
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-2.html
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-3.html
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/privacy.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=1
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=2
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=3
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=4
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=5
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=6
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=7
-    Method: GET
-    Evidence: 
-    Other Info: 
 
-  URI: http://testphp.vulnweb.com/robots.txt
-    Method: GET
-    Evidence: 
-    Other Info: 
+  Method: GET
 
   URI: http://testphp.vulnweb.com/signup.php
-    Method: GET
-    Evidence: 
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: POST
-    Evidence: 
-    Other Info: 
+
+  Method: POST
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: 
-    Other Info: 
+
+  Method: POST
 
   URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: 
-    Other Info: 
+
+  Method: POST
 
   URI: http://testphp.vulnweb.com/secured/newuser.php
-    Method: POST
-    Evidence: 
-    Other Info: 
 
-  Alert: Missing Anti-clickjacking Header, Risk: Medium (Medium)
-  Description: <p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>
+  Method: POST
 
-Instances:
-
-  URI: http://testphp.vulnweb.com/AJAX/index.php
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/artists.php
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/artists.php?artist=1
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/artists.php?artist=2
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/artists.php?artist=3
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/cart.php
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/categories.php
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/disclaimer.php
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/hpp/
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/hpp/?pp=12
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/hpp/params.php?p=valid&pp=12
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/index.php
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/listproducts.php?artist=1
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/listproducts.php?artist=2
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/listproducts.php?artist=3
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/listproducts.php?cat=1
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/listproducts.php?cat=2
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/listproducts.php?cat=3
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/listproducts.php?cat=4
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-1/
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-2/
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-3/
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-1.html
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-2.html
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-3.html
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/product.php?pic=1
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/product.php?pic=2
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/product.php?pic=3
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/product.php?pic=4
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/product.php?pic=5
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/product.php?pic=6
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/product.php?pic=7
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/signup.php
-    Method: GET
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/cart.php
-    Method: POST
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: 
-    Other Info: 
-
-  URI: http://testphp.vulnweb.com/secured/newuser.php
-    Method: POST
-    Evidence: 
-    Other Info: 
-
-  Alert: Server Leaks Information via "X-Powered-By" HTTP Response Header Field(s), Risk: Low (Medium)
-  Description: <p>The web/application server is leaking information via one or more "X-Powered-By" HTTP response headers. Access to such information may facilitate attackers identifying other frameworks/components your web application is reliant upon and the vulnerabilities such components may be subject to.</p>
-
+Alert: Missing Anti-clickjacking Header, Risk: Medium (Medium), Confidence: 2
+Description: <p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/AJAX/index.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
 
-  URI: http://testphp.vulnweb.com/artists.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+  Method: GET
 
   URI: http://testphp.vulnweb.com/artists.php?artist=1
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/artists.php?artist=2
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/artists.php?artist=3
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/categories.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
 
-  URI: http://testphp.vulnweb.com/disclaimer.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+  Method: GET
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/hpp/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/hpp/?pp=12
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/hpp/params.php?p=valid&pp=12
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/index.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=1
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=2
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=3
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=1
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=2
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=3
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=4
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/login.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-1/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-2/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-3/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-1.html
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-2.html
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-3.html
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
 
-  URI: http://testphp.vulnweb.com/privacy.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=1
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=2
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=3
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=4
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=5
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=6
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
 
   URI: http://testphp.vulnweb.com/product.php?pic=7
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+
+  URI: http://testphp.vulnweb.com/signup.php
+
+  Method: GET
+
+  URI: http://testphp.vulnweb.com/cart.php
+
+  Method: POST
+
+  URI: http://testphp.vulnweb.com/guestbook.php
+
+  Method: POST
+
+  URI: http://testphp.vulnweb.com/search.php?test=query
+
+  Method: POST
+
+  URI: http://testphp.vulnweb.com/secured/newuser.php
+
+  Method: POST
+
+Alert: Server Leaks Information via "X-Powered-By" HTTP Response Header Field(s), Risk: Low (Medium), Confidence: 2
+Description: <p>The web/application server is leaking information via one or more "X-Powered-By" HTTP response headers. Access to such information may facilitate attackers identifying other frameworks/components your web application is reliant upon and the vulnerabilities such components may be subject to.</p>
+Instances:
+
+  URI: http://testphp.vulnweb.com/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/AJAX/index.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/artists.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/artists.php?artist=1
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/artists.php?artist=2
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/artists.php?artist=3
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/cart.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/categories.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/disclaimer.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/guestbook.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/hpp/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/hpp/?pp=12
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/hpp/params.php?p=valid&pp=12
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/index.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/listproducts.php?artist=1
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/listproducts.php?artist=2
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/listproducts.php?artist=3
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/listproducts.php?cat=1
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/listproducts.php?cat=2
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/listproducts.php?cat=3
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/listproducts.php?cat=4
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/login.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-1/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-2/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-3/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-1.html
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-2.html
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-3.html
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/privacy.php
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/product.php?pic=1
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/product.php?pic=2
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/product.php?pic=3
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/product.php?pic=4
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/product.php?pic=5
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/product.php?pic=6
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
+
+  URI: http://testphp.vulnweb.com/product.php?pic=7
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file='%20+%20pict.item(0).firstChild.nodeValue%20+%20'
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg&size=160
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg&size=160
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg&size=160
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg&size=160
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg&size=160
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg&size=160
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg&size=160
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/signup.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/userinfo.php
-    Method: GET
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: GET
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: POST
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: POST
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: POST
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: POST
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/secured/newuser.php
-    Method: POST
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
+
+  Method: POST
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
   URI: http://testphp.vulnweb.com/userinfo.php
-    Method: POST
-    Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
-    Other Info: 
 
-  Alert: Server Leaks Version Information via "Server" HTTP Response Header Field, Risk: Low (High)
-  Description: <p>The web/application server is leaking version information via the "Server" HTTP response header. Access to such information may facilitate attackers identifying other vulnerabilities your web/application server is subject to.</p>
+  Method: POST
+  Evidence: X-Powered-By: PHP/5.6.40-38+ubuntu20.04.1+deb.sury.org+1
 
+Alert: Server Leaks Version Information via "Server" HTTP Response Header Field, Risk: Low (High), Confidence: 3
+Description: <p>The web/application server is leaking version information via the "Server" HTTP response header. Access to such information may facilitate attackers identifying other vulnerabilities your web/application server is subject to.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/AJAX/index.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/AJAX/styles.css
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/artists.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/artists.php?artist=1
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/artists.php?artist=2
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/artists.php?artist=3
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/categories.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/disclaimer.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Flash/add.swf
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/high
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/hpp/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/hpp/?pp=12
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/hpp/params.php?p=valid&pp=12
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/images/logo.gif
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/images/remark.gif
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/index.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=1
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=2
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=3
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=1
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=2
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=3
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=4
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/login.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-1/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-2/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-3/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/images/1.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/images/2.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/images/3.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-1.html
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-2.html
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-3.html
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/privacy.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/product.php?pic=1
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/product.php?pic=2
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/product.php?pic=3
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/product.php?pic=4
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/product.php?pic=5
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/product.php?pic=6
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/product.php?pic=7
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/robots.txt
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/secured/style.css
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file='%20+%20pict.item(0).firstChild.nodeValue%20+%20'
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg&size=160
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg&size=160
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg&size=160
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg&size=160
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg&size=160
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg&size=160
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg&size=160
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/signup.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/sitemap.xml
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/style.css
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/userinfo.php
-    Method: GET
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: GET
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: POST
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: POST
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: POST
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: POST
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/secured/newuser.php
-    Method: POST
-    Evidence: nginx/1.19.0
-    Other Info: 
+
+  Method: POST
+  Evidence: nginx/1.19.0
 
   URI: http://testphp.vulnweb.com/userinfo.php
-    Method: POST
-    Evidence: nginx/1.19.0
-    Other Info: 
 
-  Alert: X-Content-Type-Options Header Missing, Risk: Low (Medium)
-  Description: <p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>
+  Method: POST
+  Evidence: nginx/1.19.0
 
+Alert: X-Content-Type-Options Header Missing, Risk: Low (Medium), Confidence: 2
+Description: <p>The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/AJAX/index.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/AJAX/styles.css
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/artists.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=1
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=2
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=3
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/categories.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/disclaimer.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Flash/add.swf
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/hpp/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/hpp/?pp=12
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/hpp/params.php?p=valid&pp=12
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/images/logo.gif
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/images/remark.gif
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/index.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=1
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=2
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=3
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=1
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=2
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=3
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=4
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/login.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-1/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-2/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/BuyProduct-3/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/color-printer/3/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/network-attached-storage-dlink/1/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/Details/web-camera-a4tech/2/
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/images/1.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/images/2.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/images/3.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-1.html
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-2.html
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/Mod_Rewrite_Shop/RateProduct-3.html
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/product.php?pic=1
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/product.php?pic=2
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/product.php?pic=3
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/product.php?pic=4
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/product.php?pic=5
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/product.php?pic=6
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/product.php?pic=7
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/secured/style.css
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file='%20+%20pict.item(0).firstChild.nodeValue%20+%20'
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg&size=160
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg&size=160
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg&size=160
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg&size=160
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg&size=160
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg&size=160
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg&size=160
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/signup.php
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/style.css
-    Method: GET
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: GET
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: POST
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: POST
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: POST
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: POST
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
   URI: http://testphp.vulnweb.com/secured/newuser.php
-    Method: POST
-    Evidence: 
-    Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
+
+  Method: POST
+  Other Info: This issue still applies to error type pages (401, 403, 500, etc.) as those pages are often still affected by injection issues, in which case there is still concern for browsers sniffing pages away from their actual content type.
 At "High" threshold this scan rule will not alert on client or server error responses.
 
-  Alert: Authentication Request Identified, Risk: Informational (Low)
-  Description: <p>The given request has been identified as an authentication request. The 'Other Info' field contains a set of key=value lines which identify any relevant fields. If the request is in a context which has an Authentication Method set to "Auto-Detect" then this rule will change the authentication to match the request identified.</p>
-
+Alert: Authentication Request Identified, Risk: Informational (Low), Confidence: 1
+Description: <p>The given request has been identified as an authentication request. The 'Other Info' field contains a set of key=value lines which identify any relevant fields. If the request is in a context which has an Authentication Method set to "Auto-Detect" then this rule will change the authentication to match the request identified.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/secured/newuser.php
-    Method: POST
-    Evidence: upass
-    Other Info: userParam=uemail
+
+  Method: POST
+  Evidence: upass
+  Other Info: userParam=uemail
 userValue=ZAP
 passwordParam=upass
 referer=http://testphp.vulnweb.com/signup.php
 
-  Alert: Charset Mismatch (Header Versus Meta Content-Type Charset), Risk: Informational (Low)
-  Description: <p>This check identifies responses where the HTTP Content-Type header declares a charset different from the charset defined by the body of the HTML or XML. When there's a charset mismatch between the HTTP header and content body Web browsers can be forced into an undesirable content-sniffing mode to determine the content's correct character set.</p><p></p><p>An attacker could manipulate content on the page to be interpreted in an encoding of their choice. For example, if an attacker can control content at the beginning of the page, they could inject script using UTF-7 encoded text and manipulate some browsers into interpreting that text.</p>
-
+Alert: Charset Mismatch (Header Versus Meta Content-Type Charset), Risk: Informational (Low), Confidence: 1
+Description: <p>This check identifies responses where the HTTP Content-Type header declares a charset different from the charset defined by the body of the HTML or XML. When there's a charset mismatch between the HTTP header and content body Web browsers can be forced into an undesirable content-sniffing mode to determine the content's correct character set.</p><p></p><p>An attacker could manipulate content on the page to be interpreted in an encoding of their choice. For example, if an attacker can control content at the beginning of the page, they could inject script using UTF-7 encoded text and manipulate some browsers into interpreting that text.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/AJAX/index.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-1] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-1] do not match.
 
   URI: http://testphp.vulnweb.com/artists.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=1
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=2
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=3
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/categories.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/disclaimer.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/index.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=1
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=2
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=3
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=1
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=2
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=3
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=4
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/login.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/product.php?pic=1
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/product.php?pic=2
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/product.php?pic=3
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/product.php?pic=4
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/product.php?pic=5
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/product.php?pic=6
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/product.php?pic=7
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/signup.php
-    Method: GET
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: GET
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/cart.php
-    Method: POST
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: POST
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: POST
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
+
+  Method: POST
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-2] do not match.
 
   URI: http://testphp.vulnweb.com/secured/newuser.php
-    Method: POST
-    Evidence: 
-    Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-1] do not match.
 
-  Alert: Information Disclosure - Suspicious Comments, Risk: Informational (Low)
-  Description: <p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>
+  Method: POST
+  Other Info: There was a charset mismatch between the HTTP Header and the META content-type encoding declarations: [UTF-8] and [iso-8859-1] do not match.
 
+Alert: Information Disclosure - Suspicious Comments, Risk: Informational (Low), Confidence: 1
+Description: <p>The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/AJAX/index.php
-    Method: GET
-    Evidence: where
-    Other Info: The following pattern was used: \bWHERE\b and was detected in the element starting with: "<script type="text/javascript">
+
+  Method: GET
+  Evidence: where
+  Other Info: The following pattern was used: \bWHERE\b and was detected in the element starting with: "<script type="text/javascript">
 	var httpreq = null;	
 
 	function SetContent(XML) {
 		var items = XML.getElementsByTagName('i", see evidence field for the suspicious comment/snippet.
 
-  Alert: Modern Web Application, Risk: Informational (Medium)
-  Description: <p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>
-
+Alert: Modern Web Application, Risk: Informational (Medium), Confidence: 2
+Description: <p>The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/AJAX/index.php
-    Method: GET
-    Evidence: <a href="#" onclick="loadSomething('titles.php')">titles</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
+
+  Method: GET
+  Evidence: <a href="#" onclick="loadSomething('titles.php')">titles</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
   URI: http://testphp.vulnweb.com/artists.php
-    Method: GET
-    Evidence: <a href='#' onClick="window.open('./comment.php?aid=1','comment','width=500,height=400')">comment on this artist</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
+
+  Method: GET
+  Evidence: <a href='#' onClick="window.open('./comment.php?aid=1','comment','width=500,height=400')">comment on this artist</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=1
-    Method: GET
-    Evidence: <a href='#' onClick="window.open('./comment.php?aid=1','comment','width=500,height=400')">comment on this artist</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
+
+  Method: GET
+  Evidence: <a href='#' onClick="window.open('./comment.php?aid=1','comment','width=500,height=400')">comment on this artist</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=2
-    Method: GET
-    Evidence: <a href='#' onClick="window.open('./comment.php?aid=2','comment','width=500,height=400')">comment on this artist</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
+
+  Method: GET
+  Evidence: <a href='#' onClick="window.open('./comment.php?aid=2','comment','width=500,height=400')">comment on this artist</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
   URI: http://testphp.vulnweb.com/artists.php?artist=3
-    Method: GET
-    Evidence: <a href='#' onClick="window.open('./comment.php?aid=3','comment','width=500,height=400')">comment on this artist</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
+
+  Method: GET
+  Evidence: <a href='#' onClick="window.open('./comment.php?aid=3','comment','width=500,height=400')">comment on this artist</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=1
-    Method: GET
-    Evidence: <a href='#' onClick="window.open('./comment.php?pid=1','comment','width=500,height=400')">comment on this picture</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
+
+  Method: GET
+  Evidence: <a href='#' onClick="window.open('./comment.php?pid=1','comment','width=500,height=400')">comment on this picture</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
   URI: http://testphp.vulnweb.com/listproducts.php?artist=2
-    Method: GET
-    Evidence: <a href='#' onClick="window.open('./comment.php?pid=7','comment','width=500,height=400')">comment on this picture</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
+
+  Method: GET
+  Evidence: <a href='#' onClick="window.open('./comment.php?pid=7','comment','width=500,height=400')">comment on this picture</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=1
-    Method: GET
-    Evidence: <a href='#' onClick="window.open('./comment.php?pid=1','comment','width=500,height=400')">comment on this picture</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
+
+  Method: GET
+  Evidence: <a href='#' onClick="window.open('./comment.php?pid=1','comment','width=500,height=400')">comment on this picture</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
   URI: http://testphp.vulnweb.com/listproducts.php?cat=2
-    Method: GET
-    Evidence: <a href='#' onClick="window.open('./comment.php?pid=6','comment','width=500,height=400')">comment on this picture</a>
-    Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
-  Alert: User Controllable HTML Element Attribute (Potential XSS), Risk: Informational (Low)
-  Description: <p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>
+  Method: GET
+  Evidence: <a href='#' onClick="window.open('./comment.php?pid=6','comment','width=500,height=400')">comment on this picture</a>
+  Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
 
+Alert: User Agent Fuzzer, Risk: Informational (Medium), Confidence: 2
+Description: <p>Check for differences in response based on fuzzed User Agent (eg. mobile sites, access as a Search Engine Crawler). Compares the response statuscode and the hashcode of the response body with the original response.</p>
+Instances:
+
+  URI: http://testphp.vulnweb.com/
+
+  Method: GET
+
+  URI: http://testphp.vulnweb.com/
+
+  Method: GET
+
+  URI: http://testphp.vulnweb.com/
+
+  Method: GET
+
+Alert: User Controllable HTML Element Attribute (Potential XSS), Risk: Informational (Low), Confidence: 1
+Description: <p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>
 Instances:
 
   URI: http://testphp.vulnweb.com/guestbook.php
-    Method: POST
-    Evidence: 
-    Other Info: User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
+
+  Method: POST
+  Other Info: User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
 
 http://testphp.vulnweb.com/guestbook.php
 
@@ -1838,9 +1770,9 @@ The user-controlled value was:
 add message
 
   URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: 
-    Other Info: User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
+
+  Method: POST
+  Other Info: User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
 
 http://testphp.vulnweb.com/search.php?test=query
 
@@ -1854,9 +1786,9 @@ The user-controlled value was:
 gobutton
 
   URI: http://testphp.vulnweb.com/search.php?test=query
-    Method: POST
-    Evidence: 
-    Other Info: User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
+
+  Method: POST
+  Other Info: User-controlled HTML attribute values were found. Try injecting special characters to see if XSS might be possible. The page at the following URL:
 
 http://testphp.vulnweb.com/search.php?test=query
 
