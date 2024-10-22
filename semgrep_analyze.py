@@ -13,7 +13,7 @@ class SemgrepAnalyzer:
         command = (
             f"/home/quarius/.local/bin/semgrep scan {self.directory} " # Semgreps location in wsl and directory for scan
             f"--output {self.output_file} " # Output file's directory
-            f"--text -v --include '*.css' --include '*.html' --include '*.js'" # Data types to scan/ --text, json, SARIF... these formats can be used too.
+            f"--json --include '*.css' --include '*.html' --include '*.js'" # Data types to scan/ --text, json, SARIF... these formats can be used too.
         )
         
         # Wsl shell subprocess for semgrep scan

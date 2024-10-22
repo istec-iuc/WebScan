@@ -18,3 +18,5 @@ nmap
 sqlmap
 zap
 
+Simplify nmap result
+Create new basic report

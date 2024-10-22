@@ -13,7 +13,7 @@ from semgrep_analyze import SemgrepAnalyzer
 from nmap_scanner import NmapScan
 from zap_scanner import ZapScan
 from SQLmap import SQLScan
-from json_parser import ZAPReportParser
+from json_parser import JSONParser, ZAPParser, SemgrepParser
 
 # Her alt sayfayı ziyaret eden fonksiyon
 async def fetch_all_links(url, save_dir):
@@ -226,79 +226,84 @@ async def main():
     # ---Fetch---
 
     # ---Semgrep---
-    directory="/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles" # Semgreple scanlenecek dosya 
-    semgrep_config="" # Semgrep ayarları için kullanılacak dosya (Boş bırakırsan default configi kullanır)
-    output_file="/mnt/c/Users/erngu/source/repos/WebScan/SemgrepOutput/results.txt" # Semgrep scan sonucu
-    analyzer = SemgrepAnalyzer(directory, output_file)
-    analyzer.analyze()
+    # directory="/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles" # Semgreple scanlenecek dosya 
+    # semgrep_config="" # Semgrep ayarları için kullanılacak dosya (Boş bırakırsan default configi kullanır)
+    # output_file="/mnt/c/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json" # Semgrep scan sonucu
+    # analyzer = SemgrepAnalyzer(directory, output_file)
+    # analyzer.analyze()
     # scan_file="C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json" # pretty_json fonksiyonu için dosya konumu
     # pretty_json(scan_file) # JSON dosyasını daha okunaklı hale getirir
     # Semgrep report
-    MainHeader = "Static and Dynamic Analysis Report"
-    Desc = "This report provides a static and dynamic analysis of the target. It uses semgrep for static analysis. OWASP ZAP, NMAP and SQLMAP for dynamic analysis"
-    source = "C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.txt"
-    destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
-    header = "---SEMGREP---" # Header for report
-    create_report(source, destination, header, MainHeader, Desc)
+    with open("C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json", "r") as json_file:
+        json_data = json.load(json_file)
+    #semgrep_json = "C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json"
+    parser = SemgrepParser(json_data)
+    parsed_report = parser.parse_report()
+    impact_count = parser.risk_counter(parsed_report)
+    latex_file_path = "C:/Users/erngu/source/repos/WebScan/LatexReport.tex"
+    parser.update_latex_with_risks(impact_count, latex_file_path)
+    
+    print(f"Semgrep report processed, Latex file updated")
+
     # ---Semgrep---
 
     # ---Nmap---
-    output_file = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"  
-    nmap_target = "scanme.nmap.org"
-    nmap_analyzer = NmapScan(output_file, nmap_target)
-    nmap_analyzer.basic_scan()
-    xml_file = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"
-    json_output = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.json"
-    xml_to_json(xml_file, json_output)
+    # output_file = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"  
+    # nmap_target = "scanme.nmap.org"
+    # nmap_analyzer = NmapScan(output_file, nmap_target)
+    # nmap_analyzer.basic_scan()
+    # xml_file = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"
+    # json_output = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.json"
+    # xml_to_json(xml_file, json_output)
     # Nmap Report Creation
-    source = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"
-    destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
-    header = "\n---Nmap---\n"
-    create_report(source, destination, header)
+    # source = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"
+    # destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
+    # header = "\n---Nmap---\n"
+    # create_report(source, destination, header)
     # ---Nmap---
 
     # ---ZAP---
-    zap_dir = "C:/Program Files/ZAP/Zed Attack Proxy"
-    zap_target = "http://testphp.vulnweb.com/"
-    zap_output = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_results.json"
-    zap_analyze = ZapScan(zap_target, zap_output, zap_dir)
-    zap_analyze.quick_scan()
+    # zap_dir = "C:/Program Files/ZAP/Zed Attack Proxy"
+    # zap_target = "http://testphp.vulnweb.com/"
+    # zap_output = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_results.json"
+    # zap_analyze = ZapScan(zap_target, zap_output, zap_dir)
+    # zap_analyze.quick_scan()
     
     # Zap report file creation
-    json_file_path = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_results.json"
+    # json_file_path = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_results.json"
 
     # Read the JSON file
-    with open(json_file_path, "r") as file:
-        json_data = json.load(file)
+    # with open(json_file_path, "r") as file:
+    #     json_data = json.load(file)
      
     # Formats the JSON file
-    output_file_path = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_report.txt" # Zap report file dir
-    parser = ZAPReportParser(json_data)
-    report = parser.parse_report()
-    parser.print_report(report) # Prints report to the cmd
-    parser.save_report_to_file(report, output_file_path) # Saves zap report as txt file
+    # output_file_path = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_report.txt" # Zap report file dir
+    # parser = ZAPParser(json_data)
+    # report = parser.parse_report()
+    # parser.print_report(report) # Prints report to the cmd
+    # parser.save_report_to_file(report, output_file_path) # Saves zap report as txt file
 
     # Saving zap report to the main report file
-    source = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_report.txt"
-    destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
-    header = "\n---ZAP---\n"
-    create_report(source, destination, header)
+    # source = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_report.txt"
+    # destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
+    # header = "\n---ZAP---\n"
+    # create_report(source, destination, header)
     # ---ZAP---
 
     # ---SQLMAP---
-    sql_target = "http://testphp.vulnweb.com/artists.php?artist=1" 
-    sql_output_dir = "C:/Users/erngu/source/repos/WebScan/SqlOutput"
-    sql_dir = "C:/Users/erngu/AppData/Local/Programs/sqlmap/"
-    SQLmap = SQLScan(sql_target, sql_output_dir, sql_dir)
-    SQLmap.quick_sqlmap()
+    # sql_target = "http://testphp.vulnweb.com/artists.php?artist=1" 
+    # sql_output_dir = "C:/Users/erngu/source/repos/WebScan/SqlOutput"
+    # sql_dir = "C:/Users/erngu/AppData/Local/Programs/sqlmap/"
+    # SQLmap = SQLScan(sql_target, sql_output_dir, sql_dir)
+    # SQLmap.quick_sqlmap()
     #sql_xml = "C:/Users/erngu/source/repos/WebScan/SqlOutput/sql_results.xml"  # Don't need this part 
     #sql_json = "C:/Users/erngu/source/repos/WebScan/SqlOutput/sql_results.json" # Don't need this part
     #xml_to_json(sql_xml, sql_json) # Don't need this part
     # Report Creation
-    source = "C:/Users/erngu/source/repos/WebScan/SqlOutput/testphp.vulnweb.com/log"
-    destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
-    header = "\n---SQLMAP---\n"
-    create_report(source, destination, header)
+    # source = "C:/Users/erngu/source/repos/WebScan/SqlOutput/testphp.vulnweb.com/log"
+    # destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
+    # header = "\n---SQLMAP---\n"
+    # create_report(source, destination, header)
     # ---SQLMAP---
 
     # ---JSON Parser---

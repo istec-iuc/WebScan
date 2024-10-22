@@ -197,7 +197,15 @@ Instances:
 
   Method: GET
 
+  URI: http://testphp.vulnweb.com/robots.txt
+
+  Method: GET
+
   URI: http://testphp.vulnweb.com/signup.php
+
+  Method: GET
+
+  URI: http://testphp.vulnweb.com/sitemap.xml
 
   Method: GET
 
@@ -229,6 +237,10 @@ Instances:
 
   Method: GET
 
+  URI: http://testphp.vulnweb.com/artists.php
+
+  Method: GET
+
   URI: http://testphp.vulnweb.com/artists.php?artist=1
 
   Method: GET
@@ -246,6 +258,10 @@ Instances:
   Method: GET
 
   URI: http://testphp.vulnweb.com/categories.php
+
+  Method: GET
+
+  URI: http://testphp.vulnweb.com/disclaimer.php
 
   Method: GET
 
@@ -1732,22 +1748,6 @@ Instances:
   Method: GET
   Evidence: <a href='#' onClick="window.open('./comment.php?pid=6','comment','width=500,height=400')">comment on this picture</a>
   Other Info: Links have been found that do not have traditional href attributes, which is an indication that this is a modern web application.
-
-Alert: User Agent Fuzzer, Risk: Informational (Medium), Confidence: 2
-Description: <p>Check for differences in response based on fuzzed User Agent (eg. mobile sites, access as a Search Engine Crawler). Compares the response statuscode and the hashcode of the response body with the original response.</p>
-Instances:
-
-  URI: http://testphp.vulnweb.com/
-
-  Method: GET
-
-  URI: http://testphp.vulnweb.com/
-
-  Method: GET
-
-  URI: http://testphp.vulnweb.com/
-
-  Method: GET
 
 Alert: User Controllable HTML Element Attribute (Potential XSS), Risk: Informational (Low), Confidence: 1
 Description: <p>This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability.</p>
