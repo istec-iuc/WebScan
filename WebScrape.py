@@ -1,5 +1,5 @@
 import asyncio
-from pyppeteer import launch
+from playwright.async_api import async_playwright
 from bs4 import BeautifulSoup
 import os
 import subprocess
@@ -17,28 +17,29 @@ from json_parser import JSONParser, ZAPParser, SemgrepParser
 
 # Her alt sayfayı ziyaret eden fonksiyon
 async def fetch_all_links(url, save_dir):
-    browser = await launch()
-    page = await browser.newPage()
+    async with async_playwright() as p:
+        browser = await p.chromium.launch()
+        page = await browser.new_page()
 
-    await page.goto(url, {"waitUntil": "networkidle2"})
-    
-    # Ana sayfa içeriğini çeker
-    html = await page.content()
-    soup = BeautifulSoup(html, "html.parser")
+        await page.goto(url, wait_until="networkidle")
+        
+        # Ana sayfa içeriğini çeker
+        html = await page.content()
+        soup = BeautifulSoup(html, "html.parser")
 
-    # Tüm linkleri bulur ve her birini ziyaret eder
-    links = set()
-    for a_tag in soup.find_all("a", href=True):
-        link = urllib.parse.urljoin(url, a_tag["href"])
-        if link not in links and urllib.parse.urlparse(link).netloc == urllib.parse.urlparse(url).netloc:
-            links.add(link)
-            await fetch_page(page, link, save_dir)
+        # Tüm linkleri bulur ve her birini ziyaret eder
+        links = set()
+        for a_tag in soup.find_all("a", href=True):
+            link = urllib.parse.urljoin(url, a_tag["href"])
+            if link not in links and urllib.parse.urlparse(link).netloc == urllib.parse.urlparse(url).netloc:
+                links.add(link)
+                await fetch_page(page, link, save_dir)
 
-    await browser.close()
+        await browser.close()
     
 async def fetch_page(page, url, save_dir):
     # Sayfaya git
-    await page.goto(url, {"waitUntil": "networkidle2"})
+    await page.goto(url, wait_until="networkidle")
     
     # Sayfa içeriğini çeker
     html = await page.content()
@@ -47,29 +48,27 @@ async def fetch_page(page, url, save_dir):
     # URL'den dosya adını ve dizin yolunu oluştur
     parsed_url = urllib.parse.urlparse(url)
     path = parsed_url.path.strip("/")
-    print(f"PAth: {path}")
+    print(f"Path: {path}")
     
     # Eğer path boşsa, 'index' dizini oluştur, boş olmayan path için klasörler oluştur
     if not path:
         path = 'index'
     
-
     # Ana dizin yapısı: Kayıt dizini + temizlenmiş yol
-    dir_path = os.path.join(save_dir, path, f"main")
+    dir_path = os.path.join(save_dir, path, "main")
     dir_path = convert_path_separators(dir_path)
     print(f"dir path: {dir_path}")
 
     # Dosya adını oluştur
-    file_name = generate_filename(os.path.basename(path), parsed_url, dir_path) if path else "index"
+    file_name = generate_filename(os.path.basename(path), parsed_url, dir_path) if path else "index.html"
     file_path = os.path.join(dir_path, file_name)
-
     file_path = convert_path_separators(file_path)
     print(f"file_path: {file_path}")
 
     # Ana dizini oluştur (dizin yapısını oluştur)
     if not os.path.exists(dir_path):
         os.makedirs(dir_path, exist_ok=True)
-        print(f"Dizin olusturuldu: {dir_path}")
+        print(f"Dizin oluşturuldu: {dir_path}")
  
     # Bütün kaynak dosyalarını kaydeder
     await download_all_resources(soup, url, dir_path)
@@ -77,7 +76,7 @@ async def fetch_page(page, url, save_dir):
     # Sayfa HTML'ini dosyaya kaydeder
     with open(file_path, "w", encoding="utf-8") as file:
         file.write(html)
-        print(f"Dosya yazildi: {file_path}")
+        print(f"Dosya yazıldı: {file_path}")
     
 
 # Bütün source dosyalarını kaydeden fonksiyon
@@ -217,7 +216,7 @@ def create_report(source_file, destination_file, Header, MainHeader=None, Descri
 async def main():
     # ---Fetch---
     url = "http://www.scrapethissite.com/pages/" # Hedef URL
-    save_dir = "C:/Users/erngu/source/repos/WebScan/ScrapedFiles" # Source dosyaları bu klasöre kaydedilir
+    save_dir = "C:/Users/Administrator/source/repos/WebScan/ScrapedFiles" # Source dosyaları bu klasöre kaydedilir
     
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
@@ -226,38 +225,40 @@ async def main():
     # ---Fetch---
 
     # ---Semgrep---
-    # directory="/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles" # Semgreple scanlenecek dosya 
+    # directory="/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles" # Semgreple scanlenecek dosya 
     # semgrep_config="" # Semgrep ayarları için kullanılacak dosya (Boş bırakırsan default configi kullanır)
-    # output_file="/mnt/c/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json" # Semgrep scan sonucu
+    # output_file="/mnt/c/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json" # Semgrep scan sonucu
     # analyzer = SemgrepAnalyzer(directory, output_file)
     # analyzer.analyze()
-    # scan_file="C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json" # pretty_json fonksiyonu için dosya konumu
+    # scan_file="C:/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json" # pretty_json fonksiyonu için dosya konumu
     # pretty_json(scan_file) # JSON dosyasını daha okunaklı hale getirir
     # Semgrep report
-    with open("C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json", "r") as json_file:
+    with open("C:/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json", "r") as json_file:
         json_data = json.load(json_file)
-    #semgrep_json = "C:/Users/erngu/source/repos/WebScan/SemgrepOutput/results.json"
     parser = SemgrepParser(json_data)
     parsed_report = parser.parse_report()
-    impact_count = parser.risk_counter(parsed_report)
-    latex_file_path = "C:/Users/erngu/source/repos/WebScan/LatexReport.tex"
-    parser.update_latex_with_risks(impact_count, latex_file_path)
+    # impact_count = parser.risk_counter(parsed_report)
+    latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
+    # parser.update_latex_with_risks(impact_count, latex_file_path)
+    # parser.update_latex_with_category(parsed_report, latex_file_path)
+    parser.update_vuln_by_page(parsed_report, latex_file_path)
+
     
-    print(f"Semgrep report processed, Latex file updated")
+    # print(f"Semgrep report processed, Latex file updated")
 
     # ---Semgrep---
 
     # ---Nmap---
-    # output_file = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"  
+    # output_file = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.xml"  
     # nmap_target = "scanme.nmap.org"
     # nmap_analyzer = NmapScan(output_file, nmap_target)
     # nmap_analyzer.basic_scan()
-    # xml_file = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"
-    # json_output = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.json"
+    # xml_file = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.xml"
+    # json_output = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.json"
     # xml_to_json(xml_file, json_output)
     # Nmap Report Creation
-    # source = "C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml"
-    # destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
+    # source = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.xml"
+    # destination = "C:/Users/Administrator/source/repos/WebScan/Report/report.txt"
     # header = "\n---Nmap---\n"
     # create_report(source, destination, header)
     # ---Nmap---
@@ -265,56 +266,56 @@ async def main():
     # ---ZAP---
     # zap_dir = "C:/Program Files/ZAP/Zed Attack Proxy"
     # zap_target = "http://testphp.vulnweb.com/"
-    # zap_output = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_results.json"
+    # zap_output = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json"
     # zap_analyze = ZapScan(zap_target, zap_output, zap_dir)
     # zap_analyze.quick_scan()
     
     # Zap report file creation
-    # json_file_path = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_results.json"
+    # json_file_path = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json"
 
     # Read the JSON file
     # with open(json_file_path, "r") as file:
     #     json_data = json.load(file)
      
     # Formats the JSON file
-    # output_file_path = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_report.txt" # Zap report file dir
+    # output_file_path = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_report.txt" # Zap report file dir
     # parser = ZAPParser(json_data)
     # report = parser.parse_report()
     # parser.print_report(report) # Prints report to the cmd
     # parser.save_report_to_file(report, output_file_path) # Saves zap report as txt file
 
     # Saving zap report to the main report file
-    # source = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_report.txt"
-    # destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
+    # source = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_report.txt"
+    # destination = "C:/Users/Administrator/source/repos/WebScan/Report/report.txt"
     # header = "\n---ZAP---\n"
     # create_report(source, destination, header)
     # ---ZAP---
 
     # ---SQLMAP---
     # sql_target = "http://testphp.vulnweb.com/artists.php?artist=1" 
-    # sql_output_dir = "C:/Users/erngu/source/repos/WebScan/SqlOutput"
-    # sql_dir = "C:/Users/erngu/AppData/Local/Programs/sqlmap/"
+    # sql_output_dir = "C:/Users/Administrator/source/repos/WebScan/SqlOutput"
+    # sql_dir = "C:/Users/Administrator/Programs/sqlmap-dev/"
     # SQLmap = SQLScan(sql_target, sql_output_dir, sql_dir)
     # SQLmap.quick_sqlmap()
-    #sql_xml = "C:/Users/erngu/source/repos/WebScan/SqlOutput/sql_results.xml"  # Don't need this part 
-    #sql_json = "C:/Users/erngu/source/repos/WebScan/SqlOutput/sql_results.json" # Don't need this part
-    #xml_to_json(sql_xml, sql_json) # Don't need this part
+    # sql_xml = "C:/Users/Administrator/source/repos/WebScan/SqlOutput/sql_results.xml"  # Don't need this part 
+    # sql_json = "C:/Users/Administrator/source/repos/WebScan/SqlOutput/sql_results.json" # Don't need this part
+    # xml_to_json(sql_xml, sql_json) # Don't need this part
     # Report Creation
-    # source = "C:/Users/erngu/source/repos/WebScan/SqlOutput/testphp.vulnweb.com/log"
-    # destination = "C:/Users/erngu/source/repos/WebScan/Report/report.txt"
+    # source = "C:/Users/Administrator/source/repos/WebScan/SqlOutput/testphp.vulnweb.com/log"
+    # destination = "C:/Users/Administrator/source/repos/WebScan/Report/report.txt"
     # header = "\n---SQLMAP---\n"
     # create_report(source, destination, header)
     # ---SQLMAP---
 
     # ---JSON Parser---
     # Zap report file creation
-    # json_file_path = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_results.json"
+    # json_file_path = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json"
 
     # # Read the JSON file
     # with open(json_file_path, "r") as file:
     #     json_data = json.load(file)
      
-    # output_file_path = "C:/Users/erngu/source/repos/WebScan/ZapOutput/zap_report.txt" # Zap report file dir
+    # output_file_path = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_report.txt" # Zap report file dir
     # parser = ZAPReportParser(json_data)
     # report = parser.parse_report()
     # parser.print_report(report) # Prints report to the cmd

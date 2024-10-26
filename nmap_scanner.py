@@ -1,5 +1,5 @@
 import subprocess
-import nmap
+#import nmap
 
 # You can add XML JSON converter and parse JSON file for the last part of the project.
 

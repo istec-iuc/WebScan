@@ -1,9 +1,9 @@
 {
     "nmaprun": {
         "@scanner": "nmap",
-        "@args": "nmap -oX C:/Users/erngu/source/repos/WebScan/NmapOutput/nmap_results.xml scanme.nmap.org",
-        "@start": "1729499436",
-        "@startstr": "Mon Oct 21 11:30:36 2024",
+        "@args": "nmap -oX C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.xml scanme.nmap.org",
+        "@start": "1729784184",
+        "@startstr": "Thu Oct 24 18:36:24 2024",
         "@version": "7.95",
         "@xmloutputversion": "1.05",
         "scaninfo": {
@@ -36,11 +36,11 @@
             }
         },
         "host": {
-            "@starttime": "1729499437",
-            "@endtime": "1729499443",
+            "@starttime": "1729784185",
+            "@endtime": "1729784189",
             "status": {
                 "@state": "up",
-                "@reason": "echo-reply",
+                "@reason": "reset",
                 "@reason_ttl": "33"
             },
             "address": {
@@ -144,17 +144,17 @@
                 ]
             },
             "times": {
-                "@srtt": "188779",
-                "@rttvar": "375",
-                "@to": "190279"
+                "@srtt": "189165",
+                "@rttvar": "419",
+                "@to": "190841"
             }
         },
         "runstats": {
             "finished": {
-                "@time": "1729499443",
-                "@timestr": "Mon Oct 21 11:30:43 2024",
-                "@summary": "Nmap done at Mon Oct 21 11:30:43 2024; 1 IP address (1 host up) scanned in 6.75 seconds",
-                "@elapsed": "6.75",
+                "@time": "1729784189",
+                "@timestr": "Thu Oct 24 18:36:29 2024",
+                "@summary": "Nmap done at Thu Oct 24 18:36:29 2024; 1 IP address (1 host up) scanned in 4.46 seconds",
+                "@elapsed": "4.46",
                 "@exit": "success"
             },
             "hosts": {

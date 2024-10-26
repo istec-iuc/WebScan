@@ -1,4 +1,5 @@
 import json
+from unittest import result
 
 class JSONParser:
     def __init__(self, json_data):
@@ -78,19 +79,19 @@ class SemgrepParser(JSONParser):
             # Extract relevant information for each result
             parsed_result = {
                 #"check_id": result.get("check_id"),
-                #"path": result.get("path"),
-                #"start_line": result["start"]["line"],
-                #"start_col": result["start"]["col"],
-                #"end_line": result["end"]["line"],
-                #"end_col": result["end"]["col"],
-                #"message": result["extra"].get("message", ""),
+                "path": result.get("path"),
+                "start_line": result["start"]["line"],
+                "start_col": result["start"]["col"],
+                "end_line": result["end"]["line"],
+                "end_col": result["end"]["col"],
+                "message": result["extra"].get("message", ""),
                 "confidence": result["extra"]["metadata"].get("confidence"),
                 "impact": result["extra"]["metadata"].get("impact"),
                 #"cwe": result["extra"]["metadata"].get("cwe", []),
                 #"owasp": result["extra"]["metadata"].get("owasp", []),
                 #"references": result["extra"]["metadata"].get("references", []),
                 #"technology": result["extra"]["metadata"].get("technology", []),
-                #"vulnerability_class": result["extra"]["metadata"].get("vulnerability_class", []),
+                "vulnerability_class": result["extra"]["metadata"].get("vulnerability_class", []),
                 #"taint_source": result["extra"]["dataflow_trace"].get("taint_source", []),
                 #"taint_sink": result["extra"]["dataflow_trace"].get("taint_sink", []),
             }
@@ -130,3 +131,70 @@ class SemgrepParser(JSONParser):
             file.write(latex_content)
 
         print(f"Updated LaTeX file at {latex_file_path} with risk counts.")
+    
+    def update_latex_with_category(self, parsed_report, latex_file_path):
+        # Collect categories and their counts from the parsed report
+        category_counts = {}
+        for result in parsed_report:
+            if result.get("vulnerability_class"):
+                for category in result["vulnerability_class"]:
+                    if category in category_counts:
+                        category_counts[category] += 1
+                    else:
+                        category_counts[category] = 1
+
+        # Read the LaTeX file
+        with open(latex_file_path, "r") as file:
+            latex_content = file.read()
+
+        # Create LaTeX formatted list items for the categories with counts
+        category_items = ""
+        for i, (category, count) in enumerate(category_counts.items(), start=1):
+            category_items += f"\\item Category {i}: {category} | {count}\n"
+
+        # Replace the placeholder with actual category list items
+        latex_content = latex_content.replace("\item Categories:", category_items)
+
+        # Write the updated LaTeX content back to the file
+        with open(latex_file_path, "w") as file:
+            file.write(latex_content)
+
+        print(f"Updated LaTeX file at {latex_file_path} with category items.")
+
+    def update_vuln_by_page(self, parsed_report, latex_file_path):
+        # Read the LaTeX file
+        with open(latex_file_path, "r") as file:
+            latex_content = file.read()
+
+        # Create LaTeX formatted items for vulnerabilities
+        vuln_items = ""
+        for vulnerability in parsed_report:
+            path = vulnerability.get("path", "N/A")
+            vuln_class = vulnerability.get("vulnerability_class", "N/A")
+            start = vulnerability.get("start", "N/A")
+            end = vulnerability.get("end", "N/A")
+            message = vulnerability.get("message", "N/A")
+
+            # Formatted for LaTeX
+            message = message.replace("{", "\\{").replace("}", "\\}")
+            message = message.replace("\\url", "\\\\url")
+            #message = message.replace("", "")
+        
+            # Construct LaTeX formatted items
+            vuln_items += (
+                f"\\item \\textbf{{Path:}} \\{{{path}\\}} \\\\ \n"
+                f"\\item \\textbf{{Vulnerability Class:}} \\{{{vuln_class}\\}} \\\\ \n"
+                f"\\item \\textbf{{Start:}} \\{{{start}\\}} \\\\ \n"
+                f"\\item \\textbf{{End:}} \\{{{end}\\}} \\\\ \n"
+                f"\\item \\textbf{{Message:}} \\{{{message}\\}} \\\\ \n"          
+            )
+
+        # Replace the placeholder with actual vulnerability items
+        latex_content = latex_content.replace("%Vulnerabilities by Page:", vuln_items)
+
+        # Write the updated LaTeX content back to the file
+        with open(latex_file_path, "w") as file:
+            file.write(latex_content)
+
+        print(f"Updated LaTeX file at {latex_file_path} with vulnerability items.")
+

@@ -1,9 +1,234 @@
 
 Site: http://testphp.vulnweb.com
 
+Alert: Cross Site Scripting (DOM Based), Risk: High (High), Confidence: 3
+Description: <p>Cross-site Scripting (XSS) is an attack technique that involves echoing attacker-supplied code into a user's browser instance. A browser instance can be a standard web browser client, or a browser object embedded in a software product such as the browser within WinAmp, an RSS reader, or an email client. The code itself is usually written in HTML/JavaScript, but may also extend to VBScript, ActiveX, Java, Flash, or any other browser-supported technology.</p><p>When an attacker gets a user's browser to execute his/her code, the code will run within the security context (or zone) of the hosting web site. With this level of privilege, the code has the ability to read, modify and transmit any sensitive data accessible by the browser. A Cross-site Scripted user could have his/her account hijacked (cookie theft), their browser redirected to another location, or possibly shown fraudulent content delivered by the web site they are visiting. Cross-site Scripting attacks essentially compromise the trust relationship between a user and the web site. Applications utilizing browser object instances which load content from the file system may execute code under the local machine zone allowing for system compromise.</p><p></p><p>There are three types of Cross-site Scripting attacks: non-persistent, persistent and DOM-based.</p><p>Non-persistent attacks and DOM-based attacks require a user to either visit a specially crafted link laced with malicious code, or visit a malicious web page containing a web form, which when posted to the vulnerable site, will mount the attack. Using a malicious form will oftentimes take place when the vulnerable resource only accepts HTTP POST requests. In such a case, the form can be submitted automatically, without the victim's knowledge (e.g. by using JavaScript). Upon clicking on the malicious link or submitting the malicious form, the XSS payload will get echoed back and will get interpreted by the user's browser and execute. Another technique to send almost arbitrary requests (GET and POST) is by using an embedded client, such as Adobe Flash.</p><p>Persistent attacks occur when the malicious code is submitted to a web site where it's stored for a period of time. Examples of an attacker's favorite targets often include message board posts, web mail messages, and web chat software. The unsuspecting user is not required to interact with any additional site/link (e.g. an attacker site or a malicious link sent via email), just simply view the web page containing the code.</p>
+Instances:
+
+  URI: http://testphp.vulnweb.com/#jaVasCript:/*-/*`/*\`/*'/*"/**/(/* */oNcliCk=alert(5397) )//%0D%0A%0d%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>\x3csVg/<sVg/oNloAd=alert(5397)//>\x3e
+
+  Method: GET
+  Other Info: Tag name: input Att name: goButton Att id: 
+
 Alert: Absence of Anti-CSRF Tokens, Risk: Medium (Low), Confidence: 1
 Description: <p>No Anti-CSRF tokens were found in a HTML submission form.</p><p>A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.</p><p></p><p>CSRF attacks are effective in a number of situations, including:</p><p>    * The victim has an active session on the target site.</p><p>    * The victim is authenticated via HTTP auth on the target site.</p><p>    * The victim is on the same local network as the target site.</p><p></p><p>CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy.</p>
 Instances:
+
+  URI: http://testphp.vulnweb.com/
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/artists.php
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/artists.php?artist=1
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/artists.php?artist=2
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/artists.php?artist=3
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/cart.php
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/categories.php
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/disclaimer.php
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/guestbook.php
+
+  Method: GET
+  Evidence: <form action="" method="post" name="faddentry">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "name" "submit" ].
+
+  URI: http://testphp.vulnweb.com/guestbook.php
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/index.php
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/listproducts.php?artist=1
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/listproducts.php?artist=2
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/listproducts.php?artist=3
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/listproducts.php?cat=1
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/listproducts.php?cat=2
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/listproducts.php?cat=3
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/listproducts.php?cat=4
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/login.php
+
+  Method: GET
+  Evidence: <form name="loginform" method="post" action="userinfo.php">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "pass" "uname" ].
+
+  URI: http://testphp.vulnweb.com/login.php
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/product.php?pic=1
+
+  Method: GET
+  Evidence: <form name='f_addcart' method='POST' action='cart.php'>
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "addcart" "price" ].
+
+  URI: http://testphp.vulnweb.com/product.php?pic=1
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/product.php?pic=2
+
+  Method: GET
+  Evidence: <form name='f_addcart' method='POST' action='cart.php'>
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "addcart" "price" ].
+
+  URI: http://testphp.vulnweb.com/product.php?pic=2
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/product.php?pic=3
+
+  Method: GET
+  Evidence: <form name='f_addcart' method='POST' action='cart.php'>
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "addcart" "price" ].
+
+  URI: http://testphp.vulnweb.com/product.php?pic=3
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/product.php?pic=4
+
+  Method: GET
+  Evidence: <form name='f_addcart' method='POST' action='cart.php'>
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "addcart" "price" ].
+
+  URI: http://testphp.vulnweb.com/product.php?pic=4
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/product.php?pic=5
+
+  Method: GET
+  Evidence: <form name='f_addcart' method='POST' action='cart.php'>
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "addcart" "price" ].
+
+  URI: http://testphp.vulnweb.com/product.php?pic=5
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/product.php?pic=6
+
+  Method: GET
+  Evidence: <form name='f_addcart' method='POST' action='cart.php'>
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "addcart" "price" ].
+
+  URI: http://testphp.vulnweb.com/product.php?pic=6
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/product.php?pic=7
+
+  Method: GET
+  Evidence: <form name='f_addcart' method='POST' action='cart.php'>
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "addcart" "price" ].
+
+  URI: http://testphp.vulnweb.com/product.php?pic=7
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: "goButton" "searchFor" ].
+
+  URI: http://testphp.vulnweb.com/signup.php
+
+  Method: GET
+  Evidence: <form name="form1" method="post" action="/secured/newuser.php">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 1: "signup" "ucc" "uemail" "upass" "upass2" "uphone" "urname" "uuname" ].
+
+  URI: http://testphp.vulnweb.com/signup.php
+
+  Method: GET
+  Evidence: <form action="search.php?test=query" method="post">
+  Other Info: No known Anti-CSRF token [anticsrf, CSRFToken, __RequestVerificationToken, csrfmiddlewaretoken, authenticity_token, OWASP_CSRFTOKEN, anoncsrf, csrf_token, _csrf, _csrfSecret, __csrf_magic, CSRF, _token, _csrf_token] was found in the following HTML form: [Form 2: "goButton" "searchFor" ].
 
   URI: http://testphp.vulnweb.com/cart.php
 
@@ -205,10 +430,6 @@ Instances:
 
   Method: GET
 
-  URI: http://testphp.vulnweb.com/sitemap.xml
-
-  Method: GET
-
   URI: http://testphp.vulnweb.com/cart.php
 
   Method: POST
@@ -226,12 +447,8 @@ Instances:
   Method: POST
 
 Alert: Missing Anti-clickjacking Header, Risk: Medium (Medium), Confidence: 2
-Description: <p>The response does not protect against 'ClickJacking' attacks. It should include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options.</p>
+Description: <p>The response does not include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options to protect against 'ClickJacking' attacks.</p>
 Instances:
-
-  URI: http://testphp.vulnweb.com/
-
-  Method: GET
 
   URI: http://testphp.vulnweb.com/AJAX/index.php
 
@@ -1760,8 +1977,9 @@ Instances:
 
 http://testphp.vulnweb.com/guestbook.php
 
-appears to include user input in:
-a(n) [input] tag [value] attribute
+appears to include user input in: 
+
+a(n) [input] tag [value] attribute 
 
 The user input found was:
 submit=add message
@@ -1776,8 +1994,9 @@ add message
 
 http://testphp.vulnweb.com/search.php?test=query
 
-appears to include user input in:
-a(n) [input] tag [name] attribute
+appears to include user input in: 
+
+a(n) [input] tag [name] attribute 
 
 The user input found was:
 goButton=go
@@ -1792,8 +2011,9 @@ gobutton
 
 http://testphp.vulnweb.com/search.php?test=query
 
-appears to include user input in:
-a(n) [input] tag [value] attribute
+appears to include user input in: 
+
+a(n) [input] tag [value] attribute 
 
 The user input found was:
 goButton=go

@@ -3,96 +3,96 @@
         {
             "code": 2,
             "level": "warn",
-            "message": "Timeout when running javascript.express.security.audit.remote-property-injection.remote-property-injection on /mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/fbevents.js:\n ",
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/fbevents.js",
+            "message": "Timeout when running javascript.express.security.audit.remote-property-injection.remote-property-injection on /mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/fbevents.js:\n ",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/fbevents.js",
             "rule_id": "javascript.express.security.audit.remote-property-injection.remote-property-injection",
             "type": "Timeout"
         },
         {
             "code": 2,
             "level": "warn",
-            "message": "Timeout when running javascript.lang.security.audit.unsafe-formatstring.unsafe-formatstring on /mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/fbevents.js:\n ",
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/fbevents.js",
+            "message": "Timeout when running javascript.lang.security.audit.unsafe-formatstring.unsafe-formatstring on /mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/fbevents.js:\n ",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/fbevents.js",
             "rule_id": "javascript.lang.security.audit.unsafe-formatstring.unsafe-formatstring",
             "type": "Timeout"
         },
         {
             "code": 2,
             "level": "warn",
-            "message": "Timeout when running typescript.react.react-href-url.react-href-url on /mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/fbevents.js:\n ",
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/fbevents.js",
+            "message": "Timeout when running typescript.react.react-href-url.react-href-url on /mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/fbevents.js:\n ",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/fbevents.js",
             "rule_id": "typescript.react.react-href-url.react-href-url",
             "type": "Timeout"
         },
         {
             "code": 2,
             "level": "warn",
-            "message": "Timeout when running javascript.express.security.audit.remote-property-injection.remote-property-injection on /mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/fbevents.js:\n ",
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/fbevents.js",
+            "message": "Timeout when running javascript.express.security.audit.remote-property-injection.remote-property-injection on /mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/fbevents.js:\n ",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/fbevents.js",
             "rule_id": "javascript.express.security.audit.remote-property-injection.remote-property-injection",
             "type": "Timeout"
         },
         {
             "code": 2,
             "level": "warn",
-            "message": "Timeout when running javascript.lang.security.audit.unsafe-formatstring.unsafe-formatstring on /mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/fbevents.js:\n ",
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/fbevents.js",
+            "message": "Timeout when running javascript.lang.security.audit.unsafe-formatstring.unsafe-formatstring on /mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/fbevents.js:\n ",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/fbevents.js",
             "rule_id": "javascript.lang.security.audit.unsafe-formatstring.unsafe-formatstring",
             "type": "Timeout"
         },
         {
             "code": 2,
             "level": "warn",
-            "message": "Timeout when running typescript.react.react-href-url.react-href-url on /mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/fbevents.js:\n ",
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/fbevents.js",
+            "message": "Timeout when running typescript.react.react-href-url.react-href-url on /mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/fbevents.js:\n ",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/fbevents.js",
             "rule_id": "typescript.react.react-href-url.react-href-url",
             "type": "Timeout"
         },
         {
             "code": 2,
             "level": "warn",
-            "message": "Timeout when running javascript.express.security.audit.remote-property-injection.remote-property-injection on /mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/fbevents.js:\n ",
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/fbevents.js",
+            "message": "Timeout when running javascript.express.security.audit.remote-property-injection.remote-property-injection on /mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/fbevents.js:\n ",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/fbevents.js",
             "rule_id": "javascript.express.security.audit.remote-property-injection.remote-property-injection",
             "type": "Timeout"
         },
         {
             "code": 2,
             "level": "warn",
-            "message": "Timeout when running javascript.lang.security.audit.unsafe-formatstring.unsafe-formatstring on /mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/fbevents.js:\n ",
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/fbevents.js",
+            "message": "Timeout when running javascript.lang.security.audit.unsafe-formatstring.unsafe-formatstring on /mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/fbevents.js:\n ",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/fbevents.js",
             "rule_id": "javascript.lang.security.audit.unsafe-formatstring.unsafe-formatstring",
             "type": "Timeout"
         },
         {
             "code": 2,
             "level": "warn",
-            "message": "Timeout when running typescript.react.react-href-url.react-href-url on /mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/fbevents.js:\n ",
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/fbevents.js",
+            "message": "Timeout when running typescript.react.react-href-url.react-href-url on /mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/fbevents.js:\n ",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/fbevents.js",
             "rule_id": "typescript.react.react-href-url.react-href-url",
             "type": "Timeout"
         },
         {
             "code": 2,
             "level": "warn",
-            "message": "Timeout when running javascript.express.security.audit.remote-property-injection.remote-property-injection on /mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/fbevents.js:\n ",
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/fbevents.js",
+            "message": "Timeout when running javascript.express.security.audit.remote-property-injection.remote-property-injection on /mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/fbevents.js:\n ",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/fbevents.js",
             "rule_id": "javascript.express.security.audit.remote-property-injection.remote-property-injection",
             "type": "Timeout"
         },
         {
             "code": 2,
             "level": "warn",
-            "message": "Timeout when running javascript.lang.security.audit.unsafe-formatstring.unsafe-formatstring on /mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/fbevents.js:\n ",
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/fbevents.js",
+            "message": "Timeout when running javascript.lang.security.audit.unsafe-formatstring.unsafe-formatstring on /mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/fbevents.js:\n ",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/fbevents.js",
             "rule_id": "javascript.lang.security.audit.unsafe-formatstring.unsafe-formatstring",
             "type": "Timeout"
         },
         {
             "code": 2,
             "level": "warn",
-            "message": "Timeout when running typescript.react.react-href-url.react-href-url on /mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/fbevents.js:\n ",
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/fbevents.js",
+            "message": "Timeout when running typescript.react.react-href-url.react-href-url on /mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/fbevents.js:\n ",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/fbevents.js",
             "rule_id": "typescript.react.react-href-url.react-href-url",
             "type": "Timeout"
         }
@@ -100,34 +100,34 @@
     "interfile_languages_used": [],
     "paths": {
         "scanned": [
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/bootstrap.min.css",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/fbevents.js",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/index.html",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/pnotify.core.min.css",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/styles.css",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/bootstrap.min.css",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/fbevents.js",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/pnotify.core.min.css",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/styles.css",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/bootstrap.min.css",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/fbevents.js",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/pnotify.core.min.css",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/styles.css",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/bootstrap.min.css",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/fbevents.js",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/pages.html",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/pnotify.core.min.css",
-            "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/styles.css"
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/bootstrap.min.css",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/fbevents.js",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/index.html",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/pnotify.core.min.css",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/styles.css",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/bootstrap.min.css",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/fbevents.js",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/pnotify.core.min.css",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/styles.css",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/bootstrap.min.css",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/fbevents.js",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/pnotify.core.min.css",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/styles.css",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/bootstrap.min.css",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/fbevents.js",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/pages.html",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/pnotify.core.min.css",
+            "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/styles.css"
         ]
     },
     "results": [
@@ -149,7 +149,7 @@
                                     "line": 10,
                                     "offset": 4808
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
                                 "start": {
                                     "col": 476,
                                     "line": 10,
@@ -167,7 +167,7 @@
                                     "line": 10,
                                     "offset": 4860
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
                                 "start": {
                                     "col": 486,
                                     "line": 10,
@@ -186,7 +186,7 @@
                                     "line": 10,
                                     "offset": 4808
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
                                 "start": {
                                     "col": 476,
                                     "line": 10,
@@ -259,7 +259,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
             "start": {
                 "col": 486,
                 "line": 10,
@@ -284,7 +284,7 @@
                                     "line": 27,
                                     "offset": 13845
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
                                 "start": {
                                     "col": 114,
                                     "line": 27,
@@ -302,7 +302,7 @@
                                     "line": 27,
                                     "offset": 13919
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
                                 "start": {
                                     "col": 150,
                                     "line": 27,
@@ -321,7 +321,7 @@
                                     "line": 27,
                                     "offset": 13845
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
                                 "start": {
                                     "col": 114,
                                     "line": 27,
@@ -394,7 +394,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
             "start": {
                 "col": 150,
                 "line": 27,
@@ -419,7 +419,7 @@
                                     "line": 28,
                                     "offset": 14612
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
                                 "start": {
                                     "col": 268,
                                     "line": 28,
@@ -437,7 +437,7 @@
                                     "line": 28,
                                     "offset": 14711
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
                                 "start": {
                                     "col": 304,
                                     "line": 28,
@@ -456,7 +456,7 @@
                                     "line": 28,
                                     "offset": 14612
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
                                 "start": {
                                     "col": 268,
                                     "line": 28,
@@ -529,7 +529,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
             "start": {
                 "col": 304,
                 "line": 28,
@@ -630,7 +630,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
             "start": {
                 "col": 130,
                 "line": 37,
@@ -655,7 +655,7 @@
                                     "line": 48,
                                     "offset": 25676
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
                                 "start": {
                                     "col": 615,
                                     "line": 48,
@@ -673,7 +673,7 @@
                                     "line": 48,
                                     "offset": 25710
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
                                 "start": {
                                     "col": 629,
                                     "line": 48,
@@ -692,7 +692,7 @@
                                     "line": 48,
                                     "offset": 25676
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
                                 "start": {
                                     "col": 615,
                                     "line": 48,
@@ -765,7 +765,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/analytics.js",
             "start": {
                 "col": 629,
                 "line": 48,
@@ -866,7 +866,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
             "start": {
                 "col": 152,
                 "line": 3,
@@ -891,7 +891,7 @@
                                     "line": 34,
                                     "offset": 14172
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
                                 "start": {
                                     "col": 12,
                                     "line": 34,
@@ -909,7 +909,7 @@
                                     "line": 34,
                                     "offset": 14293
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
                                 "start": {
                                     "col": 97,
                                     "line": 34,
@@ -928,7 +928,7 @@
                                     "line": 34,
                                     "offset": 14172
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
                                 "start": {
                                     "col": 12,
                                     "line": 34,
@@ -1001,7 +1001,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
             "start": {
                 "col": 97,
                 "line": 34,
@@ -1026,7 +1026,7 @@
                                     "line": 39,
                                     "offset": 19412
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
                                 "start": {
                                     "col": 1231,
                                     "line": 39,
@@ -1044,7 +1044,7 @@
                                     "line": 39,
                                     "offset": 19511
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
                                 "start": {
                                     "col": 1267,
                                     "line": 39,
@@ -1063,7 +1063,7 @@
                                     "line": 39,
                                     "offset": 19412
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
                                 "start": {
                                     "col": 1231,
                                     "line": 39,
@@ -1136,7 +1136,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
             "start": {
                 "col": 1267,
                 "line": 39,
@@ -1161,7 +1161,7 @@
                                     "line": 79,
                                     "offset": 38021
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
                                 "start": {
                                     "col": 309,
                                     "line": 79,
@@ -1179,7 +1179,7 @@
                                     "line": 79,
                                     "offset": 38083
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
                                 "start": {
                                     "col": 343,
                                     "line": 79,
@@ -1198,7 +1198,7 @@
                                     "line": 79,
                                     "offset": 38021
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
                                 "start": {
                                     "col": 309,
                                     "line": 79,
@@ -1271,7 +1271,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
             "start": {
                 "col": 343,
                 "line": 79,
@@ -1375,7 +1375,7 @@
                 "severity": "ERROR",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/conversion.js",
             "start": {
                 "col": 382,
                 "line": 117,
@@ -1450,7 +1450,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/index.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/index.html",
             "start": {
                 "col": 141,
                 "line": 58,
@@ -1525,7 +1525,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/index.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/index.html",
             "start": {
                 "col": 1064,
                 "line": 58,
@@ -1600,7 +1600,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/index.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/index.html",
             "start": {
                 "col": 3,
                 "line": 115,
@@ -1675,7 +1675,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/index.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/index.html",
             "start": {
                 "col": 3,
                 "line": 120,
@@ -1750,7 +1750,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/index.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/index.html",
             "start": {
                 "col": 3,
                 "line": 121,
@@ -1825,7 +1825,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/index.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/index.html",
             "start": {
                 "col": 5,
                 "line": 189,
@@ -1900,7 +1900,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/index/main/index.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/index/main/index.html",
             "start": {
                 "col": 14,
                 "line": 190,
@@ -1925,7 +1925,7 @@
                                     "line": 10,
                                     "offset": 4808
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
                                 "start": {
                                     "col": 476,
                                     "line": 10,
@@ -1943,7 +1943,7 @@
                                     "line": 10,
                                     "offset": 4860
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
                                 "start": {
                                     "col": 486,
                                     "line": 10,
@@ -1962,7 +1962,7 @@
                                     "line": 10,
                                     "offset": 4808
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
                                 "start": {
                                     "col": 476,
                                     "line": 10,
@@ -2035,7 +2035,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
             "start": {
                 "col": 486,
                 "line": 10,
@@ -2060,7 +2060,7 @@
                                     "line": 27,
                                     "offset": 13845
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
                                 "start": {
                                     "col": 114,
                                     "line": 27,
@@ -2078,7 +2078,7 @@
                                     "line": 27,
                                     "offset": 13919
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
                                 "start": {
                                     "col": 150,
                                     "line": 27,
@@ -2097,7 +2097,7 @@
                                     "line": 27,
                                     "offset": 13845
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
                                 "start": {
                                     "col": 114,
                                     "line": 27,
@@ -2170,7 +2170,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
             "start": {
                 "col": 150,
                 "line": 27,
@@ -2195,7 +2195,7 @@
                                     "line": 28,
                                     "offset": 14612
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
                                 "start": {
                                     "col": 268,
                                     "line": 28,
@@ -2213,7 +2213,7 @@
                                     "line": 28,
                                     "offset": 14711
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
                                 "start": {
                                     "col": 304,
                                     "line": 28,
@@ -2232,7 +2232,7 @@
                                     "line": 28,
                                     "offset": 14612
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
                                 "start": {
                                     "col": 268,
                                     "line": 28,
@@ -2305,7 +2305,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
             "start": {
                 "col": 304,
                 "line": 28,
@@ -2406,7 +2406,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
             "start": {
                 "col": 130,
                 "line": 37,
@@ -2431,7 +2431,7 @@
                                     "line": 48,
                                     "offset": 25676
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
                                 "start": {
                                     "col": 615,
                                     "line": 48,
@@ -2449,7 +2449,7 @@
                                     "line": 48,
                                     "offset": 25710
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
                                 "start": {
                                     "col": 629,
                                     "line": 48,
@@ -2468,7 +2468,7 @@
                                     "line": 48,
                                     "offset": 25676
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
                                 "start": {
                                     "col": 615,
                                     "line": 48,
@@ -2541,7 +2541,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/analytics.js",
             "start": {
                 "col": 629,
                 "line": 48,
@@ -2642,7 +2642,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
             "start": {
                 "col": 152,
                 "line": 3,
@@ -2667,7 +2667,7 @@
                                     "line": 34,
                                     "offset": 14172
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
                                 "start": {
                                     "col": 12,
                                     "line": 34,
@@ -2685,7 +2685,7 @@
                                     "line": 34,
                                     "offset": 14293
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
                                 "start": {
                                     "col": 97,
                                     "line": 34,
@@ -2704,7 +2704,7 @@
                                     "line": 34,
                                     "offset": 14172
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
                                 "start": {
                                     "col": 12,
                                     "line": 34,
@@ -2777,7 +2777,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
             "start": {
                 "col": 97,
                 "line": 34,
@@ -2802,7 +2802,7 @@
                                     "line": 39,
                                     "offset": 19412
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
                                 "start": {
                                     "col": 1231,
                                     "line": 39,
@@ -2820,7 +2820,7 @@
                                     "line": 39,
                                     "offset": 19511
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
                                 "start": {
                                     "col": 1267,
                                     "line": 39,
@@ -2839,7 +2839,7 @@
                                     "line": 39,
                                     "offset": 19412
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
                                 "start": {
                                     "col": 1231,
                                     "line": 39,
@@ -2912,7 +2912,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
             "start": {
                 "col": 1267,
                 "line": 39,
@@ -2937,7 +2937,7 @@
                                     "line": 79,
                                     "offset": 38021
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
                                 "start": {
                                     "col": 309,
                                     "line": 79,
@@ -2955,7 +2955,7 @@
                                     "line": 79,
                                     "offset": 38083
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
                                 "start": {
                                     "col": 343,
                                     "line": 79,
@@ -2974,7 +2974,7 @@
                                     "line": 79,
                                     "offset": 38021
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
                                 "start": {
                                     "col": 309,
                                     "line": 79,
@@ -3047,7 +3047,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
             "start": {
                 "col": 343,
                 "line": 79,
@@ -3151,7 +3151,7 @@
                 "severity": "ERROR",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/conversion.js",
             "start": {
                 "col": 382,
                 "line": 117,
@@ -3226,7 +3226,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
             "start": {
                 "col": 141,
                 "line": 60,
@@ -3301,7 +3301,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
             "start": {
                 "col": 1064,
                 "line": 60,
@@ -3377,7 +3377,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
             "start": {
                 "col": 33,
                 "line": 113,
@@ -3452,7 +3452,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
             "start": {
                 "col": 3,
                 "line": 1306,
@@ -3527,7 +3527,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
             "start": {
                 "col": 3,
                 "line": 1329,
@@ -3602,7 +3602,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
             "start": {
                 "col": 3,
                 "line": 1330,
@@ -3677,7 +3677,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
             "start": {
                 "col": 5,
                 "line": 1398,
@@ -3752,7 +3752,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/forms/main/forms.html",
             "start": {
                 "col": 14,
                 "line": 1399,
@@ -3777,7 +3777,7 @@
                                     "line": 10,
                                     "offset": 4808
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
                                 "start": {
                                     "col": 476,
                                     "line": 10,
@@ -3795,7 +3795,7 @@
                                     "line": 10,
                                     "offset": 4860
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
                                 "start": {
                                     "col": 486,
                                     "line": 10,
@@ -3814,7 +3814,7 @@
                                     "line": 10,
                                     "offset": 4808
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
                                 "start": {
                                     "col": 476,
                                     "line": 10,
@@ -3887,7 +3887,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
             "start": {
                 "col": 486,
                 "line": 10,
@@ -3912,7 +3912,7 @@
                                     "line": 27,
                                     "offset": 13845
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
                                 "start": {
                                     "col": 114,
                                     "line": 27,
@@ -3930,7 +3930,7 @@
                                     "line": 27,
                                     "offset": 13919
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
                                 "start": {
                                     "col": 150,
                                     "line": 27,
@@ -3949,7 +3949,7 @@
                                     "line": 27,
                                     "offset": 13845
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
                                 "start": {
                                     "col": 114,
                                     "line": 27,
@@ -4022,7 +4022,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
             "start": {
                 "col": 150,
                 "line": 27,
@@ -4047,7 +4047,7 @@
                                     "line": 28,
                                     "offset": 14612
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
                                 "start": {
                                     "col": 268,
                                     "line": 28,
@@ -4065,7 +4065,7 @@
                                     "line": 28,
                                     "offset": 14711
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
                                 "start": {
                                     "col": 304,
                                     "line": 28,
@@ -4084,7 +4084,7 @@
                                     "line": 28,
                                     "offset": 14612
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
                                 "start": {
                                     "col": 268,
                                     "line": 28,
@@ -4157,7 +4157,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
             "start": {
                 "col": 304,
                 "line": 28,
@@ -4258,7 +4258,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
             "start": {
                 "col": 130,
                 "line": 37,
@@ -4283,7 +4283,7 @@
                                     "line": 48,
                                     "offset": 25676
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
                                 "start": {
                                     "col": 615,
                                     "line": 48,
@@ -4301,7 +4301,7 @@
                                     "line": 48,
                                     "offset": 25710
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
                                 "start": {
                                     "col": 629,
                                     "line": 48,
@@ -4320,7 +4320,7 @@
                                     "line": 48,
                                     "offset": 25676
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
                                 "start": {
                                     "col": 615,
                                     "line": 48,
@@ -4393,7 +4393,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/analytics.js",
             "start": {
                 "col": 629,
                 "line": 48,
@@ -4494,7 +4494,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
             "start": {
                 "col": 152,
                 "line": 3,
@@ -4519,7 +4519,7 @@
                                     "line": 34,
                                     "offset": 14172
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
                                 "start": {
                                     "col": 12,
                                     "line": 34,
@@ -4537,7 +4537,7 @@
                                     "line": 34,
                                     "offset": 14293
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
                                 "start": {
                                     "col": 97,
                                     "line": 34,
@@ -4556,7 +4556,7 @@
                                     "line": 34,
                                     "offset": 14172
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
                                 "start": {
                                     "col": 12,
                                     "line": 34,
@@ -4629,7 +4629,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
             "start": {
                 "col": 97,
                 "line": 34,
@@ -4654,7 +4654,7 @@
                                     "line": 39,
                                     "offset": 19412
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
                                 "start": {
                                     "col": 1231,
                                     "line": 39,
@@ -4672,7 +4672,7 @@
                                     "line": 39,
                                     "offset": 19511
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
                                 "start": {
                                     "col": 1267,
                                     "line": 39,
@@ -4691,7 +4691,7 @@
                                     "line": 39,
                                     "offset": 19412
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
                                 "start": {
                                     "col": 1231,
                                     "line": 39,
@@ -4764,7 +4764,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
             "start": {
                 "col": 1267,
                 "line": 39,
@@ -4789,7 +4789,7 @@
                                     "line": 79,
                                     "offset": 38021
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
                                 "start": {
                                     "col": 309,
                                     "line": 79,
@@ -4807,7 +4807,7 @@
                                     "line": 79,
                                     "offset": 38083
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
                                 "start": {
                                     "col": 343,
                                     "line": 79,
@@ -4826,7 +4826,7 @@
                                     "line": 79,
                                     "offset": 38021
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
                                 "start": {
                                     "col": 309,
                                     "line": 79,
@@ -4899,7 +4899,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
             "start": {
                 "col": 343,
                 "line": 79,
@@ -5003,7 +5003,7 @@
                 "severity": "ERROR",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/conversion.js",
             "start": {
                 "col": 382,
                 "line": 117,
@@ -5078,7 +5078,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
             "start": {
                 "col": 1,
                 "line": 15,
@@ -5153,7 +5153,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
             "start": {
                 "col": 141,
                 "line": 61,
@@ -5228,7 +5228,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
             "start": {
                 "col": 1064,
                 "line": 61,
@@ -5303,7 +5303,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
             "start": {
                 "col": 3,
                 "line": 160,
@@ -5378,7 +5378,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
             "start": {
                 "col": 3,
                 "line": 165,
@@ -5453,7 +5453,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
             "start": {
                 "col": 3,
                 "line": 166,
@@ -5528,7 +5528,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
             "start": {
                 "col": 5,
                 "line": 234,
@@ -5603,7 +5603,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/frames/main/frames.html",
             "start": {
                 "col": 14,
                 "line": 235,
@@ -5628,7 +5628,7 @@
                                     "line": 10,
                                     "offset": 4808
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
                                 "start": {
                                     "col": 476,
                                     "line": 10,
@@ -5646,7 +5646,7 @@
                                     "line": 10,
                                     "offset": 4860
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
                                 "start": {
                                     "col": 486,
                                     "line": 10,
@@ -5665,7 +5665,7 @@
                                     "line": 10,
                                     "offset": 4808
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
                                 "start": {
                                     "col": 476,
                                     "line": 10,
@@ -5738,7 +5738,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
             "start": {
                 "col": 486,
                 "line": 10,
@@ -5763,7 +5763,7 @@
                                     "line": 27,
                                     "offset": 13845
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
                                 "start": {
                                     "col": 114,
                                     "line": 27,
@@ -5781,7 +5781,7 @@
                                     "line": 27,
                                     "offset": 13919
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
                                 "start": {
                                     "col": 150,
                                     "line": 27,
@@ -5800,7 +5800,7 @@
                                     "line": 27,
                                     "offset": 13845
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
                                 "start": {
                                     "col": 114,
                                     "line": 27,
@@ -5873,7 +5873,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
             "start": {
                 "col": 150,
                 "line": 27,
@@ -5898,7 +5898,7 @@
                                     "line": 28,
                                     "offset": 14612
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
                                 "start": {
                                     "col": 268,
                                     "line": 28,
@@ -5916,7 +5916,7 @@
                                     "line": 28,
                                     "offset": 14711
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
                                 "start": {
                                     "col": 304,
                                     "line": 28,
@@ -5935,7 +5935,7 @@
                                     "line": 28,
                                     "offset": 14612
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
                                 "start": {
                                     "col": 268,
                                     "line": 28,
@@ -6008,7 +6008,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
             "start": {
                 "col": 304,
                 "line": 28,
@@ -6109,7 +6109,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
             "start": {
                 "col": 130,
                 "line": 37,
@@ -6134,7 +6134,7 @@
                                     "line": 48,
                                     "offset": 25676
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
                                 "start": {
                                     "col": 615,
                                     "line": 48,
@@ -6152,7 +6152,7 @@
                                     "line": 48,
                                     "offset": 25710
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
                                 "start": {
                                     "col": 629,
                                     "line": 48,
@@ -6171,7 +6171,7 @@
                                     "line": 48,
                                     "offset": 25676
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
                                 "start": {
                                     "col": 615,
                                     "line": 48,
@@ -6244,7 +6244,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/analytics.js",
             "start": {
                 "col": 629,
                 "line": 48,
@@ -6345,7 +6345,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
             "start": {
                 "col": 152,
                 "line": 3,
@@ -6370,7 +6370,7 @@
                                     "line": 34,
                                     "offset": 14172
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
                                 "start": {
                                     "col": 12,
                                     "line": 34,
@@ -6388,7 +6388,7 @@
                                     "line": 34,
                                     "offset": 14293
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
                                 "start": {
                                     "col": 97,
                                     "line": 34,
@@ -6407,7 +6407,7 @@
                                     "line": 34,
                                     "offset": 14172
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
                                 "start": {
                                     "col": 12,
                                     "line": 34,
@@ -6480,7 +6480,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
             "start": {
                 "col": 97,
                 "line": 34,
@@ -6505,7 +6505,7 @@
                                     "line": 39,
                                     "offset": 19412
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
                                 "start": {
                                     "col": 1231,
                                     "line": 39,
@@ -6523,7 +6523,7 @@
                                     "line": 39,
                                     "offset": 19511
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
                                 "start": {
                                     "col": 1267,
                                     "line": 39,
@@ -6542,7 +6542,7 @@
                                     "line": 39,
                                     "offset": 19412
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
                                 "start": {
                                     "col": 1231,
                                     "line": 39,
@@ -6615,7 +6615,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
             "start": {
                 "col": 1267,
                 "line": 39,
@@ -6640,7 +6640,7 @@
                                     "line": 79,
                                     "offset": 38021
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
                                 "start": {
                                     "col": 309,
                                     "line": 79,
@@ -6658,7 +6658,7 @@
                                     "line": 79,
                                     "offset": 38083
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
                                 "start": {
                                     "col": 343,
                                     "line": 79,
@@ -6677,7 +6677,7 @@
                                     "line": 79,
                                     "offset": 38021
                                 },
-                                "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
+                                "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
                                 "start": {
                                     "col": 309,
                                     "line": 79,
@@ -6750,7 +6750,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
             "start": {
                 "col": 343,
                 "line": 79,
@@ -6854,7 +6854,7 @@
                 "severity": "ERROR",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/conversion.js",
             "start": {
                 "col": 382,
                 "line": 117,
@@ -6929,7 +6929,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/pages.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/pages.html",
             "start": {
                 "col": 141,
                 "line": 58,
@@ -7004,7 +7004,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/pages.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/pages.html",
             "start": {
                 "col": 1064,
                 "line": 58,
@@ -7079,7 +7079,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/pages.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/pages.html",
             "start": {
                 "col": 3,
                 "line": 155,
@@ -7154,7 +7154,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/pages.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/pages.html",
             "start": {
                 "col": 3,
                 "line": 160,
@@ -7229,7 +7229,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/pages.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/pages.html",
             "start": {
                 "col": 3,
                 "line": 161,
@@ -7304,7 +7304,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/pages.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/pages.html",
             "start": {
                 "col": 5,
                 "line": 229,
@@ -7379,7 +7379,7 @@
                 "severity": "WARNING",
                 "validation_state": "NO_VALIDATOR"
             },
-            "path": "/mnt/c/Users/erngu/source/repos/WebScan/ScrapedFiles/pages/main/pages.html",
+            "path": "/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles/pages/main/pages.html",
             "start": {
                 "col": 14,
                 "line": 230,
