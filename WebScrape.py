@@ -161,14 +161,22 @@ def generate_filename(path, parsed_url, dir_path):
 
 # JSON dosyasını okunaklı hale getiren fonksiyon
 def pretty_json(scan_file):
-    with open(scan_file, "r") as json_file:
-        data = json.load(json_file)  # JSON içeriğini yükle
-        
+    # Read the raw JSON file
+    with open(scan_file, "r", encoding="utf-8") as json_file:
+        raw_data = json_file.read()
 
-        # JSON dosyasını düzenli bir formatta geri yaz
-    with open(scan_file, "w") as json_file:
-        json.dump(data, json_file, indent=4)  # Düzgün format ile kaydet
-        
+    # Replace the problematic character
+    raw_data = raw_data.replace("\\u2019", "'")
+
+    # Parse the modified string back into JSON
+    data = json.loads(raw_data)
+
+    with open(scan_file, "w", encoding="utf-8") as json_file:
+        json.dump(data, json_file, indent=4)
+
+    return data
+ 
+
 def xml_to_json(xmlfile, jsonfile):
     with open(xmlfile, "r") as file:
         xml_content = file.read()
@@ -230,20 +238,18 @@ async def main():
     # output_file="/mnt/c/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json" # Semgrep scan sonucu
     # analyzer = SemgrepAnalyzer(directory, output_file)
     # analyzer.analyze()
-    # scan_file="C:/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json" # pretty_json fonksiyonu için dosya konumu
-    # pretty_json(scan_file) # JSON dosyasını daha okunaklı hale getirir
+    scan_file="C:/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json" # pretty_json fonksiyonu için dosya konumu
+    #pretty_json(scan_file) # JSON dosyasını daha okunaklı hale getirir
     # Semgrep report
     with open("C:/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json", "r") as json_file:
         json_data = json.load(json_file)
     parser = SemgrepParser(json_data)
     parsed_report = parser.parse_report()
-    # impact_count = parser.risk_counter(parsed_report)
+    impact_count = parser.risk_counter(parsed_report)
     latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
-    # parser.update_latex_with_risks(impact_count, latex_file_path)
-    # parser.update_latex_with_category(parsed_report, latex_file_path)
+    parser.update_latex_with_risks(impact_count, latex_file_path)
+    parser.update_latex_with_category(parsed_report, latex_file_path)
     parser.update_vuln_by_page(parsed_report, latex_file_path)
-
-    
     # print(f"Semgrep report processed, Latex file updated")
 
     # ---Semgrep---

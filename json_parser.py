@@ -1,4 +1,4 @@
-import json
+﻿import json
 from unittest import result
 
 class JSONParser:
@@ -8,7 +8,7 @@ class JSONParser:
 class ZAPParser(JSONParser):
     def parse_report(self):
         report = []
-        for site in self.json_data['site']:
+        for site in self.json_data["site"]:
             site_info = {
                 "name": site["@name"],
                 "host": site["@host"],
@@ -168,25 +168,50 @@ class SemgrepParser(JSONParser):
 
         # Create LaTeX formatted items for vulnerabilities
         vuln_items = ""
-        for vulnerability in parsed_report:
+        for idx, vulnerability in enumerate(parsed_report, 1):
             path = vulnerability.get("path", "N/A")
+            # Condition that provides path splitting
+            if "Scrapedfiles" in path:
+                path = path.split("ScrapedFiles", 1)[-1] # Gets the string after "ScrapedFiles"
+                path = "ScrapedFiles" + path
+                return path
+
             vuln_class = vulnerability.get("vulnerability_class", "N/A")
             start = vulnerability.get("start", "N/A")
             end = vulnerability.get("end", "N/A")
             message = vulnerability.get("message", "N/A")
 
-            # Formatted for LaTeX
-            message = message.replace("{", "\\{").replace("}", "\\}")
-            message = message.replace("\\url", "\\\\url")
-            #message = message.replace("", "")
-        
-            # Construct LaTeX formatted items
+            # Escape LaTeX special characters in the message
+            message = (
+                message.replace("{", "\\{")
+                       .replace("}", "\\}")
+                       .replace("\\url", "\\\\url")
+                       .replace("�", "?")
+                       .replace("%", "\\%")
+            )
+            # Construct LaTeX formatted items with a table
             vuln_items += (
-                f"\\item \\textbf{{Path:}} \\{{{path}\\}} \\\\ \n"
-                f"\\item \\textbf{{Vulnerability Class:}} \\{{{vuln_class}\\}} \\\\ \n"
-                f"\\item \\textbf{{Start:}} \\{{{start}\\}} \\\\ \n"
-                f"\\item \\textbf{{End:}} \\{{{end}\\}} \\\\ \n"
-                f"\\item \\textbf{{Message:}} \\{{{message}\\}} \\\\ \n"          
+                "\\begin{table}[!h]\n"
+                "\\centering\n"
+                "\\renewcommand{\\arraystretch}{1.3}\n"
+                "\\begin{tabular}{|l|p{10cm}|}\n"
+                "\\hline\n"
+                f"\\multicolumn{{2}}{{|c|}}{{\\textbf{{Vulnerability {idx}}}}} \\\\\n"
+                "\\hline\n"
+                f"\\textbf{{Path}} & {path} \\\\\n"
+                "\\hline\n"
+                f"\\textbf{{Vulnerability Class}} & {vuln_class} \\\\\n"
+                "\\hline\n"
+                f"\\textbf{{Start}} & {start} \\\\\n"
+                "\\hline\n"
+                f"\\textbf{{End}} & {end} \\\\\n"
+                "\\hline\n"
+                f"\\textbf{{Message}} & {message} \\\\\n"
+                "\\hline\n"
+                "\\end{tabular}\n"
+                "\\end{table}\n"
+                "\\vspace{0.7cm}\n"  # Adds some space between each vulnerability
+                "\\FloatBarrier\n"                
             )
 
         # Replace the placeholder with actual vulnerability items
@@ -197,4 +222,5 @@ class SemgrepParser(JSONParser):
             file.write(latex_content)
 
         print(f"Updated LaTeX file at {latex_file_path} with vulnerability items.")
+
 
