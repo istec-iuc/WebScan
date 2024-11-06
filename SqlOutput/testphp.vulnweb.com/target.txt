@@ -1,1 +1,1 @@
-http://testphp.vulnweb.com/artists.php?artist=1 (GET)  # C:/Users/Administrator/Programs/sqlmap-dev/sqlmap.py -u http://testphp.vulnweb.com/artists.php?artist=1 -v 1 --batch --dump --output-dir=C:/Users/Administrator/source/repos/WebScan/SqlOutput
+http://testphp.vulnweb.com/artists.php?artist=1 (GET)  # C:/Users/Administrator/Programs/sqlmap-dev/sqlmap.py -u http://testphp.vulnweb.com/artists.php?artist=1 -v 1 --batch --output-dir=C:/Users/Administrator/source/repos/WebScan/SqlOutput

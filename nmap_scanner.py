@@ -3,7 +3,6 @@ import subprocess
 
 # You can add XML JSON converter and parse JSON file for the last part of the project.
 
-# Don't use nmap without permission 
 class NmapScan:
     def __init__(self, output_file, target):
         self.target = target

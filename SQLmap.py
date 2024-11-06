@@ -12,7 +12,7 @@ class SQLScan:
         print(f"Quick SQLMAP started!")
         command = (
             f"python {os.path.join(self.sqlmap_dir, 'sqlmap.py')} -u {self.target} "
-            f"-v 1 --batch --dump --output-dir={self.output_file}"
+            f"-v 1 --batch --output-dir={self.output_file}"
         )
         
         if additional_options:

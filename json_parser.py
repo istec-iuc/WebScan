@@ -374,4 +374,60 @@ class SemgrepParser(JSONParser):
 
         print(f"Updated LaTeX file at {latex_file_path} with vulnerability items.")
 
+class NmapParser:
+    def __init__(self, data, latex_file_path):
+        self.data = data
+        self.latex_file_path = latex_file_path
+
+    def nmapparse(self):
+        # Parsing the Nmap JSON data
+        nmap_info = self.data["nmaprun"]
+        host_info = self.data["nmaprun"]["host"]
+        host_address = host_info["address"]["@addr"]
+        hostnames = ", ".join([hostname["@name"] for hostname in host_info["hostnames"]["hostname"]])
+        ports = host_info["ports"]["port"]
+
+        # Constructing LaTeX output for the report with better formatting
+        report = []
+        report.append(r"\subsection*{Nmap Scan Results}")
+        report.append(f"Host: \\textbf{{{hostnames}}} ({host_address}) \\\\")
+        report.append(f"Scan Duration: \\textit {{{nmap_info['runstats']['finished']['@elapsed']} seconds}} \\\\")
+        report.append(f"\\begin{{center}}")
+        report.append("")
+
+        # Add a table for the open ports and services
+        report.append(r"\begin{tabular}{|c|c|c|}")
+        report.append(r"\hline")
+        report.append(r"\textbf{Port} & \textbf{Service} & \textbf{State} \\")
+        report.append(r"\hline")
+        
+        for port in ports:
+            port_id = port["@portid"]
+            state = port["state"]["@state"]
+            service = port["service"]["@name"]
+            if state == "open":
+                report.append(f"{port_id} & {service} & \\textbf{{{state}}} \\\\")
+            else:
+                report.append(f"{port_id} & {service} & {state} (\\textit{{Reason: {port['state']['@reason']}}}) \\\\")
+
+        report.append(r"\hline")
+        report.append(r"\end{tabular}")
+        report.append(r"\end{center}")
+
+        # Convert the report list to a single string
+        report_content = "\n".join(report)
+
+        # Read the LaTeX file and replace the placeholder with the Nmap report
+        with open(self.latex_file_path, "r") as file:
+            latex_content = file.read()
+
+        # Replace the placeholder with the formatted Nmap scan results
+        latex_content = latex_content.replace(r"\subsection{Nmap Scan Results}", report_content)
+
+        # Write the modified content back to the LaTeX file
+        with open(self.latex_file_path, "w") as file:
+            file.write(latex_content)
+
+
+
 

@@ -13,7 +13,7 @@ from semgrep_analyze import SemgrepAnalyzer
 from nmap_scanner import NmapScan
 from zap_scanner import ZapScan
 from SQLmap import SQLScan
-from json_parser import JSONParser, ZAPParser, SemgrepParser
+from json_parser import JSONParser, NmapParser, SqlmapParser, ZAPParser, SemgrepParser
 
 # Her alt sayfayı ziyaret eden fonksiyon
 async def fetch_all_links(url, save_dir):
@@ -295,6 +295,10 @@ Details about dynamic analysis...
 
 \section{Analysis Report}
 
+\subsection{Nmap Scan Results}
+
+\subsection{SQLMap Injection Points}
+
 \subsection{Risk Summary}
 \begin{table}[h!]
 \centering
@@ -367,7 +371,7 @@ async def main():
     create_default_tex_report(latex_file_path)
     parser.update_latex_with_risks(impact_count, latex_file_path)
     parser.update_latex_with_category(parsed_report, latex_file_path)
-    parser.update_vuln_by_page(parsed_report, latex_file_path)
+    #parser.update_vuln_by_page(parsed_report, latex_file_path)
     print(f"Semgrep report processed, Latex file updated")
 
     # ---Semgrep---
@@ -426,12 +430,22 @@ async def main():
 
     # ---ZAP---
 
+    # ---Nmap Tex Report---
+    with open("C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.json", "r") as json_file:
+        nmap_json_data = json.load(json_file)
+    
+    latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
+    parser = NmapParser(nmap_json_data, latex_file_path)
+    parser.nmapparse()
+
+    # ---Nmap Tex Report---
+
     # ---SQLMAP---
-    # sql_target = "http://testphp.vulnweb.com/artists.php?artist=1" 
-    # sql_output_dir = "C:/Users/Administrator/source/repos/WebScan/SqlOutput"
-    # sql_dir = "C:/Users/Administrator/Programs/sqlmap-dev/"
-    # SQLmap = SQLScan(sql_target, sql_output_dir, sql_dir)
-    # SQLmap.quick_sqlmap()
+    sql_target = "http://testphp.vulnweb.com/artists.php?artist=1" 
+    sql_output_dir = "C:/Users/Administrator/source/repos/WebScan/SqlOutput"
+    sql_dir = "C:/Users/Administrator/Programs/sqlmap-dev/"
+    SQLmap = SQLScan(sql_target, sql_output_dir, sql_dir)
+    SQLmap.quick_sqlmap()
     # sql_xml = "C:/Users/Administrator/source/repos/WebScan/SqlOutput/sql_results.xml"  # Don't need this part 
     # sql_json = "C:/Users/Administrator/source/repos/WebScan/SqlOutput/sql_results.json" # Don't need this part
     # xml_to_json(sql_xml, sql_json) # Don't need this part
@@ -440,6 +454,13 @@ async def main():
     # destination = "C:/Users/Administrator/source/repos/WebScan/Report/report.txt"
     # header = "\n---SQLMAP---\n"
     # create_report(source, destination, header)
+
+    # --SQLMap Tex Report--
+    sqlmap_data = "C:/Users/Administrator/source/repos/WebScan/SqlOutput/testphp.vulnweb.com/log"
+    latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
+    sqlmap_parser = SqlmapParser(sqlmap_data, latex_file_path)
+    sqlmap_parser.parse_sqlmap()
+
     # ---SQLMAP---
 
     # ---JSON Parser---

@@ -69,91 +69,7 @@ Critical Risk & 0 \\
 \end{itemize}
 
 \subsection{Vulnerabilities by Page}
-\begin{table}[!h]
-\centering
-\renewcommand{\arraystretch}{1.3}
-\begin{tabular}{|l|p{10cm}|}
-\hline
-\multicolumn{2}{|c|}{\textbf{Vulnerability 1}} \\
-\hline
-\multicolumn{2}{|l|}{\textbf{Path}: ScrapedFiles/index/main/analytics.js} \\
-\hline
-\textbf{Vulnerability Class} & ['Denial-of-Service (DoS)'] \\
-\hline
-\textbf{Start} & line: 10 \quad col: 486 \\
-\hline
-\textbf{End} & line: 10 \quad col: 529 \\
-\hline
-\textbf{Message} & RegExp() called with a `a` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS. \\
-\hline
-\end{tabular}
-\end{table}
-\vspace{0.7cm}
-\FloatBarrier
-\begin{table}[!h]
-\centering
-\renewcommand{\arraystretch}{1.3}
-\begin{tabular}{|l|p{10cm}|}
-\hline
-\multicolumn{2}{|c|}{\textbf{Vulnerability 2}} \\
-\hline
-\multicolumn{2}{|l|}{\textbf{Path}: ScrapedFiles/index/main/analytics.js} \\
-\hline
-\textbf{Vulnerability Class} & ['Denial-of-Service (DoS)'] \\
-\hline
-\textbf{Start} & line: 27 \quad col: 150 \\
-\hline
-\textbf{End} & line: 27 \quad col: 189 \\
-\hline
-\textbf{Message} & RegExp() called with a `a` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS. \\
-\hline
-\end{tabular}
-\end{table}
-\vspace{0.7cm}
-\FloatBarrier
-\begin{table}[!h]
-\centering
-\renewcommand{\arraystretch}{1.3}
-\begin{tabular}{|l|p{10cm}|}
-\hline
-\multicolumn{2}{|c|}{\textbf{Vulnerability 3}} \\
-\hline
-\multicolumn{2}{|l|}{\textbf{Path}: ScrapedFiles/index/main/analytics.js} \\
-\hline
-\textbf{Vulnerability Class} & ['Denial-of-Service (DoS)'] \\
-\hline
-\textbf{Start} & line: 28 \quad col: 304 \\
-\hline
-\textbf{End} & line: 28 \quad col: 368 \\
-\hline
-\textbf{Message} & RegExp() called with a `a` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS. \\
-\hline
-\end{tabular}
-\end{table}
-\vspace{0.7cm}
-\FloatBarrier
-\begin{table}[!h]
-\centering
-\renewcommand{\arraystretch}{1.3}
-\begin{tabular}{|l|p{10cm}|}
-\hline
-\multicolumn{2}{|c|}{\textbf{Vulnerability 4}} \\
-\hline
-\multicolumn{2}{|l|}{\textbf{Path}: ScrapedFiles/index/main/analytics.js} \\
-\hline
-\textbf{Vulnerability Class} & ['Improper Encoding'] \\
-\hline
-\textbf{Start} & line: 37 \quad col: 130 \\
-\hline
-\textbf{End} & line: 37 \quad col: 184 \\
-\hline
-\textbf{Message} & `"https://www.google.\%/ads/ga-audiences".replace` method will only replace the first occurrence when used with a string argument ("\%"). If this method is used for escaping of dangerous data then there is a possibility for a bypass. Try to use sanitization library instead or use a Regex with a global flag. \\
-\hline
-\end{tabular}
-\end{table}
-\vspace{0.7cm}
-\FloatBarrier
-
+%Vulnerabilities by Page:
 
 %--------------------------------------------------------Dynamic Analysis-----------------------------------------------
 \newpage
@@ -161,6 +77,26 @@ Critical Risk & 0 \\
 Details about dynamic analysis...
 
 \section{Analysis Report}
+
+\subsection*{Nmap Scan Results}
+Host: \textbf{scanme.nmap.org, scanme.nmap.org} (45.33.32.156) \\
+Scan Duration: \textit {4.46 seconds} \\
+\begin{center}
+
+\begin{tabular}{|c|c|c|}
+\hline
+\textbf{Port} & \textbf{Service} & \textbf{State} \\
+\hline
+22 & ssh & \textbf{open} \\
+25 & smtp & filtered (\textit{Reason: no-response}) \\
+80 & http & \textbf{open} \\
+9929 & nping-echo & \textbf{open} \\
+31337 & Elite & \textbf{open} \\
+\hline
+\end{tabular}
+\end{center}
+
+\subsection{SQLMap Injection Points}
 
 \subsection{Risk Summary}
 \begin{table}[h!]
@@ -426,6 +362,734 @@ Instance 45 & \url{http://testphp.vulnweb.com/guestbook.php} \\
 Instance 46 & \url{http://testphp.vulnweb.com/search.php?test=query} \\
 \hline
 Instance 47 & \url{http://testphp.vulnweb.com/secured/newuser.php} \\
+\hline
+\end{longtable}
+\end{center}\vspace{0.7cm}
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{|l|p{10cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Vulnerability 4}} \\
+\hline
+\textbf{Risk Level} & Medium (Medium) \\
+\hline
+\textbf{Vulnerability Name} & Missing Anti-clickjacking Header \\
+\hline
+\textbf{Description} & The response does not include either Content-Security-Policy with 'frame-ancestors' directive or X-Frame-Options to protect against 'ClickJacking' attacks. \\
+\hline
+\textbf{Instances} & \textbf{URI} \\
+\hline
+Instance 1 & \url{http://testphp.vulnweb.com/AJAX/index.php} \\
+\hline
+Instance 2 & \url{http://testphp.vulnweb.com/artists.php} \\
+\hline
+Instance 3 & \url{http://testphp.vulnweb.com/artists.php?artist=1} \\
+\hline
+Instance 4 & \url{http://testphp.vulnweb.com/artists.php?artist=2} \\
+\hline
+Instance 5 & \url{http://testphp.vulnweb.com/artists.php?artist=3} \\
+\hline
+Instance 6 & \url{http://testphp.vulnweb.com/cart.php} \\
+\hline
+Instance 7 & \url{http://testphp.vulnweb.com/categories.php} \\
+\hline
+Instance 8 & \url{http://testphp.vulnweb.com/disclaimer.php} \\
+\hline
+Instance 9 & \url{http://testphp.vulnweb.com/guestbook.php} \\
+\hline
+Instance 10 & \url{http://testphp.vulnweb.com/hpp/} \\
+\hline
+Instance 11 & \url{http://testphp.vulnweb.com/hpp/?pp=12} \\
+\hline
+Instance 12 & \url{http://testphp.vulnweb.com/hpp/params.php?p=valid\&pp=12} \\
+\hline
+Instance 13 & \url{http://testphp.vulnweb.com/index.php} \\
+\hline
+Instance 14 & \url{http://testphp.vulnweb.com/listproducts.php?artist=1} \\
+\hline
+Instance 15 & \url{http://testphp.vulnweb.com/listproducts.php?artist=2} \\
+\hline
+Instance 16 & \url{http://testphp.vulnweb.com/listproducts.php?artist=3} \\
+\hline
+Instance 17 & \url{http://testphp.vulnweb.com/listproducts.php?cat=1} \\
+\hline
+Instance 18 & \url{http://testphp.vulnweb.com/listproducts.php?cat=2} \\
+\hline
+Instance 19 & \url{http://testphp.vulnweb.com/listproducts.php?cat=3} \\
+\hline
+Instance 20 & \url{http://testphp.vulnweb.com/listproducts.php?cat=4} \\
+\hline
+Instance 21 & \url{http://testphp.vulnweb.com/login.php} \\
+\hline
+Instance 22 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/} \\
+\hline
+Instance 23 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/BuyProduct-1/} \\
+\hline
+Instance 24 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/BuyProduct-2/} \\
+\hline
+Instance 25 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/BuyProduct-3/} \\
+\hline
+Instance 26 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/Details/color-printer/3/} \\
+\hline
+Instance 27 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/Details/network-attached-storage-dlink/1/} \\
+\hline
+Instance 28 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/Details/web-camera-a4tech/2/} \\
+\hline
+Instance 29 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/RateProduct-1.html} \\
+\hline
+Instance 30 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/RateProduct-2.html} \\
+\hline
+Instance 31 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/RateProduct-3.html} \\
+\hline
+Instance 32 & \url{http://testphp.vulnweb.com/product.php?pic=1} \\
+\hline
+Instance 33 & \url{http://testphp.vulnweb.com/product.php?pic=2} \\
+\hline
+Instance 34 & \url{http://testphp.vulnweb.com/product.php?pic=3} \\
+\hline
+Instance 35 & \url{http://testphp.vulnweb.com/product.php?pic=4} \\
+\hline
+Instance 36 & \url{http://testphp.vulnweb.com/product.php?pic=5} \\
+\hline
+Instance 37 & \url{http://testphp.vulnweb.com/product.php?pic=6} \\
+\hline
+Instance 38 & \url{http://testphp.vulnweb.com/product.php?pic=7} \\
+\hline
+Instance 39 & \url{http://testphp.vulnweb.com/signup.php} \\
+\hline
+Instance 40 & \url{http://testphp.vulnweb.com/cart.php} \\
+\hline
+Instance 41 & \url{http://testphp.vulnweb.com/guestbook.php} \\
+\hline
+Instance 42 & \url{http://testphp.vulnweb.com/search.php?test=query} \\
+\hline
+Instance 43 & \url{http://testphp.vulnweb.com/secured/newuser.php} \\
+\hline
+\end{longtable}
+\end{center}\vspace{0.7cm}
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{|l|p{10cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Vulnerability 5}} \\
+\hline
+\textbf{Risk Level} & Low (Medium) \\
+\hline
+\textbf{Vulnerability Name} & Server Leaks Information via "X-Powered-By" HTTP Response Header Field(s) \\
+\hline
+\textbf{Description} & The web/application server is leaking information via one or more "X-Powered-By" HTTP response headers. Access to such information may facilitate attackers identifying other frameworks/components your web application is reliant upon and the vulnerabilities such components may be subject to. \\
+\hline
+\textbf{Instances} & \textbf{URI} \\
+\hline
+Instance 1 & \url{http://testphp.vulnweb.com/} \\
+\hline
+Instance 2 & \url{http://testphp.vulnweb.com/AJAX/index.php} \\
+\hline
+Instance 3 & \url{http://testphp.vulnweb.com/artists.php} \\
+\hline
+Instance 4 & \url{http://testphp.vulnweb.com/artists.php?artist=1} \\
+\hline
+Instance 5 & \url{http://testphp.vulnweb.com/artists.php?artist=2} \\
+\hline
+Instance 6 & \url{http://testphp.vulnweb.com/artists.php?artist=3} \\
+\hline
+Instance 7 & \url{http://testphp.vulnweb.com/cart.php} \\
+\hline
+Instance 8 & \url{http://testphp.vulnweb.com/categories.php} \\
+\hline
+Instance 9 & \url{http://testphp.vulnweb.com/disclaimer.php} \\
+\hline
+Instance 10 & \url{http://testphp.vulnweb.com/guestbook.php} \\
+\hline
+Instance 11 & \url{http://testphp.vulnweb.com/hpp/} \\
+\hline
+Instance 12 & \url{http://testphp.vulnweb.com/hpp/?pp=12} \\
+\hline
+Instance 13 & \url{http://testphp.vulnweb.com/hpp/params.php?p=valid\&pp=12} \\
+\hline
+Instance 14 & \url{http://testphp.vulnweb.com/index.php} \\
+\hline
+Instance 15 & \url{http://testphp.vulnweb.com/listproducts.php?artist=1} \\
+\hline
+Instance 16 & \url{http://testphp.vulnweb.com/listproducts.php?artist=2} \\
+\hline
+Instance 17 & \url{http://testphp.vulnweb.com/listproducts.php?artist=3} \\
+\hline
+Instance 18 & \url{http://testphp.vulnweb.com/listproducts.php?cat=1} \\
+\hline
+Instance 19 & \url{http://testphp.vulnweb.com/listproducts.php?cat=2} \\
+\hline
+Instance 20 & \url{http://testphp.vulnweb.com/listproducts.php?cat=3} \\
+\hline
+Instance 21 & \url{http://testphp.vulnweb.com/listproducts.php?cat=4} \\
+\hline
+Instance 22 & \url{http://testphp.vulnweb.com/login.php} \\
+\hline
+Instance 23 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/} \\
+\hline
+Instance 24 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/BuyProduct-1/} \\
+\hline
+Instance 25 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/BuyProduct-2/} \\
+\hline
+Instance 26 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/BuyProduct-3/} \\
+\hline
+Instance 27 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/Details/color-printer/3/} \\
+\hline
+Instance 28 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/Details/network-attached-storage-dlink/1/} \\
+\hline
+Instance 29 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/Details/web-camera-a4tech/2/} \\
+\hline
+Instance 30 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/RateProduct-1.html} \\
+\hline
+Instance 31 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/RateProduct-2.html} \\
+\hline
+Instance 32 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/RateProduct-3.html} \\
+\hline
+Instance 33 & \url{http://testphp.vulnweb.com/privacy.php} \\
+\hline
+Instance 34 & \url{http://testphp.vulnweb.com/product.php?pic=1} \\
+\hline
+Instance 35 & \url{http://testphp.vulnweb.com/product.php?pic=2} \\
+\hline
+Instance 36 & \url{http://testphp.vulnweb.com/product.php?pic=3} \\
+\hline
+Instance 37 & \url{http://testphp.vulnweb.com/product.php?pic=4} \\
+\hline
+Instance 38 & \url{http://testphp.vulnweb.com/product.php?pic=5} \\
+\hline
+Instance 39 & \url{http://testphp.vulnweb.com/product.php?pic=6} \\
+\hline
+Instance 40 & \url{http://testphp.vulnweb.com/product.php?pic=7} \\
+\hline
+Instance 41 & \url{http://testphp.vulnweb.com/showimage.php?file='\%20+\%20pict.item(0).firstChild.nodeValue\%20+\%20'} \\
+\hline
+Instance 42 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg} \\
+\hline
+Instance 43 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg\&size=160} \\
+\hline
+Instance 44 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg} \\
+\hline
+Instance 45 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg\&size=160} \\
+\hline
+Instance 46 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg} \\
+\hline
+Instance 47 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg\&size=160} \\
+\hline
+Instance 48 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg} \\
+\hline
+Instance 49 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg\&size=160} \\
+\hline
+Instance 50 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg} \\
+\hline
+Instance 51 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg\&size=160} \\
+\hline
+Instance 52 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg} \\
+\hline
+Instance 53 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg\&size=160} \\
+\hline
+Instance 54 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg} \\
+\hline
+Instance 55 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg\&size=160} \\
+\hline
+Instance 56 & \url{http://testphp.vulnweb.com/signup.php} \\
+\hline
+Instance 57 & \url{http://testphp.vulnweb.com/userinfo.php} \\
+\hline
+Instance 58 & \url{http://testphp.vulnweb.com/cart.php} \\
+\hline
+Instance 59 & \url{http://testphp.vulnweb.com/guestbook.php} \\
+\hline
+Instance 60 & \url{http://testphp.vulnweb.com/search.php?test=query} \\
+\hline
+Instance 61 & \url{http://testphp.vulnweb.com/secured/newuser.php} \\
+\hline
+Instance 62 & \url{http://testphp.vulnweb.com/userinfo.php} \\
+\hline
+\end{longtable}
+\end{center}\vspace{0.7cm}
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{|l|p{10cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Vulnerability 6}} \\
+\hline
+\textbf{Risk Level} & Low (High) \\
+\hline
+\textbf{Vulnerability Name} & Server Leaks Version Information via "Server" HTTP Response Header Field \\
+\hline
+\textbf{Description} & The web/application server is leaking version information via the "Server" HTTP response header. Access to such information may facilitate attackers identifying other vulnerabilities your web/application server is subject to. \\
+\hline
+\textbf{Instances} & \textbf{URI} \\
+\hline
+Instance 1 & \url{http://testphp.vulnweb.com/} \\
+\hline
+Instance 2 & \url{http://testphp.vulnweb.com/AJAX/index.php} \\
+\hline
+Instance 3 & \url{http://testphp.vulnweb.com/AJAX/styles.css} \\
+\hline
+Instance 4 & \url{http://testphp.vulnweb.com/artists.php} \\
+\hline
+Instance 5 & \url{http://testphp.vulnweb.com/artists.php?artist=1} \\
+\hline
+Instance 6 & \url{http://testphp.vulnweb.com/artists.php?artist=2} \\
+\hline
+Instance 7 & \url{http://testphp.vulnweb.com/artists.php?artist=3} \\
+\hline
+Instance 8 & \url{http://testphp.vulnweb.com/cart.php} \\
+\hline
+Instance 9 & \url{http://testphp.vulnweb.com/categories.php} \\
+\hline
+Instance 10 & \url{http://testphp.vulnweb.com/disclaimer.php} \\
+\hline
+Instance 11 & \url{http://testphp.vulnweb.com/Flash/add.swf} \\
+\hline
+Instance 12 & \url{http://testphp.vulnweb.com/guestbook.php} \\
+\hline
+Instance 13 & \url{http://testphp.vulnweb.com/high} \\
+\hline
+Instance 14 & \url{http://testphp.vulnweb.com/hpp/} \\
+\hline
+Instance 15 & \url{http://testphp.vulnweb.com/hpp/?pp=12} \\
+\hline
+Instance 16 & \url{http://testphp.vulnweb.com/hpp/params.php?p=valid\&pp=12} \\
+\hline
+Instance 17 & \url{http://testphp.vulnweb.com/images/logo.gif} \\
+\hline
+Instance 18 & \url{http://testphp.vulnweb.com/images/remark.gif} \\
+\hline
+Instance 19 & \url{http://testphp.vulnweb.com/index.php} \\
+\hline
+Instance 20 & \url{http://testphp.vulnweb.com/listproducts.php?artist=1} \\
+\hline
+Instance 21 & \url{http://testphp.vulnweb.com/listproducts.php?artist=2} \\
+\hline
+Instance 22 & \url{http://testphp.vulnweb.com/listproducts.php?artist=3} \\
+\hline
+Instance 23 & \url{http://testphp.vulnweb.com/listproducts.php?cat=1} \\
+\hline
+Instance 24 & \url{http://testphp.vulnweb.com/listproducts.php?cat=2} \\
+\hline
+Instance 25 & \url{http://testphp.vulnweb.com/listproducts.php?cat=3} \\
+\hline
+Instance 26 & \url{http://testphp.vulnweb.com/listproducts.php?cat=4} \\
+\hline
+Instance 27 & \url{http://testphp.vulnweb.com/login.php} \\
+\hline
+Instance 28 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/} \\
+\hline
+Instance 29 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/BuyProduct-1/} \\
+\hline
+Instance 30 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/BuyProduct-2/} \\
+\hline
+Instance 31 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/BuyProduct-3/} \\
+\hline
+Instance 32 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/Details/color-printer/3/} \\
+\hline
+Instance 33 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/Details/network-attached-storage-dlink/1/} \\
+\hline
+Instance 34 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/Details/web-camera-a4tech/2/} \\
+\hline
+Instance 35 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/images/1.jpg} \\
+\hline
+Instance 36 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/images/2.jpg} \\
+\hline
+Instance 37 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/images/3.jpg} \\
+\hline
+Instance 38 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/RateProduct-1.html} \\
+\hline
+Instance 39 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/RateProduct-2.html} \\
+\hline
+Instance 40 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/RateProduct-3.html} \\
+\hline
+Instance 41 & \url{http://testphp.vulnweb.com/privacy.php} \\
+\hline
+Instance 42 & \url{http://testphp.vulnweb.com/product.php?pic=1} \\
+\hline
+Instance 43 & \url{http://testphp.vulnweb.com/product.php?pic=2} \\
+\hline
+Instance 44 & \url{http://testphp.vulnweb.com/product.php?pic=3} \\
+\hline
+Instance 45 & \url{http://testphp.vulnweb.com/product.php?pic=4} \\
+\hline
+Instance 46 & \url{http://testphp.vulnweb.com/product.php?pic=5} \\
+\hline
+Instance 47 & \url{http://testphp.vulnweb.com/product.php?pic=6} \\
+\hline
+Instance 48 & \url{http://testphp.vulnweb.com/product.php?pic=7} \\
+\hline
+Instance 49 & \url{http://testphp.vulnweb.com/robots.txt} \\
+\hline
+Instance 50 & \url{http://testphp.vulnweb.com/secured/style.css} \\
+\hline
+Instance 51 & \url{http://testphp.vulnweb.com/showimage.php?file='\%20+\%20pict.item(0).firstChild.nodeValue\%20+\%20'} \\
+\hline
+Instance 52 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg} \\
+\hline
+Instance 53 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg\&size=160} \\
+\hline
+Instance 54 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg} \\
+\hline
+Instance 55 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg\&size=160} \\
+\hline
+Instance 56 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg} \\
+\hline
+Instance 57 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg\&size=160} \\
+\hline
+Instance 58 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg} \\
+\hline
+Instance 59 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg\&size=160} \\
+\hline
+Instance 60 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg} \\
+\hline
+Instance 61 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg\&size=160} \\
+\hline
+Instance 62 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg} \\
+\hline
+Instance 63 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg\&size=160} \\
+\hline
+Instance 64 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg} \\
+\hline
+Instance 65 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg\&size=160} \\
+\hline
+Instance 66 & \url{http://testphp.vulnweb.com/signup.php} \\
+\hline
+Instance 67 & \url{http://testphp.vulnweb.com/sitemap.xml} \\
+\hline
+Instance 68 & \url{http://testphp.vulnweb.com/style.css} \\
+\hline
+Instance 69 & \url{http://testphp.vulnweb.com/userinfo.php} \\
+\hline
+Instance 70 & \url{http://testphp.vulnweb.com/cart.php} \\
+\hline
+Instance 71 & \url{http://testphp.vulnweb.com/guestbook.php} \\
+\hline
+Instance 72 & \url{http://testphp.vulnweb.com/search.php?test=query} \\
+\hline
+Instance 73 & \url{http://testphp.vulnweb.com/secured/newuser.php} \\
+\hline
+Instance 74 & \url{http://testphp.vulnweb.com/userinfo.php} \\
+\hline
+\end{longtable}
+\end{center}\vspace{0.7cm}
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{|l|p{10cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Vulnerability 7}} \\
+\hline
+\textbf{Risk Level} & Low (Medium) \\
+\hline
+\textbf{Vulnerability Name} & X-Content-Type-Options Header Missing \\
+\hline
+\textbf{Description} & The Anti-MIME-Sniffing header X-Content-Type-Options was not set to 'nosniff'. This allows older versions of Internet Explorer and Chrome to perform MIME-sniffing on the response body, potentially causing the response body to be interpreted and displayed as a content type other than the declared content type. Current (early 2014) and legacy versions of Firefox will use the declared content type (if one is set), rather than performing MIME-sniffing. \\
+\hline
+\textbf{Instances} & \textbf{URI} \\
+\hline
+Instance 1 & \url{http://testphp.vulnweb.com/} \\
+\hline
+Instance 2 & \url{http://testphp.vulnweb.com/AJAX/index.php} \\
+\hline
+Instance 3 & \url{http://testphp.vulnweb.com/AJAX/styles.css} \\
+\hline
+Instance 4 & \url{http://testphp.vulnweb.com/artists.php} \\
+\hline
+Instance 5 & \url{http://testphp.vulnweb.com/artists.php?artist=1} \\
+\hline
+Instance 6 & \url{http://testphp.vulnweb.com/artists.php?artist=2} \\
+\hline
+Instance 7 & \url{http://testphp.vulnweb.com/artists.php?artist=3} \\
+\hline
+Instance 8 & \url{http://testphp.vulnweb.com/cart.php} \\
+\hline
+Instance 9 & \url{http://testphp.vulnweb.com/categories.php} \\
+\hline
+Instance 10 & \url{http://testphp.vulnweb.com/disclaimer.php} \\
+\hline
+Instance 11 & \url{http://testphp.vulnweb.com/Flash/add.swf} \\
+\hline
+Instance 12 & \url{http://testphp.vulnweb.com/guestbook.php} \\
+\hline
+Instance 13 & \url{http://testphp.vulnweb.com/hpp/} \\
+\hline
+Instance 14 & \url{http://testphp.vulnweb.com/hpp/?pp=12} \\
+\hline
+Instance 15 & \url{http://testphp.vulnweb.com/hpp/params.php?p=valid\&pp=12} \\
+\hline
+Instance 16 & \url{http://testphp.vulnweb.com/images/logo.gif} \\
+\hline
+Instance 17 & \url{http://testphp.vulnweb.com/images/remark.gif} \\
+\hline
+Instance 18 & \url{http://testphp.vulnweb.com/index.php} \\
+\hline
+Instance 19 & \url{http://testphp.vulnweb.com/listproducts.php?artist=1} \\
+\hline
+Instance 20 & \url{http://testphp.vulnweb.com/listproducts.php?artist=2} \\
+\hline
+Instance 21 & \url{http://testphp.vulnweb.com/listproducts.php?artist=3} \\
+\hline
+Instance 22 & \url{http://testphp.vulnweb.com/listproducts.php?cat=1} \\
+\hline
+Instance 23 & \url{http://testphp.vulnweb.com/listproducts.php?cat=2} \\
+\hline
+Instance 24 & \url{http://testphp.vulnweb.com/listproducts.php?cat=3} \\
+\hline
+Instance 25 & \url{http://testphp.vulnweb.com/listproducts.php?cat=4} \\
+\hline
+Instance 26 & \url{http://testphp.vulnweb.com/login.php} \\
+\hline
+Instance 27 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/} \\
+\hline
+Instance 28 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/BuyProduct-1/} \\
+\hline
+Instance 29 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/BuyProduct-2/} \\
+\hline
+Instance 30 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/BuyProduct-3/} \\
+\hline
+Instance 31 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/Details/color-printer/3/} \\
+\hline
+Instance 32 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/Details/network-attached-storage-dlink/1/} \\
+\hline
+Instance 33 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/Details/web-camera-a4tech/2/} \\
+\hline
+Instance 34 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/images/1.jpg} \\
+\hline
+Instance 35 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/images/2.jpg} \\
+\hline
+Instance 36 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/images/3.jpg} \\
+\hline
+Instance 37 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/RateProduct-1.html} \\
+\hline
+Instance 38 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/RateProduct-2.html} \\
+\hline
+Instance 39 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/RateProduct-3.html} \\
+\hline
+Instance 40 & \url{http://testphp.vulnweb.com/product.php?pic=1} \\
+\hline
+Instance 41 & \url{http://testphp.vulnweb.com/product.php?pic=2} \\
+\hline
+Instance 42 & \url{http://testphp.vulnweb.com/product.php?pic=3} \\
+\hline
+Instance 43 & \url{http://testphp.vulnweb.com/product.php?pic=4} \\
+\hline
+Instance 44 & \url{http://testphp.vulnweb.com/product.php?pic=5} \\
+\hline
+Instance 45 & \url{http://testphp.vulnweb.com/product.php?pic=6} \\
+\hline
+Instance 46 & \url{http://testphp.vulnweb.com/product.php?pic=7} \\
+\hline
+Instance 47 & \url{http://testphp.vulnweb.com/secured/style.css} \\
+\hline
+Instance 48 & \url{http://testphp.vulnweb.com/showimage.php?file='\%20+\%20pict.item(0).firstChild.nodeValue\%20+\%20'} \\
+\hline
+Instance 49 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg} \\
+\hline
+Instance 50 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/1.jpg\&size=160} \\
+\hline
+Instance 51 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg} \\
+\hline
+Instance 52 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/2.jpg\&size=160} \\
+\hline
+Instance 53 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg} \\
+\hline
+Instance 54 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/3.jpg\&size=160} \\
+\hline
+Instance 55 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg} \\
+\hline
+Instance 56 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/4.jpg\&size=160} \\
+\hline
+Instance 57 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg} \\
+\hline
+Instance 58 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/5.jpg\&size=160} \\
+\hline
+Instance 59 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg} \\
+\hline
+Instance 60 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/6.jpg\&size=160} \\
+\hline
+Instance 61 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg} \\
+\hline
+Instance 62 & \url{http://testphp.vulnweb.com/showimage.php?file=./pictures/7.jpg\&size=160} \\
+\hline
+Instance 63 & \url{http://testphp.vulnweb.com/signup.php} \\
+\hline
+Instance 64 & \url{http://testphp.vulnweb.com/style.css} \\
+\hline
+Instance 65 & \url{http://testphp.vulnweb.com/cart.php} \\
+\hline
+Instance 66 & \url{http://testphp.vulnweb.com/guestbook.php} \\
+\hline
+Instance 67 & \url{http://testphp.vulnweb.com/search.php?test=query} \\
+\hline
+Instance 68 & \url{http://testphp.vulnweb.com/secured/newuser.php} \\
+\hline
+\end{longtable}
+\end{center}\vspace{0.7cm}
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{|l|p{10cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Vulnerability 8}} \\
+\hline
+\textbf{Risk Level} & Informational (Low) \\
+\hline
+\textbf{Vulnerability Name} & Authentication Request Identified \\
+\hline
+\textbf{Description} & The given request has been identified as an authentication request. The 'Other Info' field contains a set of key=value lines which identify any relevant fields. If the request is in a context which has an Authentication Method set to "Auto-Detect" then this rule will change the authentication to match the request identified. \\
+\hline
+\textbf{Instances} & \textbf{URI} \\
+\hline
+Instance 1 & \url{http://testphp.vulnweb.com/secured/newuser.php} \\
+\hline
+\end{longtable}
+\end{center}\vspace{0.7cm}
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{|l|p{10cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Vulnerability 9}} \\
+\hline
+\textbf{Risk Level} & Informational (Low) \\
+\hline
+\textbf{Vulnerability Name} & Charset Mismatch (Header Versus Meta Content-Type Charset) \\
+\hline
+\textbf{Description} & This check identifies responses where the HTTP Content-Type header declares a charset different from the charset defined by the body of the HTML or XML. When there's a charset mismatch between the HTTP header and content body Web browsers can be forced into an undesirable content-sniffing mode to determine the content's correct character set.An attacker could manipulate content on the page to be interpreted in an encoding of their choice. For example, if an attacker can control content at the beginning of the page, they could inject script using UTF-7 encoded text and manipulate some browsers into interpreting that text. \\
+\hline
+\textbf{Instances} & \textbf{URI} \\
+\hline
+Instance 1 & \url{http://testphp.vulnweb.com/} \\
+\hline
+Instance 2 & \url{http://testphp.vulnweb.com/AJAX/index.php} \\
+\hline
+Instance 3 & \url{http://testphp.vulnweb.com/artists.php} \\
+\hline
+Instance 4 & \url{http://testphp.vulnweb.com/artists.php?artist=1} \\
+\hline
+Instance 5 & \url{http://testphp.vulnweb.com/artists.php?artist=2} \\
+\hline
+Instance 6 & \url{http://testphp.vulnweb.com/artists.php?artist=3} \\
+\hline
+Instance 7 & \url{http://testphp.vulnweb.com/cart.php} \\
+\hline
+Instance 8 & \url{http://testphp.vulnweb.com/categories.php} \\
+\hline
+Instance 9 & \url{http://testphp.vulnweb.com/disclaimer.php} \\
+\hline
+Instance 10 & \url{http://testphp.vulnweb.com/guestbook.php} \\
+\hline
+Instance 11 & \url{http://testphp.vulnweb.com/index.php} \\
+\hline
+Instance 12 & \url{http://testphp.vulnweb.com/listproducts.php?artist=1} \\
+\hline
+Instance 13 & \url{http://testphp.vulnweb.com/listproducts.php?artist=2} \\
+\hline
+Instance 14 & \url{http://testphp.vulnweb.com/listproducts.php?artist=3} \\
+\hline
+Instance 15 & \url{http://testphp.vulnweb.com/listproducts.php?cat=1} \\
+\hline
+Instance 16 & \url{http://testphp.vulnweb.com/listproducts.php?cat=2} \\
+\hline
+Instance 17 & \url{http://testphp.vulnweb.com/listproducts.php?cat=3} \\
+\hline
+Instance 18 & \url{http://testphp.vulnweb.com/listproducts.php?cat=4} \\
+\hline
+Instance 19 & \url{http://testphp.vulnweb.com/login.php} \\
+\hline
+Instance 20 & \url{http://testphp.vulnweb.com/product.php?pic=1} \\
+\hline
+Instance 21 & \url{http://testphp.vulnweb.com/product.php?pic=2} \\
+\hline
+Instance 22 & \url{http://testphp.vulnweb.com/product.php?pic=3} \\
+\hline
+Instance 23 & \url{http://testphp.vulnweb.com/product.php?pic=4} \\
+\hline
+Instance 24 & \url{http://testphp.vulnweb.com/product.php?pic=5} \\
+\hline
+Instance 25 & \url{http://testphp.vulnweb.com/product.php?pic=6} \\
+\hline
+Instance 26 & \url{http://testphp.vulnweb.com/product.php?pic=7} \\
+\hline
+Instance 27 & \url{http://testphp.vulnweb.com/signup.php} \\
+\hline
+Instance 28 & \url{http://testphp.vulnweb.com/cart.php} \\
+\hline
+Instance 29 & \url{http://testphp.vulnweb.com/guestbook.php} \\
+\hline
+Instance 30 & \url{http://testphp.vulnweb.com/search.php?test=query} \\
+\hline
+Instance 31 & \url{http://testphp.vulnweb.com/secured/newuser.php} \\
+\hline
+\end{longtable}
+\end{center}\vspace{0.7cm}
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{|l|p{10cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Vulnerability 10}} \\
+\hline
+\textbf{Risk Level} & Informational (Low) \\
+\hline
+\textbf{Vulnerability Name} & Information Disclosure - Suspicious Comments \\
+\hline
+\textbf{Description} & The response appears to contain suspicious comments which may help an attacker. Note: Matches made within script blocks or files are against the entire content not only comments. \\
+\hline
+\textbf{Instances} & \textbf{URI} \\
+\hline
+Instance 1 & \url{http://testphp.vulnweb.com/AJAX/index.php} \\
+\hline
+\end{longtable}
+\end{center}\vspace{0.7cm}
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{|l|p{10cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Vulnerability 11}} \\
+\hline
+\textbf{Risk Level} & Informational (Medium) \\
+\hline
+\textbf{Vulnerability Name} & Modern Web Application \\
+\hline
+\textbf{Description} & The application appears to be a modern web application. If you need to explore it automatically then the Ajax Spider may well be more effective than the standard one. \\
+\hline
+\textbf{Instances} & \textbf{URI} \\
+\hline
+Instance 1 & \url{http://testphp.vulnweb.com/AJAX/index.php} \\
+\hline
+Instance 2 & \url{http://testphp.vulnweb.com/artists.php} \\
+\hline
+Instance 3 & \url{http://testphp.vulnweb.com/artists.php?artist=1} \\
+\hline
+Instance 4 & \url{http://testphp.vulnweb.com/artists.php?artist=2} \\
+\hline
+Instance 5 & \url{http://testphp.vulnweb.com/artists.php?artist=3} \\
+\hline
+Instance 6 & \url{http://testphp.vulnweb.com/listproducts.php?artist=1} \\
+\hline
+Instance 7 & \url{http://testphp.vulnweb.com/listproducts.php?artist=2} \\
+\hline
+Instance 8 & \url{http://testphp.vulnweb.com/listproducts.php?cat=1} \\
+\hline
+Instance 9 & \url{http://testphp.vulnweb.com/listproducts.php?cat=2} \\
+\hline
+\end{longtable}
+\end{center}\vspace{0.7cm}
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{|l|p{10cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Vulnerability 12}} \\
+\hline
+\textbf{Risk Level} & Informational (Low) \\
+\hline
+\textbf{Vulnerability Name} & User Controllable HTML Element Attribute (Potential XSS) \\
+\hline
+\textbf{Description} & This check looks at user-supplied input in query string parameters and POST data to identify where certain HTML attribute values might be controlled. This provides hot-spot detection for XSS (cross-site scripting) that will require further review by a security analyst to determine exploitability. \\
+\hline
+\textbf{Instances} & \textbf{URI} \\
+\hline
+Instance 1 & \url{http://testphp.vulnweb.com/guestbook.php} \\
+\hline
+Instance 2 & \url{http://testphp.vulnweb.com/search.php?test=query} \\
+\hline
+Instance 3 & \url{http://testphp.vulnweb.com/search.php?test=query} \\
 \hline
 \end{longtable}
 \end{center}\vspace{0.7cm}
