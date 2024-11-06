@@ -1,14 +1,18 @@
+
 \documentclass[12pt]{article}
 \usepackage[utf8]{inputenc}
 \usepackage{geometry}
 \usepackage{graphicx}
 \usepackage{float}
 \usepackage{placeins}
+\usepackage{hyperref}
+\usepackage{longtable}
 \geometry{margin=1in}
+
 
 \title{\textbf{Static and Dynamic Analysis}}
 \author{ISTEC-Cyber Security}
-\date{\today}  % Automatically insert today's date
+\date{\today} % Automatically insert today's date
 
 \begin{document}
 
@@ -20,11 +24,11 @@ This report contains static and dynamic analysis of the target. It uses Semgrep 
 \vspace{10cm} % Space to push the footer down
 
 \begin{center}
-	\textbf{Provided by} \\[1em]
-	\includegraphics[width=0.1\textwidth]{logo75.png}
+\textbf{Provided by} \\[1em]
+\includegraphics[width=0.1\textwidth]{logo75.png}
 \end{center}
 
-\newpage  % Page break
+\newpage % Page break
 
 \section{Static Analysis}
 Details about static analysis...
@@ -33,34 +37,397 @@ Details about static analysis...
 
 \subsection{Risk Summary}
 \begin{table}[h!]
-    \centering
-    \renewcommand{\arraystretch}{1.5}
-    \begin{tabular}{|c|c|}
-        \hline
-        \textbf{Risk Level} & \textbf{Number of Findings} \\
-        \hline
-        Low Risk & lowcount \\ 
-        \hline
-        Medium Risk & mediumcount \\ 
-        \hline
-        High Risk & highcount \\ 
-        \hline
-        Critical Risk & criticalcount \\ 
-        \hline
-    \end{tabular}
-    \caption{Summary of Risk Findings}
-    \label{tab:risk_summary}
-
-\subsection{Vulnerability Categories}
-    \begin{itemize}
-	\item Categories:
-    \end{itemize}
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Risk Level} & \textbf{Number of Findings} \\
+\hline
+Low Risk & 42 \\ 
+\hline
+Medium Risk & 28 \\ 
+\hline
+High Risk & 0 \\ 
+\hline
+Critical Risk & 0 \\ 
+\hline
+\end{tabular}
+\caption{Summary of Risk Findings}
+\label{tab:risk_summary}
 \end{table}
 
+\subsection{Vulnerability Categories}
+\begin{itemize}
+\item Category 1: Denial-of-Service (DoS) | 28
+\item Category 2: Improper Encoding | 4
+\item Category 3: Mass Assignment | 4
+\item Category 4: Cross-Site-Scripting (XSS) | 4
+\item Category 5: Cryptographic Issues | 29
+\item Category 6: Mishandled Sensitive Information | 1
+
+% Insert vulnerability categories here
+\end{itemize}
+
 \subsection{Vulnerabilities by Page}
-%Vulnerabilities by Page:
+\begin{table}[!h]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Vulnerability 1}} \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Path}: ScrapedFiles/index/main/analytics.js} \\
+\hline
+\textbf{Vulnerability Class} & ['Denial-of-Service (DoS)'] \\
+\hline
+\textbf{Start} & line: 10 \quad col: 486 \\
+\hline
+\textbf{End} & line: 10 \quad col: 529 \\
+\hline
+\textbf{Message} & RegExp() called with a `a` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS. \\
+\hline
+\end{tabular}
+\end{table}
+\vspace{0.7cm}
+\FloatBarrier
+\begin{table}[!h]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Vulnerability 2}} \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Path}: ScrapedFiles/index/main/analytics.js} \\
+\hline
+\textbf{Vulnerability Class} & ['Denial-of-Service (DoS)'] \\
+\hline
+\textbf{Start} & line: 27 \quad col: 150 \\
+\hline
+\textbf{End} & line: 27 \quad col: 189 \\
+\hline
+\textbf{Message} & RegExp() called with a `a` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS. \\
+\hline
+\end{tabular}
+\end{table}
+\vspace{0.7cm}
+\FloatBarrier
+\begin{table}[!h]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Vulnerability 3}} \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Path}: ScrapedFiles/index/main/analytics.js} \\
+\hline
+\textbf{Vulnerability Class} & ['Denial-of-Service (DoS)'] \\
+\hline
+\textbf{Start} & line: 28 \quad col: 304 \\
+\hline
+\textbf{End} & line: 28 \quad col: 368 \\
+\hline
+\textbf{Message} & RegExp() called with a `a` function argument, this might allow an attacker to cause a Regular Expression Denial-of-Service (ReDoS) within your application as RegExP blocks the main thread. For this reason, it is recommended to use hardcoded regexes instead. If your regex is run on user-controlled input, consider performing input validation or use a regex checking/sanitization library such as https://www.npmjs.com/package/recheck to verify that the regex does not appear vulnerable to ReDoS. \\
+\hline
+\end{tabular}
+\end{table}
+\vspace{0.7cm}
+\FloatBarrier
+\begin{table}[!h]
+\centering
+\renewcommand{\arraystretch}{1.3}
+\begin{tabular}{|l|p{10cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Vulnerability 4}} \\
+\hline
+\multicolumn{2}{|l|}{\textbf{Path}: ScrapedFiles/index/main/analytics.js} \\
+\hline
+\textbf{Vulnerability Class} & ['Improper Encoding'] \\
+\hline
+\textbf{Start} & line: 37 \quad col: 130 \\
+\hline
+\textbf{End} & line: 37 \quad col: 184 \\
+\hline
+\textbf{Message} & `"https://www.google.\%/ads/ga-audiences".replace` method will only replace the first occurrence when used with a string argument ("\%"). If this method is used for escaping of dangerous data then there is a possibility for a bypass. Try to use sanitization library instead or use a Regex with a global flag. \\
+\hline
+\end{tabular}
+\end{table}
+\vspace{0.7cm}
+\FloatBarrier
+
+
+%--------------------------------------------------------Dynamic Analysis-----------------------------------------------
 \newpage
 \section{Dynamic Analysis}
 Details about dynamic analysis...
+
+\section{Analysis Report}
+
+\subsection{Risk Summary}
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Risk Level} & \textbf{Number of Findings} \\
+\hline
+Low Risk & 204 \\ 
+\hline
+Medium Risk & 130 \\ 
+\hline
+High Risk & 1 \\ 
+\hline
+Critical Risk & 0 \\ 
+\hline
+\end{tabular}
+\caption{Summary of Risk Findings}
+\label{tab:risk_summary}
+\end{table}
+
+\subsection{Vulnerability Categories}
+\begin{itemize}
+\item Category 1: Cross Site Scripting (DOM Based) | 1
+\item Category 2: Absence of Anti-CSRF Tokens | 40
+\item Category 3: Content Security Policy (CSP) Header Not Set | 47
+\item Category 4: Missing Anti-clickjacking Header | 43
+\item Category 5: Server Leaks Information via "X-Powered-By" HTTP Response Header Field(s) | 62
+\item Category 6: Server Leaks Version Information via "Server" HTTP Response Header Field | 74
+\item Category 7: X-Content-Type-Options Header Missing | 68
+\item Category 8: Authentication Request Identified | 1
+\item Category 9: Charset Mismatch (Header Versus Meta Content-Type Charset) | 31
+\item Category 10: Information Disclosure - Suspicious Comments | 1
+\item Category 11: Modern Web Application | 9
+\item Category 12: User Controllable HTML Element Attribute (Potential XSS) | 3
+
+% Insert vulnerability categories here
+\end{itemize}
+
+\subsection{Vulnerabilities by Page}
+\section*{Site 1: http://testphp.vulnweb.com}
+Host: testphp.vulnweb.com, Port: 80, SSL: false
+
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{|l|p{10cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Vulnerability 1}} \\
+\hline
+\textbf{Risk Level} & High (High) \\
+\hline
+\textbf{Vulnerability Name} & Cross Site Scripting (DOM Based) \\
+\hline
+\textbf{Description} & Cross-site Scripting (XSS) is an attack technique that involves echoing attacker-supplied code into a user's browser instance. A browser instance can be a standard web browser client, or a browser object embedded in a software product such as the browser within WinAmp, an RSS reader, or an email client. The code itself is usually written in HTML/JavaScript, but may also extend to VBScript, ActiveX, Java, Flash, or any other browser-supported technology.When an attacker gets a user's browser to execute his/her code, the code will run within the security context (or zone) of the hosting web site. With this level of privilege, the code has the ability to read, modify and transmit any sensitive data accessible by the browser. A Cross-site Scripted user could have his/her account hijacked (cookie theft), their browser redirected to another location, or possibly shown fraudulent content delivered by the web site they are visiting. Cross-site Scripting attacks essentially compromise the trust relationship between a user and the web site. Applications utilizing browser object instances which load content from the file system may execute code under the local machine zone allowing for system compromise.There are three types of Cross-site Scripting attacks: non-persistent, persistent and DOM-based.Non-persistent attacks and DOM-based attacks require a user to either visit a specially crafted link laced with malicious code, or visit a malicious web page containing a web form, which when posted to the vulnerable site, will mount the attack. Using a malicious form will oftentimes take place when the vulnerable resource only accepts HTTP POST requests. In such a case, the form can be submitted automatically, without the victim's knowledge (e.g. by using JavaScript). Upon clicking on the malicious link or submitting the malicious form, the XSS payload will get echoed back and will get interpreted by the user's browser and execute. Another technique to send almost arbitrary requests (GET and POST) is by using an embedded client, such as Adobe Flash.Persistent attacks occur when the malicious code is submitted to a web site where it's stored for a period of time. Examples of an attacker's favorite targets often include message board posts, web mail messages, and web chat software. The unsuspecting user is not required to interact with any additional site/link (e.g. an attacker site or a malicious link sent via email), just simply view the web page containing the code. \\
+\hline
+\textbf{Instances} & \textbf{URI} \\
+\hline
+Instance 1 & \url{http://testphp.vulnweb.com/\#jaVasCript:/*-/*\`/*\\`/*'/*"/**/(/* */oNcliCk=alert(5397) )//\%0D\%0A\%0d\%0a//</stYle/</titLe/</teXtarEa/</scRipt/--!>sVg/<sVg/oNloAd=alert(5397)//>} \\
+\hline
+\end{longtable}
+\end{center}\vspace{0.7cm}
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{|l|p{10cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Vulnerability 2}} \\
+\hline
+\textbf{Risk Level} & Medium (Low) \\
+\hline
+\textbf{Vulnerability Name} & Absence of Anti-CSRF Tokens \\
+\hline
+\textbf{Description} & No Anti-CSRF tokens were found in a HTML submission form.A cross-site request forgery is an attack that involves forcing a victim to send an HTTP request to a target destination without their knowledge or intent in order to perform an action as the victim. The underlying cause is application functionality using predictable URL/form actions in a repeatable way. The nature of the attack is that CSRF exploits the trust that a web site has for a user. By contrast, cross-site scripting (XSS) exploits the trust that a user has for a web site. Like XSS, CSRF attacks are not necessarily cross-site, but they can be. Cross-site request forgery is also known as CSRF, XSRF, one-click attack, session riding, confused deputy, and sea surf.CSRF attacks are effective in a number of situations, including:    * The victim has an active session on the target site.    * The victim is authenticated via HTTP auth on the target site.    * The victim is on the same local network as the target site.CSRF has primarily been used to perform an action against a target site using the victim's privileges, but recent techniques have been discovered to disclose information by gaining access to the response. The risk of information disclosure is dramatically increased when the target site is vulnerable to XSS, because XSS can be used as a platform for CSRF, allowing the attack to operate within the bounds of the same-origin policy. \\
+\hline
+\textbf{Instances} & \textbf{URI} \\
+\hline
+Instance 1 & \url{http://testphp.vulnweb.com/} \\
+\hline
+Instance 2 & \url{http://testphp.vulnweb.com/artists.php} \\
+\hline
+Instance 3 & \url{http://testphp.vulnweb.com/artists.php?artist=1} \\
+\hline
+Instance 4 & \url{http://testphp.vulnweb.com/artists.php?artist=2} \\
+\hline
+Instance 5 & \url{http://testphp.vulnweb.com/artists.php?artist=3} \\
+\hline
+Instance 6 & \url{http://testphp.vulnweb.com/cart.php} \\
+\hline
+Instance 7 & \url{http://testphp.vulnweb.com/categories.php} \\
+\hline
+Instance 8 & \url{http://testphp.vulnweb.com/disclaimer.php} \\
+\hline
+Instance 9 & \url{http://testphp.vulnweb.com/guestbook.php} \\
+\hline
+Instance 10 & \url{http://testphp.vulnweb.com/guestbook.php} \\
+\hline
+Instance 11 & \url{http://testphp.vulnweb.com/index.php} \\
+\hline
+Instance 12 & \url{http://testphp.vulnweb.com/listproducts.php?artist=1} \\
+\hline
+Instance 13 & \url{http://testphp.vulnweb.com/listproducts.php?artist=2} \\
+\hline
+Instance 14 & \url{http://testphp.vulnweb.com/listproducts.php?artist=3} \\
+\hline
+Instance 15 & \url{http://testphp.vulnweb.com/listproducts.php?cat=1} \\
+\hline
+Instance 16 & \url{http://testphp.vulnweb.com/listproducts.php?cat=2} \\
+\hline
+Instance 17 & \url{http://testphp.vulnweb.com/listproducts.php?cat=3} \\
+\hline
+Instance 18 & \url{http://testphp.vulnweb.com/listproducts.php?cat=4} \\
+\hline
+Instance 19 & \url{http://testphp.vulnweb.com/login.php} \\
+\hline
+Instance 20 & \url{http://testphp.vulnweb.com/login.php} \\
+\hline
+Instance 21 & \url{http://testphp.vulnweb.com/product.php?pic=1} \\
+\hline
+Instance 22 & \url{http://testphp.vulnweb.com/product.php?pic=1} \\
+\hline
+Instance 23 & \url{http://testphp.vulnweb.com/product.php?pic=2} \\
+\hline
+Instance 24 & \url{http://testphp.vulnweb.com/product.php?pic=2} \\
+\hline
+Instance 25 & \url{http://testphp.vulnweb.com/product.php?pic=3} \\
+\hline
+Instance 26 & \url{http://testphp.vulnweb.com/product.php?pic=3} \\
+\hline
+Instance 27 & \url{http://testphp.vulnweb.com/product.php?pic=4} \\
+\hline
+Instance 28 & \url{http://testphp.vulnweb.com/product.php?pic=4} \\
+\hline
+Instance 29 & \url{http://testphp.vulnweb.com/product.php?pic=5} \\
+\hline
+Instance 30 & \url{http://testphp.vulnweb.com/product.php?pic=5} \\
+\hline
+Instance 31 & \url{http://testphp.vulnweb.com/product.php?pic=6} \\
+\hline
+Instance 32 & \url{http://testphp.vulnweb.com/product.php?pic=6} \\
+\hline
+Instance 33 & \url{http://testphp.vulnweb.com/product.php?pic=7} \\
+\hline
+Instance 34 & \url{http://testphp.vulnweb.com/product.php?pic=7} \\
+\hline
+Instance 35 & \url{http://testphp.vulnweb.com/signup.php} \\
+\hline
+Instance 36 & \url{http://testphp.vulnweb.com/signup.php} \\
+\hline
+Instance 37 & \url{http://testphp.vulnweb.com/cart.php} \\
+\hline
+Instance 38 & \url{http://testphp.vulnweb.com/guestbook.php} \\
+\hline
+Instance 39 & \url{http://testphp.vulnweb.com/guestbook.php} \\
+\hline
+Instance 40 & \url{http://testphp.vulnweb.com/search.php?test=query} \\
+\hline
+\end{longtable}
+\end{center}\vspace{0.7cm}
+\begin{center}
+\renewcommand{\arraystretch}{1.3}
+\begin{longtable}{|l|p{10cm}|}
+\hline
+\multicolumn{2}{|c|}{\textbf{Vulnerability 3}} \\
+\hline
+\textbf{Risk Level} & Medium (High) \\
+\hline
+\textbf{Vulnerability Name} & Content Security Policy (CSP) Header Not Set \\
+\hline
+\textbf{Description} & Content Security Policy (CSP) is an added layer of security that helps to detect and mitigate certain types of attacks, including Cross Site Scripting (XSS) and data injection attacks. These attacks are used for everything from data theft to site defacement or distribution of malware. CSP provides a set of standard HTTP headers that allow website owners to declare approved sources of content that browsers should be allowed to load on that page --- covered types are JavaScript, CSS, HTML frames, fonts, images and embeddable objects such as Java applets, ActiveX, audio and video files. \\
+\hline
+\textbf{Instances} & \textbf{URI} \\
+\hline
+Instance 1 & \url{http://testphp.vulnweb.com/} \\
+\hline
+Instance 2 & \url{http://testphp.vulnweb.com/AJAX/index.php} \\
+\hline
+Instance 3 & \url{http://testphp.vulnweb.com/artists.php} \\
+\hline
+Instance 4 & \url{http://testphp.vulnweb.com/artists.php?artist=1} \\
+\hline
+Instance 5 & \url{http://testphp.vulnweb.com/artists.php?artist=2} \\
+\hline
+Instance 6 & \url{http://testphp.vulnweb.com/artists.php?artist=3} \\
+\hline
+Instance 7 & \url{http://testphp.vulnweb.com/cart.php} \\
+\hline
+Instance 8 & \url{http://testphp.vulnweb.com/categories.php} \\
+\hline
+Instance 9 & \url{http://testphp.vulnweb.com/disclaimer.php} \\
+\hline
+Instance 10 & \url{http://testphp.vulnweb.com/guestbook.php} \\
+\hline
+Instance 11 & \url{http://testphp.vulnweb.com/high} \\
+\hline
+Instance 12 & \url{http://testphp.vulnweb.com/hpp/} \\
+\hline
+Instance 13 & \url{http://testphp.vulnweb.com/hpp/?pp=12} \\
+\hline
+Instance 14 & \url{http://testphp.vulnweb.com/hpp/params.php?p=valid\&pp=12} \\
+\hline
+Instance 15 & \url{http://testphp.vulnweb.com/index.php} \\
+\hline
+Instance 16 & \url{http://testphp.vulnweb.com/listproducts.php?artist=1} \\
+\hline
+Instance 17 & \url{http://testphp.vulnweb.com/listproducts.php?artist=2} \\
+\hline
+Instance 18 & \url{http://testphp.vulnweb.com/listproducts.php?artist=3} \\
+\hline
+Instance 19 & \url{http://testphp.vulnweb.com/listproducts.php?cat=1} \\
+\hline
+Instance 20 & \url{http://testphp.vulnweb.com/listproducts.php?cat=2} \\
+\hline
+Instance 21 & \url{http://testphp.vulnweb.com/listproducts.php?cat=3} \\
+\hline
+Instance 22 & \url{http://testphp.vulnweb.com/listproducts.php?cat=4} \\
+\hline
+Instance 23 & \url{http://testphp.vulnweb.com/login.php} \\
+\hline
+Instance 24 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/} \\
+\hline
+Instance 25 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/BuyProduct-1/} \\
+\hline
+Instance 26 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/BuyProduct-2/} \\
+\hline
+Instance 27 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/BuyProduct-3/} \\
+\hline
+Instance 28 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/Details/color-printer/3/} \\
+\hline
+Instance 29 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/Details/network-attached-storage-dlink/1/} \\
+\hline
+Instance 30 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/Details/web-camera-a4tech/2/} \\
+\hline
+Instance 31 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/RateProduct-1.html} \\
+\hline
+Instance 32 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/RateProduct-2.html} \\
+\hline
+Instance 33 & \url{http://testphp.vulnweb.com/Mod\_Rewrite\_Shop/RateProduct-3.html} \\
+\hline
+Instance 34 & \url{http://testphp.vulnweb.com/privacy.php} \\
+\hline
+Instance 35 & \url{http://testphp.vulnweb.com/product.php?pic=1} \\
+\hline
+Instance 36 & \url{http://testphp.vulnweb.com/product.php?pic=2} \\
+\hline
+Instance 37 & \url{http://testphp.vulnweb.com/product.php?pic=3} \\
+\hline
+Instance 38 & \url{http://testphp.vulnweb.com/product.php?pic=4} \\
+\hline
+Instance 39 & \url{http://testphp.vulnweb.com/product.php?pic=5} \\
+\hline
+Instance 40 & \url{http://testphp.vulnweb.com/product.php?pic=6} \\
+\hline
+Instance 41 & \url{http://testphp.vulnweb.com/product.php?pic=7} \\
+\hline
+Instance 42 & \url{http://testphp.vulnweb.com/robots.txt} \\
+\hline
+Instance 43 & \url{http://testphp.vulnweb.com/signup.php} \\
+\hline
+Instance 44 & \url{http://testphp.vulnweb.com/cart.php} \\
+\hline
+Instance 45 & \url{http://testphp.vulnweb.com/guestbook.php} \\
+\hline
+Instance 46 & \url{http://testphp.vulnweb.com/search.php?test=query} \\
+\hline
+Instance 47 & \url{http://testphp.vulnweb.com/secured/newuser.php} \\
+\hline
+\end{longtable}
+\end{center}\vspace{0.7cm}
 
 \end{document}

@@ -217,7 +217,120 @@ def create_report(source_file, destination_file, Header, MainHeader=None, Descri
     except Exception as e:
         print(f"An error occurred: {e}")
 
+def create_default_tex_report(tex_report_dir):
 
+        tex_report_path = tex_report_dir
+
+        default_tex_content = r"""
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{placeins}
+\usepackage{hyperref}
+\usepackage{longtable}
+\geometry{margin=1in}
+
+
+\title{\textbf{Static and Dynamic Analysis}}
+\author{ISTEC-Cyber Security}
+\date{\today} % Automatically insert today's date
+
+\begin{document}
+
+\maketitle
+
+\section*{Description}
+This report contains static and dynamic analysis of the target. It uses Semgrep for static analysis and OWASP ZAP, Nmap, and SQLMap for dynamic analysis.
+
+\vspace{10cm} % Space to push the footer down
+
+\begin{center}
+\textbf{Provided by} \\[1em]
+\includegraphics[width=0.1\textwidth]{logo75.png}
+\end{center}
+
+\newpage % Page break
+
+\section{Static Analysis}
+Details about static analysis...
+
+\section{Analysis Report}
+
+\subsection{Risk Summary}
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Risk Level} & \textbf{Number of Findings} \\
+\hline
+Low Risk & lowcount \\ 
+\hline
+Medium Risk & mediumcount \\ 
+\hline
+High Risk & highcount \\ 
+\hline
+Critical Risk & criticalcount \\ 
+\hline
+\end{tabular}
+\caption{Summary of Risk Findings}
+\label{tab:risk_summary}
+\end{table}
+
+\subsection{Vulnerability Categories}
+\begin{itemize}
+\item Categories:
+% Insert vulnerability categories here
+\end{itemize}
+
+\subsection{Vulnerabilities by Page}
+%Vulnerabilities by Page:
+
+%--------------------------------------------------------Dynamic Analysis-----------------------------------------------
+\newpage
+\section{Dynamic Analysis}
+Details about dynamic analysis...
+
+\section{Analysis Report}
+
+\subsection{Risk Summary}
+\begin{table}[h!]
+\centering
+\renewcommand{\arraystretch}{1.5}
+\begin{tabular}{|c|c|}
+\hline
+\textbf{Risk Level} & \textbf{Number of Findings} \\
+\hline
+Low Risk & zaplc \\ 
+\hline
+Medium Risk & zapmc \\ 
+\hline
+High Risk & zaphc \\ 
+\hline
+Critical Risk & zapcc \\ 
+\hline
+\end{tabular}
+\caption{Summary of Risk Findings}
+\label{tab:risk_summary}
+\end{table}
+
+\subsection{Vulnerability Categories}
+\begin{itemize}
+\item ZapCategories:
+% Insert vulnerability categories here
+\end{itemize}
+
+\subsection{Vulnerabilities by Page}
+%ZapVulnerabilities by Page:
+\end{document}
+"""        
+        
+        with open(tex_report_path, "w") as tex_file:
+            tex_file.write(default_tex_content)
+
+        print(f"Default Tex report created at: {tex_report_path}")
     
 
 # Ana işlev (asenkron görevleri başlatır)
@@ -238,19 +351,24 @@ async def main():
     # output_file="/mnt/c/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json" # Semgrep scan sonucu
     # analyzer = SemgrepAnalyzer(directory, output_file)
     # analyzer.analyze()
-    scan_file="C:/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json" # pretty_json fonksiyonu için dosya konumu
+    # scan_file="C:/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json" # pretty_json fonksiyonu için dosya konumu
     #pretty_json(scan_file) # JSON dosyasını daha okunaklı hale getirir
-    # Semgrep report
+
+    # Semgrep TEX report
+    # Default TEX report
+
+
     with open("C:/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json", "r") as json_file:
         json_data = json.load(json_file)
     parser = SemgrepParser(json_data)
     parsed_report = parser.parse_report()
     impact_count = parser.risk_counter(parsed_report)
     latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
+    create_default_tex_report(latex_file_path)
     parser.update_latex_with_risks(impact_count, latex_file_path)
     parser.update_latex_with_category(parsed_report, latex_file_path)
     parser.update_vuln_by_page(parsed_report, latex_file_path)
-    # print(f"Semgrep report processed, Latex file updated")
+    print(f"Semgrep report processed, Latex file updated")
 
     # ---Semgrep---
 
@@ -295,6 +413,17 @@ async def main():
     # destination = "C:/Users/Administrator/source/repos/WebScan/Report/report.txt"
     # header = "\n---ZAP---\n"
     # create_report(source, destination, header)
+
+    # ---ZAP TEX Report---
+    with open("C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json", "r") as json_file:
+        zap_json_data = json.load(json_file)
+
+    zapparser = ZAPParser(zap_json_data)
+    zap_parsed_report = zapparser.parse_zap_report(zap_json_data)
+    latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
+    zapparser.update_tex_report(zap_parsed_report, latex_file_path)
+    # ---ZAP TEX Report---
+
     # ---ZAP---
 
     # ---SQLMAP---
