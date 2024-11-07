@@ -13,7 +13,7 @@ from semgrep_analyze import SemgrepAnalyzer
 from nmap_scanner import NmapScan
 from zap_scanner import ZapScan
 from SQLmap import SQLScan
-from json_parser import JSONParser, NmapParser, SqlmapParser, ZAPParser, SemgrepParser
+from json_parser import JSONParser, NmapParser, SQLMapParser, ZAPParser, SemgrepParser
 
 # Her alt sayfayı ziyaret eden fonksiyon
 async def fetch_all_links(url, save_dir):
@@ -456,10 +456,10 @@ async def main():
     # create_report(source, destination, header)
 
     # --SQLMap Tex Report--
-    sqlmap_data = "C:/Users/Administrator/source/repos/WebScan/SqlOutput/testphp.vulnweb.com/log"
+    sqlmap_output_path = "C:/Users/Administrator/source/repos/WebScan/sqlmap.txt"
     latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
-    sqlmap_parser = SqlmapParser(sqlmap_data, latex_file_path)
-    sqlmap_parser.parse_sqlmap()
+    parser = SQLMapParser(sqlmap_output_path, latex_file_path)
+    parser.insert_into_latex()
 
     # ---SQLMAP---
 

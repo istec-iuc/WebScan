@@ -1,5 +1,6 @@
 ﻿import json
 import os
+import re
 from unittest import result
 
 class JSONParser:
@@ -220,7 +221,6 @@ class ZAPParser(JSONParser):
 
         print(f"Updated LaTeX file at {latex_file_path} Dynamic Analysis.")
             
-
 class SemgrepParser(JSONParser):
     def parse_report(self):
         report = []
@@ -427,6 +427,77 @@ class NmapParser:
         # Write the modified content back to the LaTeX file
         with open(self.latex_file_path, "w") as file:
             file.write(latex_content)
+
+class SQLMapParser:
+    def __init__(self, sqlmap_output_path, latex_file_path):
+        self.sqlmap_output_path = sqlmap_output_path
+        self.latex_file_path = latex_file_path
+
+    def escape_latex(self, text):
+        # Escapes LaTeX-special characters in text.
+        special_chars = {
+            '#': r'\#',
+            '%': r'\%',
+            '&': r'\&',
+            '_': r'\_',
+            '{': r'\{',
+            '}': r'\}',
+            '$': r'\$',
+            '^': r'\^{}',
+            '~': r'\~{}',
+            '\\': r'\textbackslash{}',
+        }
+        for char, escaped_char in special_chars.items():
+            text = text.replace(char, escaped_char)
+        return text
+
+    def extract_sqlmap_data(self):
+        with open(self.sqlmap_output_path, "r") as file:
+            content = file.read()
+
+        # Extract sections between "---" markers
+        sections = re.findall(r"---\n(.*?)\n---", content, re.DOTALL)
+
+        # Format extracted information for LaTeX output
+        report = []
+        report.append(r"\subsection*{SQLMap Injection Points}")
+        for i, section in enumerate(sections, 1):
+            report.append(f"Injection Point {i}:")
+            report.append(r"\begin{itemize}")
+            for line in section.strip().splitlines():
+                # Escape LaTeX special characters in each line
+                line = self.escape_latex(line)
+                
+                # Organize lines under specific types
+                if line.startswith("Parameter:"):
+                    report.append(f"    \item \\textbf{{Parameter:}} {line.split(': ')[1]}")
+                elif line.startswith("Type:"):
+                    report.append(f"    \item \\textbf{{Type:}} {line.split(': ')[1]}")
+                elif line.startswith("Title:"):
+                    report.append(f"        \subitem \\textbf{{Title:}} {line.split(': ')[1]}")
+                # Skip lines containing "Payload"
+                elif "Payload" not in line:
+                    report.append(f"        \subitem {line.strip()}")
+            report.append(r"\end{itemize}")
+
+        return "\n".join(report)
+
+    def insert_into_latex(self):
+        # Extract data from SQLmap output
+        report_content = self.extract_sqlmap_data()
+
+        # Read latex file content
+        with open(self.latex_file_path, "r") as file:
+            latex_content = file.read()
+
+        # Replace the placeholder with the SQLMap report content
+        latex_content = latex_content.replace(r"\subsection{SQLMap Injection Points}", report_content)
+
+        # Write the modified tex content back to the file
+        with open(self.latex_file_path, "w") as file:
+            file.write(latex_content)
+        print("SQLMap data successfully added to LaTeX report.")
+
 
 
 
