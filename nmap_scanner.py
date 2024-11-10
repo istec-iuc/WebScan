@@ -1,7 +1,6 @@
 import subprocess
 #import nmap
 
-# You can add XML JSON converter and parse JSON file for the last part of the project.
 
 class NmapScan:
     def __init__(self, output_file, target):
@@ -10,9 +9,9 @@ class NmapScan:
     
     # Basic nmap scan(Host discovery, port scan range: 1-1000, service detection, host status)
     def basic_scan(self):
-        print(f"Basic nmap scan started.") # This line is here for debugging purposes. Clear before final version!
+        print(f"Basic nmap scan started.") 
         command = f"nmap {self.target} -oX {self.output_file}"
-        subprocess.run(command, shell=True)
+        subprocess.run(command, shell=True) # It runs the command in the cmd
         print(f"Basic nmap scan completed.")
      
     # Noisy aggresive scan(Os detection, service version, tracerout, script scanning)

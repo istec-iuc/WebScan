@@ -121,9 +121,9 @@ async def save_resource(url, save_dir):
     try:
         async with aiohttp.ClientSession() as session:
             async with session.get(url) as response:
-                if response.status == 200:
-                    with open(full_path, "wb") as file:
-                        file.write(await response.read())
+                if response.status == 200: # Eğer response status 200'se bağlantı başarılı demek.
+                    with open(full_path, "wb") as file: # Binary modda aç ve yaz
+                        file.write(await response.read()) 
                 else:
                     print(f"Error {response.status}: {url}")
     except PermissionError as e:
@@ -191,32 +191,7 @@ def xml_to_json(xmlfile, jsonfile):
     with open(jsonfile, "w") as json_file:
         json_file.write(json_data)
         
-def create_report(source_file, destination_file, Header, MainHeader=None, Description=None):
-    try:
-        # Open the source file and read its content
-        with open(source_file, "r", encoding="utf-8", errors="replace") as src:
-            content = src.read()
-
-        # Checks if the destination file is empty
-        is_empty = True
-        try:
-            with open(destination_file, "r", encoding="utf-8", errors="replace") as dest:
-                is_empty = dest.readable() and dest.read().strip() == ""
-        except FileNotFoundError:
-            is_empty = True  # File does not exist, so it's empty
-
-        # Open the destination file and write the content
-        with open(destination_file, "a", encoding="utf-8", errors="replace") as dest:
-            if is_empty and MainHeader is not None and Description is not None:
-                dest.write(f"**{MainHeader}**\n\n")
-                dest.write(f"*{Description}*\n\n")
-            dest.write(f"{Header}\n")
-            dest.write(content + "\n\n")
-
-        print("Report successfully created!")
-    except Exception as e:
-        print(f"An error occurred: {e}")
-
+# Her tekrar rapor oluşturumadan önce bu default reportu tekrar oluşturmaak gerekiyor çünkü placeholderları tekrar yerine koymak gerekiyor.
 def create_default_tex_report(tex_report_dir):
 
         tex_report_path = tex_report_dir
@@ -346,57 +321,50 @@ async def main():
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
 
-    # await fetch_all_links(url, save_dir)
+    await fetch_all_links(url, save_dir)
     # ---Fetch---
 
     # ---Semgrep---
-    # directory="/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles" # Semgreple scanlenecek dosya 
-    # semgrep_config="" # Semgrep ayarları için kullanılacak dosya (Boş bırakırsan default configi kullanır)
-    # output_file="/mnt/c/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json" # Semgrep scan sonucu
-    # analyzer = SemgrepAnalyzer(directory, output_file)
-    # analyzer.analyze()
-    # scan_file="C:/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json" # pretty_json fonksiyonu için dosya konumu
-    #pretty_json(scan_file) # JSON dosyasını daha okunaklı hale getirir
+    directory="/mnt/c/Users/Administrator/source/repos/WebScan/ScrapedFiles" # Semgreple scanlenecek dosya 
+    semgrep_config="" # Semgrep ayarları için kullanılacak dosya (Boş bırakırsan default configi kullanır)
+    output_file="/mnt/c/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json" # Semgrep scan sonucu
+    analyzer = SemgrepAnalyzer(directory, output_file)
+    analyzer.analyze()
+    scan_file="C:/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json" # pretty_json fonksiyonu için dosya konumu
+    pretty_json(scan_file) # JSON dosyasını daha okunaklı hale getirir
 
-    # Semgrep TEX report
-    # Default TEX report
-
-
-    with open("C:/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json", "r") as json_file:
-        json_data = json.load(json_file)
-    parser = SemgrepParser(json_data)
-    parsed_report = parser.parse_report()
-    impact_count = parser.risk_counter(parsed_report)
-    latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
-    create_default_tex_report(latex_file_path)
-    parser.update_latex_with_risks(impact_count, latex_file_path)
-    parser.update_latex_with_category(parsed_report, latex_file_path)
-    #parser.update_vuln_by_page(parsed_report, latex_file_path)
-    print(f"Semgrep report processed, Latex file updated")
+    # --Semgrep TEX report--
+    # with open("C:/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json", "r") as json_file:
+    #     json_data = json.load(json_file)
+    # parser = SemgrepParser(json_data)
+    # parsed_report = parser.parse_report()
+    # impact_count = parser.risk_counter(parsed_report)
+    # latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
+    # create_default_tex_report(latex_file_path)
+    # parser.update_latex_with_risks(impact_count, latex_file_path)
+    # parser.update_latex_with_category(parsed_report, latex_file_path)
+    # parser.update_vuln_by_page(parsed_report, latex_file_path)
+    # print(f"Semgrep report processed, Latex file updated")
+    # --Semgrep TEX report--
 
     # ---Semgrep---
 
     # ---Nmap---
-    # output_file = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.xml"  
-    # nmap_target = "scanme.nmap.org"
-    # nmap_analyzer = NmapScan(output_file, nmap_target)
-    # nmap_analyzer.basic_scan()
-    # xml_file = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.xml"
-    # json_output = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.json"
-    # xml_to_json(xml_file, json_output)
-    # Nmap Report Creation
-    # source = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.xml"
-    # destination = "C:/Users/Administrator/source/repos/WebScan/Report/report.txt"
-    # header = "\n---Nmap---\n"
-    # create_report(source, destination, header)
+    output_file = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.xml"  
+    nmap_target = "scanme.nmap.org"
+    nmap_analyzer = NmapScan(output_file, nmap_target)
+    nmap_analyzer.basic_scan()
+    xml_file = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.xml"
+    json_output = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.json"
+    xml_to_json(xml_file, json_output)
     # ---Nmap---
 
     # ---ZAP---
-    # zap_dir = "C:/Program Files/ZAP/Zed Attack Proxy"
-    # zap_target = "http://testphp.vulnweb.com/"
-    # zap_output = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json"
-    # zap_analyze = ZapScan(zap_target, zap_output, zap_dir)
-    # zap_analyze.quick_scan()
+    zap_dir = "C:/Program Files/ZAP/Zed Attack Proxy"
+    zap_target = "http://testphp.vulnweb.com/"
+    zap_output = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json"
+    zap_analyze = ZapScan(zap_target, zap_output, zap_dir)
+    zap_analyze.quick_scan()
     
     # Zap report file creation
     # json_file_path = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json"
@@ -419,41 +387,33 @@ async def main():
     # create_report(source, destination, header)
 
     # ---ZAP TEX Report---
-    with open("C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json", "r") as json_file:
-        zap_json_data = json.load(json_file)
+    # with open("C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json", "r") as json_file:
+    #     zap_json_data = json.load(json_file)
 
-    zapparser = ZAPParser(zap_json_data)
-    zap_parsed_report = zapparser.parse_zap_report(zap_json_data)
-    latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
-    zapparser.update_tex_report(zap_parsed_report, latex_file_path)
+    # zapparser = ZAPParser(zap_json_data)
+    # zap_parsed_report = zapparser.parse_zap_report(zap_json_data)
+    # latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
+    # zapparser.update_tex_report(zap_parsed_report, latex_file_path)
     # ---ZAP TEX Report---
 
     # ---ZAP---
 
-    # ---Nmap Tex Report---
-    with open("C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.json", "r") as json_file:
-        nmap_json_data = json.load(json_file)
+    # --Nmap Tex Report--
+    # with open("C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.json", "r") as json_file:
+    #     nmap_json_data = json.load(json_file)
     
-    latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
-    parser = NmapParser(nmap_json_data, latex_file_path)
-    parser.nmapparse()
+    # latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
+    # parser = NmapParser(nmap_json_data, latex_file_path)
+    # parser.nmapparse()
 
-    # ---Nmap Tex Report---
+    # --Nmap Tex Report--
 
     # ---SQLMAP---
     sql_target = "http://testphp.vulnweb.com/artists.php?artist=1" 
     sql_output_dir = "C:/Users/Administrator/source/repos/WebScan/SqlOutput"
-    sql_dir = "C:/Users/Administrator/Programs/sqlmap-dev/"
+    sql_dir = "C:/Users/Administrator/Programs/sqlmap-dev/" # Sql install directory 
     SQLmap = SQLScan(sql_target, sql_output_dir, sql_dir)
     SQLmap.quick_sqlmap()
-    # sql_xml = "C:/Users/Administrator/source/repos/WebScan/SqlOutput/sql_results.xml"  # Don't need this part 
-    # sql_json = "C:/Users/Administrator/source/repos/WebScan/SqlOutput/sql_results.json" # Don't need this part
-    # xml_to_json(sql_xml, sql_json) # Don't need this part
-    # Report Creation
-    # source = "C:/Users/Administrator/source/repos/WebScan/SqlOutput/testphp.vulnweb.com/log"
-    # destination = "C:/Users/Administrator/source/repos/WebScan/Report/report.txt"
-    # header = "\n---SQLMAP---\n"
-    # create_report(source, destination, header)
 
     # --SQLMap Tex Report--
     sqlmap_output_path = "C:/Users/Administrator/source/repos/WebScan/sqlmap.txt"
@@ -463,23 +423,6 @@ async def main():
 
     # ---SQLMAP---
 
-    # ---JSON Parser---
-    # Zap report file creation
-    # json_file_path = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json"
-
-    # # Read the JSON file
-    # with open(json_file_path, "r") as file:
-    #     json_data = json.load(file)
-     
-    # output_file_path = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_report.txt" # Zap report file dir
-    # parser = ZAPReportParser(json_data)
-    # report = parser.parse_report()
-    # parser.print_report(report) # Prints report to the cmd
-    # parser.save_report_to_file(report, output_file_path) # Saves zap report as txt file
-    # ---JSON Parser---
     
-    # ---Report---
-
-    # ---Report---
     
 asyncio.get_event_loop().run_until_complete(main())
