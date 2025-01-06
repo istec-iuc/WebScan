@@ -68,7 +68,7 @@ async def fetch_page(page, url, save_dir):
     # Ana dizini oluştur (dizin yapısını oluştur)
     if not os.path.exists(dir_path):
         os.makedirs(dir_path, exist_ok=True)
-        print(f"Dizin oluşturuldu: {dir_path}")
+        print(f"Path created: {dir_path}")
  
     # Bütün kaynak dosyalarını kaydeder
     await download_all_resources(soup, url, dir_path)
@@ -165,12 +165,16 @@ def pretty_json(scan_file):
     with open(scan_file, "r", encoding="utf-8") as json_file:
         raw_data = json_file.read()
 
-    # Replace the problematic character
-    raw_data = raw_data.replace("\\u2019", "'")
+    try:
+        # Try to parse the JSON directly
+        data = json.loads(raw_data)
+    except json.JSONDecodeError as e:
+        print(f"JSONDecodeError: {e}")
+        # Attempt to sanitize and fix the JSON
+        raw_data = raw_data.replace("\\", "\\\\")  # Escape backslashes
+        data = json.loads(raw_data)
 
-    # Parse the modified string back into JSON
-    data = json.loads(raw_data)
-
+    # Write the prettified JSON back to the file
     with open(scan_file, "w", encoding="utf-8") as json_file:
         json.dump(data, json_file, indent=4)
 
@@ -315,7 +319,7 @@ Critical Risk & zapcc \\
 # Ana işlev (asenkron görevleri başlatır)
 async def main():
     # ---Fetch---
-    url = "http://www.scrapethissite.com/pages/" # Hedef URL
+    url = "http://testphp.vulnweb.com/" # Hedef URL
     save_dir = "C:/Users/Administrator/source/repos/WebScan/ScrapedFiles" # Source dosyaları bu klasöre kaydedilir
     
     if not os.path.exists(save_dir):
@@ -334,24 +338,24 @@ async def main():
     pretty_json(scan_file) # JSON dosyasını daha okunaklı hale getirir
 
     # --Semgrep TEX report--
-    # with open("C:/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json", "r") as json_file:
-    #     json_data = json.load(json_file)
-    # parser = SemgrepParser(json_data)
-    # parsed_report = parser.parse_report()
-    # impact_count = parser.risk_counter(parsed_report)
-    # latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
-    # create_default_tex_report(latex_file_path)
-    # parser.update_latex_with_risks(impact_count, latex_file_path)
-    # parser.update_latex_with_category(parsed_report, latex_file_path)
-    # parser.update_vuln_by_page(parsed_report, latex_file_path)
-    # print(f"Semgrep report processed, Latex file updated")
+    with open("C:/Users/Administrator/source/repos/WebScan/SemgrepOutput/results.json", "r") as json_file:
+        json_data = json.load(json_file)
+    parser = SemgrepParser(json_data)
+    parsed_report = parser.parse_report()
+    impact_count = parser.risk_counter(parsed_report)
+    latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
+    create_default_tex_report(latex_file_path)
+    parser.update_latex_with_risks(impact_count, latex_file_path)
+    parser.update_latex_with_category(parsed_report, latex_file_path)
+    parser.update_vuln_by_page(parsed_report, latex_file_path)
+    print(f"Semgrep report processed, Latex file updated")
     # --Semgrep TEX report--
 
     # ---Semgrep---
 
     # ---Nmap---
     output_file = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.xml"  
-    nmap_target = "scanme.nmap.org"
+    nmap_target = "testphp.vulnweb.com/"
     nmap_analyzer = NmapScan(output_file, nmap_target)
     nmap_analyzer.basic_scan()
     xml_file = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.xml"
@@ -367,18 +371,18 @@ async def main():
     zap_analyze.quick_scan()
     
     # Zap report file creation
-    # json_file_path = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json"
+    json_file_path = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json"
 
     # Read the JSON file
-    # with open(json_file_path, "r") as file:
-    #     json_data = json.load(file)
+    with open(json_file_path, "r") as file:
+        json_data = json.load(file)
      
     # Formats the JSON file
-    # output_file_path = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_report.txt" # Zap report file dir
-    # parser = ZAPParser(json_data)
-    # report = parser.parse_report()
-    # parser.print_report(report) # Prints report to the cmd
-    # parser.save_report_to_file(report, output_file_path) # Saves zap report as txt file
+    output_file_path = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_report.txt" # Zap report file dir
+    parser = ZAPParser(json_data)
+    report = parser.parse_report()
+    parser.print_report(report) # Prints report to the cmd
+    parser.save_report_to_file(report, output_file_path) # Saves zap report as txt file
 
     # Saving zap report to the main report file
     # source = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_report.txt"
@@ -387,24 +391,24 @@ async def main():
     # create_report(source, destination, header)
 
     # ---ZAP TEX Report---
-    # with open("C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json", "r") as json_file:
-    #     zap_json_data = json.load(json_file)
+    with open("C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json", "r") as json_file:
+        zap_json_data = json.load(json_file)
 
-    # zapparser = ZAPParser(zap_json_data)
-    # zap_parsed_report = zapparser.parse_zap_report(zap_json_data)
-    # latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
-    # zapparser.update_tex_report(zap_parsed_report, latex_file_path)
+    zapparser = ZAPParser(zap_json_data)
+    zap_parsed_report = zapparser.parse_zap_report(zap_json_data)
+    latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
+    zapparser.update_tex_report(zap_parsed_report, latex_file_path)
     # ---ZAP TEX Report---
 
     # ---ZAP---
 
     # --Nmap Tex Report--
-    # with open("C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.json", "r") as json_file:
-    #     nmap_json_data = json.load(json_file)
+    with open("C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.json", "r") as json_file:
+        nmap_json_data = json.load(json_file)
     
-    # latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
-    # parser = NmapParser(nmap_json_data, latex_file_path)
-    # parser.nmapparse()
+    latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
+    parser = NmapParser(nmap_json_data, latex_file_path)
+    parser.nmapparse()
 
     # --Nmap Tex Report--
 
