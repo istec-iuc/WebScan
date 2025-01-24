@@ -319,13 +319,13 @@ Critical Risk & zapcc \\
 # Ana işlev (asenkron görevleri başlatır)
 async def main():
     # ---Fetch---
-    url = "http://testphp.vulnweb.com/" # Hedef URL
+    url = "https://www.livejournal.com/" # Hedef URL
     save_dir = "C:/Users/Administrator/source/repos/WebScan/ScrapedFiles" # Source dosyaları bu klasöre kaydedilir
     
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
 
-    await fetch_all_links(url, save_dir)
+    #await fetch_all_links(url, save_dir)
     # ---Fetch---
 
     # ---Semgrep---
@@ -347,42 +347,42 @@ async def main():
     create_default_tex_report(latex_file_path)
     parser.update_latex_with_risks(impact_count, latex_file_path)
     parser.update_latex_with_category(parsed_report, latex_file_path)
-    parser.update_vuln_by_page(parsed_report, latex_file_path)
+    # parser.update_vuln_by_page(parsed_report, latex_file_path)
     print(f"Semgrep report processed, Latex file updated")
     # --Semgrep TEX report--
 
     # ---Semgrep---
 
     # ---Nmap---
-    output_file = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.xml"  
-    nmap_target = "testphp.vulnweb.com/"
-    nmap_analyzer = NmapScan(output_file, nmap_target)
-    nmap_analyzer.basic_scan()
-    xml_file = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.xml"
-    json_output = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.json"
-    xml_to_json(xml_file, json_output)
+    # output_file = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.xml"  
+    # nmap_target = "testphp.vulnweb.com/"
+    # nmap_analyzer = NmapScan(output_file, nmap_target)
+    # nmap_analyzer.basic_scan()
+    # xml_file = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.xml"
+    # json_output = "C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.json"
+    # xml_to_json(xml_file, json_output)
     # ---Nmap---
 
     # ---ZAP---
-    zap_dir = "C:/Program Files/ZAP/Zed Attack Proxy"
-    zap_target = "http://testphp.vulnweb.com/"
-    zap_output = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json"
-    zap_analyze = ZapScan(zap_target, zap_output, zap_dir)
-    zap_analyze.quick_scan()
+    # zap_dir = "C:/Program Files/ZAP/Zed Attack Proxy"
+    # zap_target = "http://testphp.vulnweb.com/"
+    # zap_output = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json"
+    # zap_analyze = ZapScan(zap_target, zap_output, zap_dir)
+    # zap_analyze.quick_scan()
     
     # Zap report file creation
-    json_file_path = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json"
+    # json_file_path = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json"
 
     # Read the JSON file
-    with open(json_file_path, "r") as file:
-        json_data = json.load(file)
+    # with open(json_file_path, "r") as file:
+    #     json_data = json.load(file)
      
     # Formats the JSON file
-    output_file_path = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_report.txt" # Zap report file dir
-    parser = ZAPParser(json_data)
-    report = parser.parse_report()
-    parser.print_report(report) # Prints report to the cmd
-    parser.save_report_to_file(report, output_file_path) # Saves zap report as txt file
+    # output_file_path = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_report.txt" # Zap report file dir
+    # parser = ZAPParser(json_data)
+    # report = parser.parse_report()
+    # parser.print_report(report) # Prints report to the cmd
+    # parser.save_report_to_file(report, output_file_path) # Saves zap report as txt file
 
     # Saving zap report to the main report file
     # source = "C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_report.txt"
@@ -391,39 +391,39 @@ async def main():
     # create_report(source, destination, header)
 
     # ---ZAP TEX Report---
-    with open("C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json", "r") as json_file:
-        zap_json_data = json.load(json_file)
+    # with open("C:/Users/Administrator/source/repos/WebScan/ZapOutput/zap_results.json", "r") as json_file:
+    #     zap_json_data = json.load(json_file)
 
-    zapparser = ZAPParser(zap_json_data)
-    zap_parsed_report = zapparser.parse_zap_report(zap_json_data)
-    latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
-    zapparser.update_tex_report(zap_parsed_report, latex_file_path)
+    # zapparser = ZAPParser(zap_json_data)
+    # zap_parsed_report = zapparser.parse_zap_report(zap_json_data)
+    # latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
+    # zapparser.update_tex_report(zap_parsed_report, latex_file_path)
     # ---ZAP TEX Report---
 
     # ---ZAP---
 
     # --Nmap Tex Report--
-    with open("C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.json", "r") as json_file:
-        nmap_json_data = json.load(json_file)
+    # with open("C:/Users/Administrator/source/repos/WebScan/NmapOutput/nmap_results.json", "r") as json_file:
+    #     nmap_json_data = json.load(json_file)
     
-    latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
-    parser = NmapParser(nmap_json_data, latex_file_path)
-    parser.nmapparse()
+    # latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
+    # parser = NmapParser(nmap_json_data, latex_file_path)
+    # parser.nmapparse()
 
     # --Nmap Tex Report--
 
     # ---SQLMAP---
-    sql_target = "http://testphp.vulnweb.com/artists.php?artist=1" 
-    sql_output_dir = "C:/Users/Administrator/source/repos/WebScan/SqlOutput"
-    sql_dir = "C:/Users/Administrator/Programs/sqlmap-dev/" # Sql install directory 
-    SQLmap = SQLScan(sql_target, sql_output_dir, sql_dir)
-    SQLmap.quick_sqlmap()
+    # sql_target = "http://testphp.vulnweb.com/artists.php?artist=1" 
+    # sql_output_dir = "C:/Users/Administrator/source/repos/WebScan/SqlOutput"
+    # sql_dir = "C:/Users/Administrator/Programs/sqlmap-dev/" # Sql install directory 
+    # SQLmap = SQLScan(sql_target, sql_output_dir, sql_dir)
+    # SQLmap.quick_sqlmap()
 
     # --SQLMap Tex Report--
-    sqlmap_output_path = "C:/Users/Administrator/source/repos/WebScan/sqlmap.txt"
-    latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
-    parser = SQLMapParser(sqlmap_output_path, latex_file_path)
-    parser.insert_into_latex()
+    # sqlmap_output_path = "C:/Users/Administrator/source/repos/WebScan/sqlmap.txt"
+    # latex_file_path = "C:/Users/Administrator/source/repos/WebScan/LatexReport.tex"
+    # parser = SQLMapParser(sqlmap_output_path, latex_file_path)
+    # parser.insert_into_latex()
 
     # ---SQLMAP---
 
