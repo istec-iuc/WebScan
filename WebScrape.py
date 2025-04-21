@@ -310,7 +310,7 @@ Critical Risk & zapcc \\
 \end{document}
 """        
         
-        with open(tex_report_path, "w") as tex_file:
+        with open(tex_report_path, "w", encoding="utf-8") as tex_file:
             tex_file.write(default_tex_content)
 
         print(f"Default Tex report created at: {tex_report_path}")
@@ -319,7 +319,7 @@ Critical Risk & zapcc \\
 # Ana işlev (asenkron görevleri başlatır)
 async def main():
     # ---Fetch---
-    url = "https://www.livejournal.com/" # Hedef URL
+    url = "https://asimo34.com/" # Hedef URL
     save_dir = "C:/Users/Administrator/source/repos/WebScan/ScrapedFiles" # Source dosyaları bu klasöre kaydedilir
     
     if not os.path.exists(save_dir):
@@ -347,8 +347,14 @@ async def main():
     create_default_tex_report(latex_file_path)
     parser.update_latex_with_risks(impact_count, latex_file_path)
     parser.update_latex_with_category(parsed_report, latex_file_path)
-    # parser.update_vuln_by_page(parsed_report, latex_file_path)
+    parser.update_vuln_by_page(parsed_report, latex_file_path)
     print(f"Semgrep report processed, Latex file updated")
+
+    with open("LatexReport.tex", "r", encoding="cp1254") as f:  # veya cp1254
+        content = f.read()
+
+    with open("LatexReport.tex", "w", encoding="utf-8") as f:
+        f.write(content)
     # --Semgrep TEX report--
 
     # ---Semgrep---

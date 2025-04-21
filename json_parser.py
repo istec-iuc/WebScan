@@ -339,6 +339,7 @@ class SemgrepParser(JSONParser):
                        .replace("\\url", "\\\\url")
                        .replace("�", "?")
                        .replace("%", "\\%")
+                       .replace("you're", "you are")
             )
             # Construct LaTeX formatted items with a table
             vuln_items += (
