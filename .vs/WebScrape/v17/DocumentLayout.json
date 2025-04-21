@@ -19,10 +19,6 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:nmap_scanner.py||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\source\\repos\\WebScan\\SemgrepOutput\\results.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:SemgrepOutput\\results.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Administrator\\source\\repos\\WebScan\\NmapOutput\\nmap_results.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:NmapOutput\\nmap_results.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -64,7 +60,7 @@
               "RelativeDocumentMoniker": "WebScrape.py",
               "ToolTip": "C:\\Users\\Administrator\\source\\repos\\WebScan\\WebScrape.py",
               "RelativeToolTip": "WebScrape.py",
-              "ViewState": "AgIAAD4BAAAAAAAAAAAQwF4BAAA6AAAAAAAAAA==",
+              "ViewState": "AgIAACkBAAAAAAAAAAAQwFkBAABTAAAAAAAAAA==",
               "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAHfSURBVDhPpZCxaxNhGMZ/9zVJaUuDUlq1FBWLZBFTCXo4BFyU1qGKi4OkIHhkzF/g0KF00M2lR9YUdDDQQVAcJILoQUd1UNRmkhoRm8RL777v7nOoCZd4AcEH3uF5nvd73vd74X\u002BgtTai3LIsHeWDEEJct217a1DvwbIs7bpubFUqFW3b9naxWLwWfSOipAvHcfqqi0KhkMtms3cty1rsaomeG4FpmoMSANVqlXQ6nQMWgacMC4hOBchduEj\u002ByjKjScGh8SS1Wq3nxQZEN3j1eY/Vrfe8rTeQvsf89ARLS1cz5XIZ/uUGXxptQiVRUhJIybudXaZn52a7vbEBpmkyNb/A69YM9W8tDEJOTI2hpI\u002BSkvOZH2f13sNAB\u002B07sV9wHIdH9Unquz9RvoeUPtL3UFISKkky\u002BAT7HwTi6FpsgGma3N9\u002Bg5I\u002BKaFZyU8wOpJChwHnjiuE9wKCXyC/zsQGOI7DeELjtiUPbgky6Wd/HA3KBelC4AIpNfQGl88cQ0mfI5PugRhKkM2DUk0INYwtPI/dAGAlf4rbl06T6DyBVgeCABJzYPhwcm0V8ICNvwJKpVIf37h3IxSyKVAuBMDIYQAMw1jvaxwGrYNl3Xq5o79vat3Y3Nedj4\u002B11je7/m\u002BXOuyzFtDhUgAAAABJRU5ErkJggg==",
               "WhenOpened": "2024-09-20T14:11:38.762Z",
               "IsPinned": true,
@@ -85,11 +81,15 @@
             },
             {
               "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "zap_results.json",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WebScan\\ZapOutput\\zap_results.json",
               "RelativeDocumentMoniker": "ZapOutput\\zap_results.json",
@@ -100,7 +100,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "zap_scanner.py",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WebScan\\zap_scanner.py",
               "RelativeDocumentMoniker": "zap_scanner.py",
@@ -124,7 +124,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "SQLmap.py",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WebScan\\SQLmap.py",
               "RelativeDocumentMoniker": "SQLmap.py",
@@ -136,7 +136,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "nmap_results.json",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WebScan\\NmapOutput\\nmap_results.json",
               "RelativeDocumentMoniker": "NmapOutput\\nmap_results.json",
@@ -144,17 +144,6 @@
               "RelativeToolTip": "NmapOutput\\nmap_results.json",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2024-11-06T13:51:47.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "results.json",
-              "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WebScan\\SemgrepOutput\\results.json",
-              "RelativeDocumentMoniker": "SemgrepOutput\\results.json",
-              "ToolTip": "C:\\Users\\Administrator\\source\\repos\\WebScan\\SemgrepOutput\\results.json",
-              "RelativeToolTip": "SemgrepOutput\\results.json",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-18T13:48:46.726Z"
             },
             {
               "$type": "Document",
@@ -170,7 +159,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "LatexReport.tex",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WebScan\\LatexReport.tex",
               "RelativeDocumentMoniker": "LatexReport.tex",
@@ -182,7 +171,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "TODO.txt",
               "DocumentMoniker": "C:\\Users\\Administrator\\source\\repos\\WebScan\\TODO.txt",
               "RelativeDocumentMoniker": "TODO.txt",
