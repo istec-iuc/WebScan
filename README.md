@@ -51,6 +51,6 @@ Technologies & Libraries
 
 System Output Example
 
-![Report Screenshot 1](images/ss1)
-![Report Screenshot 2](images/ss2)
-![Report Screenshot 3](images/ss3)
+![Report Screenshot 1](images/ss1.png)
+![Report Screenshot 2](images/ss2.png)
+![Report Screenshot 3](images/ss3.png)
